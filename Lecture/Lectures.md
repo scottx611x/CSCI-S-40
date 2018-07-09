@@ -1,4 +1,4 @@
-- Lectures TOC:
+# Lectures TOC:
   - [1](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-1)
   - [2](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-2)
   - [3](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-3)
