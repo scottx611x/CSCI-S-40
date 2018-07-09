@@ -1,6 +1,10 @@
-# TOC:
-- Lectures:
-  - [1]()
+- Lectures TOC:
+  - [1](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-1)
+  - [2](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-2)
+  - [3](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-3)
+  - [4](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-4)
+  - [5](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-5)
+  - [6](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-6)
 
 ## Lecture 1
 
@@ -255,40 +259,3 @@
 - What does it mean for an org. to be on IPv6?
  - Does a Ethernet switch need to support IPv6? 
  - Yes! Most devices need to! (See dual-stack)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
