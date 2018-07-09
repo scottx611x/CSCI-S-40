@@ -1,0 +1,290 @@
+## Lecture 1
+
+- Internet 2 (For research purposes)
+- NOC (Network operations Center)
+- PS (Packet Switch i.e. Router i.e. Gateway i.e. Layer 3 Switch)
+- Evolution of Network Technology:
+  - Transmission:
+    - "Sneaker Net" (Disk, USB, DVD etc.)
+    - Electrical
+    - Radio
+    - Optical
+  - Multiplexing:
+  	- "Sharing a communication channel in a specific manner"
+  	- Three Forms:
+  		- Time division (Slotted & Statistical)
+  		- Frequency divsion
+  		- Optical division
+  - Switching:
+  	- Circuit Switching (think old school patch panel operator)
+  	- Packet Switching (Relies on Multiplexing to operate)
+  - Interfaces & Protocols
+  - Network Management
+  - Network Applications
+- Error Rates:
+  - Wireless < Copper < Fiber
+- When are packet transmission errors indicated:
+  - At the Software layer. The hardware layer may drop a packet  but its not until the software sees the missing packet that an error can be indicated.
+- Layering:
+	- The internet model (5 Layers)
+	- Used to be the OSI model
+	- Different layers may repeat functionality (error detection, encapsulation, addressing etc.)
+	- Layers are:
+    - Application
+    - Transport
+    - Internet (Network)
+    - Link (Network Interface/Data Link)
+    - Physical
+- Reliability:
+  - **Error Detection vs error correction (big diff Prof made note!)**
+
+## Lecture 2
+
+- "Good news theres lots of standards, bda news theres lots of standards"
+- Mesh Network:
+  - Separating the host from the network
+  - Each device in a network needs an address and its likely that they'll need more than one address
+   - Local and global significance (think a cellphone: has a phone number and a serial number) 
+- Defining Protocols (SP3 approach):
+ - Service Definition (What do I want to accomplish) i.e. a reliable, sequenced transfer
+ - Purpose of the Protocol
+  - list the functionality that needs to be implemented (flow control, fragmentation, reassembly, error control)
+ - How do I handle this functionality in the header?
+ - Procedures
+  - PROBE packet example
+  - most complex part of a protocol design
+  - 80% of design is procedural and error handling
+- Error Control is needed for daata transfer errors and procedural errors
+- If a checksum is incorrect the entire "bundle of bits" is discarded
+- Sophistication usually leads to efficiency
+
+
+## Lecture 3
+
+- 5 Layer Model is really important
+- LAN: A network that takes up some limited geography
+- A LAN is not a topology
+- LAN vs WAN
+- LAN: low delay, high bandwith, broadcast
+- WAN: pay for bandwith by the month, relatively low bandwith
+- Ethernet has many different forms
+- ALOHA Protocol from the 70's in Hawaii
+  - "How do multiple users share a single resource?"
+  - "How do you share a channel in a distributed decentralized fashion?" 
+- CSMACD
+- Ethernet is an unreliable protocol
+  - Error detection and not error correction
+- Ethertype Field to aid the recieving system in what to do with the bundle of bits
+- Ethernet vs 802.3
+- **Expected to be able to draw an ethernet frame!** 48:00 into lecture
+- Multicast: A subset of devices on the network should be targeted (Target all printers)
+- Vendor address at the Ethernet level (Ethernet address, MAC address) helps within the LAN for one device to find another quickly. No two devices should have the same address, but it has no routing information associated. ("Flat address")
+- Layer 2 is also the Ethernet layer/MAC layer 
+- "Sharing at the Trunk" Sharing at the switch level
+- Ethernet switch has a frame forwarding table just built off of layer 2 information
+- POE utilizes the unused (4 middle) wires in the RJ45
+ - Inbound (left 2 wires) outbound (right 2 wires)
+ - Full Duplex: send and recieve information at the same time over inbound and outbound wires
+ - Half Duplex: Send OR Recieve (only one at a time) over these wires
+ - Duplexing software misconfigurations still happen today!!!
+- MLAB: a network diagnostic tool
+- 802.11
+ - Two Flavors (from a topology standpoint):
+  - Infrastructure network: Multiple devices talk to a wireless access point which then has an upstream connection
+  - AdHoc Network: Just amongst the devices
+- QUIZ QUESTIONS:
+ - False: Wireless networks have better error performance than wired networks
+- Different frame format: Includes management and control protocols (which 802.3 doesn;t include)
+- CSMACA: different protocol for wireless
+- Each new iteration of wireless (g -> n -> a/c) has better speed and error performance
+- They get better performance by using different modulation techniques or by using more bandwith (i.e. a wider radio frequncy)
+- Higher freq. means shorter transmission distance
+
+## Lecture 4:
+
+- ARP takes advantage of the broadcasting nature of ethernet
+- Some home networking all in ones devices encapsulate a router, switch, modem and firewall
+- 20-30% Network utilization is good, once it creeps around 60% you may want to think about a redesign  
+- The bigger ethernet network is a broadcast domain
+- A cable uplink to a switch is a collision domain, and a switch port is a separate collision domain
+- Ethernet futures:
+ - Most successful network
+ - Certain characteristics for ethernet based off of industry
+  - for ISPs, Datacenters, Schools etc.
+  - If you are in a particular industry you will see specific Ethernet implementations than the norm (what we've learned so far)  
+   - Ethernet for automotive environments is a good example of this (better connectors, less wires in cable etc)
+- IP:
+ - IP vs. Internet which came first? IP did! It was the building block that made the internet possible!
+ - Provides: addressing, routing, fragmentation, multiplexing (based on protocol type field in header, and QOS marking  (lecture 4 1:09)
+- CATENET: was the original name for the Internet topology
+- QUIZ QUESTION: The Internet is a network of networks true or false? -> TRUE
+- IP provides a limited number of common services but they are the same for every computer that connects to the internet
+ - Addressing and Routing
+- Internet Exchange Points: FIX/MAE
+- Once you say a protocol is reliable it gets complicated (Sequence numbers etc.) TCP takes care of this for IP. IP itself is not reliable
+- Unreliable Protocol: Error detection but not error correction
+- "Datagram" is synonomous with Unreliable
+- IPV6 Does not add any reliability
+- IP can run over WAN/LAN/Wireless basically over almost anything! (Carrier pigeons included :D )
+- IP is a globally unique addressing scheme that allows for routing based on that addressing
+- Nowadays we want to have the ability to separate the host portion from the network portion for any 32 bit IP address
+ - This is called CIDR notation. /15 means that the first 15 bits of the 32 are reserved for the host #
+- SP3
+ - Service
+ - Purpose
+ - Packet
+ - Procedure
+- IP packet header is of variable length so the IP packet has a header length field
+- Every protocol that we study has a field in the header that identifies what the payload contains
+ - For IP this could be TCP, UDP, UCMP (This is an example of logical multiplexing)
+- MTU 1518 bytes for the maximum size of an ethernet packet
+- IPv4 headers are 20 bytes long at a minimum, IPv6 is longer due to longer addresses
+- Some specialized networks can support larger or smaller ethernet packet sizes
+- IP handles fragmentation and reassembly
+ - fragmentation splits packets into smaller frames and reassembly puts them back together
+- There are advantages to using a MAC addres to delviering a packet to a host vs IP address
+- ARP helps map IP addresses to MAC/Ethernet addresses
+ - ARP frame is sent out (broadcast) "Who has IP: xxx.xxx.xxx.xxx"
+ - Machine with said IP will respond with: "That's Me! Also, here is my MAC address"
+ - IP Datagram can then be sent to the proper machine
+- `arp -a`
+- IP Addressing:
+ - To the outside world the host portion of the address is known through /XX in CIDR
+ - The inside world (sub nets) hosts know through subnet masks
+- IETF working documents for protocols are called IDs (Internet Drafts)
+ - If there is a lot of interest then it will move to an RFC
+  - This then moves to a Proposed Standard 
+  - If it becomes widely adopted and well documented it can become an internet standard
+
+## Lecture 5:
+
+- Broadcasts do not pass router boundaries
+- Routers:
+ - Operate at layer 3
+ - Multiple collision and broadcast domains
+ - Limit broadcasts to whichever side of the router that the broadcast is on
+ - End stations send packets to the router only if they need to leave the local network
+- From an administrative standpoint Ethernet switching is easy compared to routing. "Switch when you can, route when you must"
+- A router forwards packets based on some information about the "next best hop"
+- All routers in a network talk to eachother and share routing table information
+- **Two network routing behavior** (lecture 5 33:00)
+- How does the "Hop Count" work?
+- After a packet enters a router, it exits with a new Ethernet header. Destination MAC and Source MAC will change (Source now being the MAC of the router) among some other fields.
+- Router forwarding tables are really important
+- RIPv2 (Distance Vector): A routing protocol that counts hops to measure efficiency of a given route. Populates routing table with the most efficient routes.
+ - Lacks efficiency when router/link hardware comes into play
+- OSPF (Open Shortest Path First) (Link State): A routing protocol that takes into account routing hardware and link speed/bandwith (Complex cost function for links managed by network administrators w/ vendor input)
+- A routing table for a given routing (at the beginning) sends out information about the networks/other routers it is directly connected to (lecture 5 1:18)
+- VLANS:
+ - Users/Hosts are assigned to a specific IP Network regardless of the ethernet switch or ethernet switch port they are physically connected to
+ - Think of this as an administrative overlay to a given switch 
+ - One switch can support multiple subnets
+- QUIZ question (answer): The clients/users in a VLAN have no idea that they are in a VLAN vs. directly connected to a switch/router 
+- 802.1q VLAN Protocol
+ - Added the TAG field to the Ethernet frame
+  - VLANS are identified by a 12 bit VLAN id here
+- One router port assigned to a VLAN (lecture 5 1:47:53)
+- Another possibility would be to assign VLAN based on MAC address
+- 802.1p Ethernet Priority Protocol
+ - 3 bits
+ - Not widely used
+- In networking there are only a handful of really good ideas: Muxing, VLANs. 
+- VXLAN really extendes VLAN and provides DataCenter scale support (12 bits wasn't enough)
+- Some last questions about VLANS
+ - A VLAN can span multiple sites (buildings on a campus)
+ - There is no best way to assign users, but there are multiple ways (MAC, Router port, etc)
+ - A client machine has no clue its on a VLAN
+ - Users on different VLANS talk to each other through the routers
+
+## Lecture 6:
+
+**YOU MISSED THE BEGINING OF THIS LECTURE**
+
+- Should be able to complete a basic RIP based routing table
+- VLANS do at level 2 what previously would have had to been done at level 3
+- IANA: Assigns IP addresses
+ - Keeps track of all of the IPv4 & IPv6 addresses
+- ARIN
+- `whois` 
+- Secondary market for ipv4 blocks
+- CIDR alleviated some addressing concerns:
+ - Lack of address blocks
+ - Better routing tables
+- Private IP addresses
+- Autonomous Systems, ASNs, and routing
+- 4 billion ip addresses out there currently and 800,000 (IPv4) network prefixes being used
+- **Know how to fill in RIPv2 table**
+- ASN (Autonomous System Number):
+ - Allows for grouping of networks
+ - ~ 70,000 out there
+- AS (autonomous System) A group of routers managed by a single organization
+- example: RCN has an ASN and hundreds of networks (Prefixes) that they manage
+- OSPF and RIPv2 are used within a particular network
+- IGP (interior gateway protocols) vs EGP (Exterior Gateway Protocols)
+ - IGP used to exchange routing information (populate routing tables) within an Autonomous System (AS)
+  - RIPv2 & OSPF are examples
+ - EGP are used to advertise and manage routes between AS
+  - BGPv4 (Border Gateway Protocol) is an example of this
+- bgp.he.net
+- A prefix identifies one network within an AS
+- Internet Exchange Points:
+ - There are thousands of ISPs in the country. There would be a huge(r) spaghetti mess of networking without IEPs
+ - Companies today that offer internet service to ISPs
+- Be able to explain IGP & EGP usage of an Edge Router
+- RIPE NCC is another good site for tools around AS
+- BOGON: Mis-advertised (non-allocated) AS prefixes 
+- IPV6: (because we ran out of IPv4 assingable blocks):
+ - IPv5 existed (research only)
+ - Not our first IP transition: NCP -> IPv4 in 1982
+ - 128 bit address vs 32 bit in ipv4
+ - Simplified header format
+ - Better support for options and extensions
+ - Capability for flow labelling is added
+ - Added authentication and privacy capabilities
+ - Good comparison at (lecture 6 1:23:11)
+ - leading `0`s in each 16 portion get collapsed
+ - IPv6 address dissection (lecture 6 1:28:21)
+ - "Private IP" -> Link Local in IPv6
+ - FE80:::: is a link local address
+ - IPv6 multicast address is much less invasive than IPv4 broadcasting
+ - can `whois` an IPv6 Address
+- What does it mean for an org. to be on IPv6?
+ - Does a Ethernet switch need to support IPv6? 
+ - Yes! Most devices need to! (See dual-stack)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
