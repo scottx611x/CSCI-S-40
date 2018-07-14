@@ -327,4 +327,18 @@
    - Routing table (Forwarding Table): "How do I talk to the rest of the world?"
    - **Grand Unified Network Theory: Layer 3 & 2 working across networks:** (section 2 1:30)
      - Every Router port has a MAC address
-   - 
+   - `traceroute` is LIT -> Lets you see the hops (generally) to your sepcified destionation
+   - `ping` is like Sonar, `traceroute` is like google maps driving directions
+   - Routing (forwarding) tables are built with:
+    - Interior: RIP & OSPF
+      - Within one company or org
+    - Exterior: BGP
+      - Connecting multiple companies/orgs to the internet backbone
+    - Every large company has an AS #, and these numbers are how Eterior protocols create a network mapping of all of the Autonomous Systemes in the world.
+    - 1 AS # == Many Networks
+    - ARIN allocates network blocks
+    - You can tell by looking at an ip now where geographically it comes from
+    - ARIN reached IPv4 depletion
+    - The internet needs to be saved!
+      - Here comes IPv6 and NAT-ing!!!
+   
