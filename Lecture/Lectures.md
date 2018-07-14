@@ -263,35 +263,68 @@
  
  ## Section 2:
  - Switch Table Failure Cases/ Switch Table diagram: Section 2 (5:35)
-  - Ethernet broadcast/Multicast addresses
-  - When a switch table is empty a broadcast will always be sent out to populate
-  - Newly plugged in devices send out a gratuitous ARP to aid in invalidating other devices switch tables that it may have been connected to prior.
+   - Ethernet broadcast/Multicast addresses
+   - When a switch table is empty a broadcast will always be sent out to populate
+   - Newly plugged in devices send out a gratuitous ARP to aid in invalidating other devices switch tables that it may have been connected to prior.
  - Lecture 4 Key Topics:
-  - IPv4:
-   - Classful / CIDR addressing
-   - ARP & ARP Table
-   - Fragmentation
-   - Routing
-   - Ping / Traceroute
+   - IPv4:
+    - Classful / CIDR addressing
+    - ARP & ARP Table
+    - Fragmentation
+    - Routing
+    - Ping / Traceroute
   - Lecture 5 Key Topics:
-   - IP Routing
-   - Forwarding/ Routing Tables
-   - RIP/OSPF
-   - BGP
-   - VLAN
+    - IP Routing
+    - Forwarding/ Routing Tables
+    - RIP/OSPF
+    - BGP
+    - VLAN
   - Lecture 6 Key Topics:
-   - AS Numbers
-   - Exterior Routing - BGP
-   - IPv6
+    - AS Numbers
+    - Exterior Routing - BGP
+    - IPv6
  - Ethernet: Single broadcast domain, many collision domains
  - VLANS:
-  - In a VLAN-ed network the "top" router acts as a switch, and you logically assign the lower switch ports to VLANs (VLAN Tags/Numbers)
-  - "Lower" switches assign VLAN tag to Ethernet frames, and normal forwarding ensues, but only withing the VLAN Tag/color/number
+   - In a VLAN-ed network the "top" router acts as a switch, and you logically assign the lower switch ports to VLANs (VLAN Tags/Numbers)
+   - "Lower" switches assign VLAN tag to Ethernet frames, and normal forwarding ensues, but only withing the VLAN Tag/color/number
  - IP:
-  - TTL in IP packet stop IP Loops
-  - "Make all networks equal"
-  - Unreliable Datagram protocol
-  - HDLC, PPP, Token Ring are old layer 2 networks that Ethernet extinct-i-fied
-  - IP vs. Ethernet (Section 2 32:39)
-  
- 
+   - TTL in IP packet stop IP Loops
+   - "Make all networks equal"
+   - Unreliable Datagram protocol
+   - HDLC, PPP, Token Ring are old layer 2 networks that Ethernet extinct-i-fied
+   - IP vs. Ethernet (Section 2 32:39)
+   - Classful & Classless (CIDR):
+    - Classful
+     - Class A, Class B, Class C
+      - 2^24 hosts per subnet, 2^16 hosts per subnet, 2^8 hosts per subnet
+     - Led to the "Goldilocks Problem":
+      - If you had a need for 500 IP addresses, you're forced to use class B, but its very wasteful.
+      - Variable Netmasks: Solved this problem, but you can no longer calculate subnets based on IP alone (this leads to CIDR notation)
+      - With the granularinry of variable netmasks the internet was saved! And Ip block could be allocated much less wastefully!
+    - Subnet/IP math (Section 2 43:13)
+     - <img width="284" alt="screen shot 2018-07-14 at 9 08 33 am" src="https://user-images.githubusercontent.com/5629547/42724719-860c56ec-8745-11e8-9b90-0f64b687006d.png">
+     - **QUIZ Question: "Are these two IP addresses on the same subnet?"**
+      - <img width="283" alt="screen shot 2018-07-14 at 9 12 28 am" src="https://user-images.githubusercontent.com/5629547/42724763-11ba88bc-8746-11e8-9f0c-cf0df8d2d0c6.png">
+ - ARP: Map Ethernet(MAC) addresses to IPv4 addresses
+   - Samuel Clemens vs. Mark Twain
+   - The magic of ARP is that it's asking a very important question: "Who has?"
+   - Layer 2 ethernet broadcast address: "Who has IP: xxx?"
+ - Fragmentation:
+   - IP is trying to make all networks equal
+   - Different networks had different MTUs (Maximum transmission units)
+   - IP needed to handle this case.
+   - An IP packet is able to divide itsself into smaller chunks using the fragmentation fields in the packet (Id/Fragment offset/More Fragments)
+   - Reassembly and then pass it up to layer 4
+   - Fragmentation creates more opportunities for failure (Section 2 1:09)
+   - In IPv6 only the originating host can fragment
+ - Routing: 
+   - Ping: very basic network debugging (ICMP echo request)
+   - Nmap is a useful tool as well
+   - All hosts have a Routing and ARP table (Section 2 1:13)
+     - Routing tables have more pertinent fields
+     - `netstat -rn`
+   - ARP table: "How doI talk to my neighbors?"
+   - Routing table (Forwarding Table): "How do I talk to the rest of the world?"
+   - **Grand Unified Network Theory: Layer 3 & 2 working across networks:** (section 2 1:30)
+     - Every Router port has a MAC address
+   - 
