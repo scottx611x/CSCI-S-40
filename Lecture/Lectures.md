@@ -262,5 +262,36 @@
   - Yes! Most devices need to! (See dual-stack)
  
  ## Section 2:
- 
+ - Switch Table Failure Cases/ Switch Table diagram: Section 2 (5:35)
+  - Ethernet broadcast/Multicast addresses
+  - When a switch table is empty a broadcast will always be sent out to populate
+  - Newly plugged in devices send out a gratuitous ARP to aid in invalidating other devices switch tables that it may have been connected to prior.
+ - Lecture 4 Key Topics:
+  - IPv4:
+   - Classful / CIDR addressing
+   - ARP & ARP Table
+   - Fragmentation
+   - Routing
+   - Ping / Traceroute
+  - Lecture 5 Key Topics:
+   - IP Routing
+   - Forwarding/ Routing Tables
+   - RIP/OSPF
+   - BGP
+   - VLAN
+  - Lecture 6 Key Topics:
+   - AS Numbers
+   - Exterior Routing - BGP
+   - IPv6
+ - Ethernet: Single broadcast domain, many collision domains
+ - VLANS:
+  - In a VLAN-ed network the "top" router acts as a switch, and you logically assign the lower switch ports to VLANs (VLAN Tags/Numbers)
+  - "Lower" switches assign VLAN tag to Ethernet frames, and normal forwarding ensues, but only withing the VLAN Tag/color/number
+ - IP:
+  - TTL in IP packet stop IP Loops
+  - "Make all networks equal"
+  - Unreliable Datagram protocol
+  - HDLC, PPP, Token Ring are old layer 2 networks that Ethernet extinct-i-fied
+  - IP vs. Ethernet (Section 2 32:39)
+  
  
