@@ -5,6 +5,7 @@
   - [4](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-4)
   - [5](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-5)
   - [6](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-6)
+  - [Section 2](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-2)
 
 ## Lecture 1
 
@@ -258,4 +259,8 @@
  - can `whois` an IPv6 Address
 - What does it mean for an org. to be on IPv6?
  - Does a Ethernet switch need to support IPv6? 
- - Yes! Most devices need to! (See dual-stack)
+  - Yes! Most devices need to! (See dual-stack)
+ 
+ ## Section 2:
+ 
+ 
