@@ -395,7 +395,22 @@
 		- <img width="407" alt="screen shot 2018-07-15 at 10 52 41 am" src="https://user-images.githubusercontent.com/5629547/42735154-3ad6f0c8-881d-11e8-9e89-d2b0adc5f343.png">
 		- Reliable, connection-oriented, sequenced delivery of packets/payloads
 		- TCP is quite complicated and implementation-specific
-		- 
+		- Window size is directly related to Flow Control
+		- Was designed to be incredibly efficient (HELLO vs single bit):
+			- <img width="406" alt="screen shot 2018-07-15 at 11 04 09 am" src="https://user-images.githubusercontent.com/5629547/42735260-d381612c-881e-11e8-8ff4-a0f245ffb302.png">
+		- <img width="406" alt="screen shot 2018-07-15 at 11 04 52 am" src="https://user-images.githubusercontent.com/5629547/42735263-f0684d0a-881e-11e8-80e8-ff8d1ab06578.png">
+		- Sequence numbers are very important and they keep track of bytes not packets
+		- Sequence numbers start with a pseudo-random value for security purposes (if everyone started at 0 it would be easier to spoof)
+		- **Full duplex**
+		- Three way handshake:
+			- <img width="282" alt="screen shot 2018-07-15 at 11 08 16 am" src="https://user-images.githubusercontent.com/5629547/42735298-6fe12192-881f-11e8-8320-57a461e91c0b.png">
+		- The amount of data that can be sent between two devices is determined by the reciever
+		- Byte Stream functionality
+		- TCP sends data in segments (MSS max segment size) is negotiated during connection setup
+		- MSS is dependant on the size of the MTU
+		- **TCP segments can arrive out of order!**
+			- The recieving application sees the segments in the proper order. It never knows if they're out of order. There is a buffer at reciever's TCP layer that segments are held in until order is ensured.
+	
 
 
 
