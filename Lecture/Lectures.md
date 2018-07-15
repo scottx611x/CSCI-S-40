@@ -421,7 +421,7 @@
 ## Lecture 8:
 - Connection Management & NAT (Network Address Translation)
 - IXP (internat exchange points) a bunch of specialized locations where many ISPs get together and pass traffic around
-- UDP Pseudo header (What its there for, hy its there, and how it works and prevents mis-delivery)
+- UDP Pseudo header (What its there for, why its there, and how it works and prevents mis-delivery)
 - TCP: **Difference between Flow Control and Congestion control**
 	- Flow Control: 
 		- End to End: A receiving computer isn't able to sustain the input from a sending host
@@ -430,12 +430,32 @@
 		- **"Slow Start"** Slow only relative to not doing anything at all
 		- Doubles segments sent every time it receives the full set of ACKs until packet loss, then increase in segments is additive
 
-- Connection Management:
+- **Connection Management:**
 	- How does a device uniquely identify its connections to remote machines? (all application layer connections through TCP)
 	- **IP delgates to TCP or UDP based on "Protocol Type" in IP packet header field**
 	- TCP knows which Application layer (Layer 5) application to send to by the destination port
 	- <img width="321" alt="screen shot 2018-07-15 at 12 32 22 pm" src="https://user-images.githubusercontent.com/5629547/42735956-27737d5e-882b-11e8-96d1-eb39c80d6db4.png">
 	- <img width="341" alt="screen shot 2018-07-15 at 12 33 27 pm" src="https://user-images.githubusercontent.com/5629547/42735965-4b8c486a-882b-11e8-9e72-2ced9dd75866.png">
+	- <img width="621" alt="screen shot 2018-07-15 at 1 06 20 pm" src="https://user-images.githubusercontent.com/5629547/42736197-e69fe876-882f-11e8-997b-026d29848f4d.png">
+	- The receiving system has no control over what the source port (from the client) will be, and its perfectly valid for many clients to have the same source port
+	- All 5 pieces (local/remote IP, local/remote Port, Protocol) are used to uniquely identify a connection **This is the 5-tuple mentioned earlier!**
+	- Prior connection management tables are local to the client machines!
+	- This whole table is just so the machine can determine which applications are using which port(s)
+	- `netstat -an | more`
+	- `whois <ip address>`
+	- Operating system processes will use inter-process communication over TCP (through the local network interface
+- **NAT:**
+	- <img width="611" alt="screen shot 2018-07-15 at 1 36 31 pm" src="https://user-images.githubusercontent.com/5629547/42736393-29522ca2-8834-11e8-96a0-5bd09fdcf745.png">
+	- Different types of NAT:
+		- 1-to-1 address mapping
+		- N-to-N address mapping
+		- Network address and port mapping (NAPT or PAT)
+	- **Remember that Ethernet headers are built on each side of a router!** (Lecture 8 1:05:07)
+	- <img width="621" alt="screen shot 2018-07-15 at 1 42 37 pm" src="https://user-images.githubusercontent.com/5629547/42736437-f685ab90-8834-11e8-845f-e51fc0feb704.png">
+	- <img width="621" alt="screen shot 2018-07-15 at 1 52 19 pm" src="https://user-images.githubusercontent.com/5629547/42736500-5a5f800e-8836-11e8-98ad-323fd7302dc4.png">
+	- The edge device doing the NAT logic assigns public/mapped ports to be able to route traffic to its private ips on the other side
+	- <img width="528" alt="screen shot 2018-07-15 at 1 54 50 pm" src="https://user-images.githubusercontent.com/5629547/42736630-d66f564c-8836-11e8-80ab-1d42090b7823.png">
+
 
 	
 
