@@ -39,17 +39,19 @@
 - When are packet transmission errors indicated:
   - At the Software layer. The hardware layer may drop a packet  but its not until the software sees the missing packet that an error can be indicated.
 - Layering:
-	- The internet model (5 Layers)
-	- Used to be the OSI model
-	- Different layers may repeat functionality (error detection, encapsulation, addressing etc.)
-	- Layers are:
-    - Application
-    - Transport
-    - Internet (Network)
-    - Link (Network Interface/Data Link)
-    - Physical
+  - The internet model (5 Layers)
+    - Used to be the OSI model
+    - Different layers may repeat functionality (error detection, encapsulation, addressing etc.)
+    - Layers are:
+      - Application
+      - Transport
+      - Internet (Network)
+      - Link (Network Interface/Data Link)
+      - Physical
+    - <img width="444" alt="screen shot 2018-07-15 at 4 10 31 pm" src="https://user-images.githubusercontent.com/5629547/42737951-a4e25f76-8849-11e8-8eb8-479a02afa6c9.png">
+
 - Reliability:
-  - **Error Detection vs error correction (big diff Prof made note!)**
+	- **Error Detection vs error correction (big diff Prof made note!)**
 
 ## Lecture 2
 
