@@ -456,16 +456,17 @@
 	- The edge device doing the NAT logic assigns public/mapped ports to be able to route traffic to its private ips on the other side
 	- <img width="528" alt="screen shot 2018-07-15 at 1 54 50 pm" src="https://user-images.githubusercontent.com/5629547/42736630-d66f564c-8836-11e8-80ab-1d42090b7823.png">
 
+	- NAT handles incoming connections by the use of port forwarding
+	- **NAT is not a security solution** it only obscures internal private addresses 
+	- It makes network management and debugging much more difficult
+	- Its being used as part of the transitiion to IPv6
+	- **QUIZ: Does a clinet know that its operating through a NAT box?** NO!
+	- Multiple NAT-ing devices can be configured on the same network
+- **STUN & ICE:**
+	- **STUN: OS protocol to tell wheter or not NAT is present**
+	- Some applications on the net need to know if NAT is being used or not.
+	- VOIP for example needs to know if NAT is being used
+	- ICE: a way to if NAT devices are present and what/how they are operating
 
-	
-
-
-
-
-
-
-
-
-
-
+## Section 3:
 
