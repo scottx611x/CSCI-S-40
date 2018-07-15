@@ -149,6 +149,7 @@
  - Purpose
  - Packet
  - Procedure
+- <img width="388" alt="screen shot 2018-07-15 at 4 37 01 pm" src="https://user-images.githubusercontent.com/5629547/42738167-52c1ab62-884d-11e8-9ed2-b5450595bbee.png">
 - IP packet header is of variable length so the IP packet has a header length field
 - Every protocol that we study has a field in the header that identifies what the payload contains
  - For IP this could be TCP, UDP, UCMP (This is an example of logical multiplexing)
