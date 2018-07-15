@@ -410,6 +410,14 @@
 		- MSS is dependant on the size of the MTU
 		- **TCP segments can arrive out of order!**
 			- The recieving application sees the segments in the proper order. It never knows if they're out of order. There is a buffer at reciever's TCP layer that segments are held in until order is ensured.
+		- TCP Congestion Control (Flow control):
+			- "Slow start" (this is a misnomer)
+			- <img width="404" alt="screen shot 2018-07-15 at 11 24 37 am" src="https://user-images.githubusercontent.com/5629547/42735433-b99e795e-8821-11e8-861e-e28b42ce39fc.png">
+			- <img width="405" alt="screen shot 2018-07-15 at 11 25 56 am" src="https://user-images.githubusercontent.com/5629547/42735441-e118f374-8821-11e8-828c-947c51d89829.png">
+			- Additive increase: At a certain point one of the many constraints (Flow Control window size, Host says: "Maybe I'm sending too much") will be encroached upon so the exponential increase stops and growth of rate of segments being sent becomes linear.
+			- If there is a loss, then the # of segments being sent drops and this growth starts again.
+			- 
+
 	
 
 
