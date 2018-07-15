@@ -6,6 +6,10 @@
   - [5](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-5)
   - [6](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-6)
   - [Section 2](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-2)
+  - [7](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-7)
+  - [8](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-8)
+  - [Section 3](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-3)
+
 
 ## Lecture 1
 
@@ -334,11 +338,72 @@
       - Within one company or org
     - Exterior: BGP
       - Connecting multiple companies/orgs to the internet backbone
-    - Every large company has an AS #, and these numbers are how Eterior protocols create a network mapping of all of the Autonomous Systemes in the world.
+    - Every large company has an AS #, and these numbers are how Exterior protocols create a network mapping of all of the Autonomous Systems in the world.
     - 1 AS # == Many Networks
     - ARIN allocates network blocks
     - You can tell by looking at an ip now where geographically it comes from
     - ARIN reached IPv4 depletion
     - The internet needs to be saved!
       - Here comes IPv6 and NAT-ing!!!
-   
+
+## Lecture 8:
+
+- Most if not all modern devices are running IPv6. But when you talk to something on the larger net, it will most likely be IPv4 due to lack of support from intermediary networks.
+- Is IPv6 gonna happen? Yes! 10% of traffic is currently!
+- Cellular networks had the foresight to be IPv6
+- IPv6:
+	- Expanded addressing capabilities. 128 bits, improved auto configuration, anycast addresses etc.
+	- Simplified header format
+	- Better support for options and extensions
+	- Capability for Flow Labelling is added
+	- Added auth and privacy capabilitites
+	- Link local: (replaces private IP with the FE80)
+	- How is multicast handled?
+- **QUIZ**
+    - Know what the IPv4/IPv6/Ethernet headers look like
+- IPv4 `ping` vs IPv6 `ping`:
+	- How does a "dual stack" devices know whether or not to handle an incoming frame with IPv4/IPv6? -> The EtherType (Protocol Type) field in the Ethernet header!
+- Address Allocation:
+	- <img width="407" alt="screen shot 2018-07-15 at 10 17 02 am" src="https://user-images.githubusercontent.com/5629547/42734827-4af2c66c-8818-11e8-8cb9-1951269eacd0.png">
+- Autoomous Systems, ASN, & Routing:
+	- Routing Protocol Families:
+		- Interior/Exterior
+		- (OSPF/RIP)/BGP
+	- Harvard has many Autonomous systems (since its been in the business for so long)
+	- AS advertise network prefixes
+	- BOGON: Somebody ha smisconfigured their routing table and are announcing a prefix they don't own
+	- BGP Hijacking: Advertising the wrong prefix could allow for someone else's traffic to be ruted to you. Said traffic would get dropped, because theres no internal network, but the hijack could happen to snoop on the traffic and then re-route it back to its proper place.
+- **Transport Layer:**
+	- SP3 Protocol framework
+		- Service
+		- Purpose
+		- Packets
+		- Procedures
+	- **UDP**:
+		- <img width="408" alt="screen shot 2018-07-15 at 10 40 02 am" src="https://user-images.githubusercontent.com/5629547/42735022-77087ab4-881b-11e8-99e0-06ff6f659acf.png">
+		- Completely unreliable
+		- Multiplexing
+		- Error detection but not error correction
+		- Datagram delivery service (no error correction)
+		- Different types of layer 5 protocols in its payload (Port # in the UDP header)
+		- The IP header has a Protocol Type in its header (Lecture 8 40:50)
+		- Checksums:
+			- Ethernet was at the end of the frame
+			- IP is in the header
+			- UDP is a bit different. It can prevent the misdelivery (Lecture 8 46:00) of packets by creating a pseudo-header that is prefixed to the UDP header. As part of the checksum computation, it pulls in the originator's source and destination address, IP protocol field and the UDP length.
+	- **TCP**:
+		- <img width="407" alt="screen shot 2018-07-15 at 10 52 41 am" src="https://user-images.githubusercontent.com/5629547/42735154-3ad6f0c8-881d-11e8-9e89-d2b0adc5f343.png">
+		- Reliable, connection-oriented, sequenced delivery of packets/payloads
+		- TCP is quite complicated and implementation-specific
+		- 
+
+
+
+
+
+
+
+
+
+
+
