@@ -346,7 +346,7 @@
     - The internet needs to be saved!
       - Here comes IPv6 and NAT-ing!!!
 
-## Lecture 8:
+## Lecture 7:
 
 - Most if not all modern devices are running IPv6. But when you talk to something on the larger net, it will most likely be IPv4 due to lack of support from intermediary networks.
 - Is IPv6 gonna happen? Yes! 10% of traffic is currently!
@@ -386,11 +386,11 @@
 		- Error detection but not error correction
 		- Datagram delivery service (no error correction)
 		- Different types of layer 5 protocols in its payload (Port # in the UDP header)
-		- The IP header has a Protocol Type in its header (Lecture 8 40:50)
+		- The IP header has a Protocol Type in its header (Lecture 7 40:50)
 		- Checksums:
 			- Ethernet was at the end of the frame
 			- IP is in the header
-			- UDP is a bit different. It can prevent the misdelivery (Lecture 8 46:00) of packets by creating a pseudo-header that is prefixed to the UDP header. As part of the checksum computation, it pulls in the originator's source and destination address, IP protocol field and the UDP length.
+			- UDP is a bit different. It can prevent the misdelivery (Lecture 7 46:00) of packets by creating a pseudo-header that is prefixed to the UDP header. As part of the checksum computation, it pulls in the originator's source and destination address, IP protocol field and the UDP length.
 	- **TCP**:
 		- <img width="407" alt="screen shot 2018-07-15 at 10 52 41 am" src="https://user-images.githubusercontent.com/5629547/42735154-3ad6f0c8-881d-11e8-9e89-d2b0adc5f343.png">
 		- Reliable, connection-oriented, sequenced delivery of packets/payloads
@@ -411,12 +411,31 @@
 		- **TCP segments can arrive out of order!**
 			- The recieving application sees the segments in the proper order. It never knows if they're out of order. There is a buffer at reciever's TCP layer that segments are held in until order is ensured.
 		- TCP Congestion Control (Flow control):
-			- "Slow start" (this is a misnomer)
+			- "Slow start" (this is a misnomer) (Lecture 7 1:26:51)
 			- <img width="404" alt="screen shot 2018-07-15 at 11 24 37 am" src="https://user-images.githubusercontent.com/5629547/42735433-b99e795e-8821-11e8-861e-e28b42ce39fc.png">
 			- <img width="405" alt="screen shot 2018-07-15 at 11 25 56 am" src="https://user-images.githubusercontent.com/5629547/42735441-e118f374-8821-11e8-828c-947c51d89829.png">
 			- Additive increase: At a certain point one of the many constraints (Flow Control window size, Host says: "Maybe I'm sending too much") will be encroached upon so the exponential increase stops and growth of rate of segments being sent becomes linear.
 			- If there is a loss, then the # of segments being sent drops and this growth starts again.
-			- 
+			- <img width="408" alt="screen shot 2018-07-15 at 11 34 20 am" src="https://user-images.githubusercontent.com/5629547/42735487-1156c8b2-8823-11e8-914a-50f7155c4fcc.png">
+
+## Lecture 8:
+- Connection Management & NAT (Network Address Translation)
+- IXP (internat exchange points) a bunch of specialized locations where many ISPs get together and pass traffic around
+- UDP Pseudo header (What its there for, hy its there, and how it works and prevents mis-delivery)
+- TCP: **Difference between Flow Control and Congestion control**
+	- Flow Control: 
+		- End to End: A receiving computer isn't able to sustain the input from a sending host
+	- Congestion Control:
+		- Network issue: The network itself is not able to handle the traffic and the network is telling the host to slow transmission
+		- **"Slow Start"** Slow only relative to not doing anything at all
+		- Doubles segments sent every time it receives the full set of ACKs until packet loss, then increase in segments is additive
+
+- Connection Management:
+	- How does a device uniquely identify its connections to remote machines? (all application layer connections through TCP)
+	- **IP delgates to TCP or UDP based on "Protocol Type" in IP packet header field**
+	- TCP knows which Application layer (Layer 5) application to send to by the destination port
+	- <img width="321" alt="screen shot 2018-07-15 at 12 32 22 pm" src="https://user-images.githubusercontent.com/5629547/42735956-27737d5e-882b-11e8-96d1-eb39c80d6db4.png">
+	- <img width="341" alt="screen shot 2018-07-15 at 12 33 27 pm" src="https://user-images.githubusercontent.com/5629547/42735965-4b8c486a-882b-11e8-9e72-2ced9dd75866.png">
 
 	
 
