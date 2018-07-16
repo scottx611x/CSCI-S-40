@@ -74,9 +74,7 @@ The remote port will be specific to the service that the connection is for. For 
 
 **b.) Assume that a user working on a laptop has both an email connection and a web connection open simultaneously to a remote server.  Assume that both the laptop and web server are directly connected to the Internet (in other words, they are not behind a NAT device) and that the IP address of the laptop is 128.103.104.105 and that the IP address of the server is 18.19.20.21.  Describe in detail the 5-tuple information that you would find in the connection table of both the laptop and the server.  (As shown in lecture, you would be able to view these details using the Netstat command.)**
 
-Host				Local Port								Remote Port		Local IP Address	Remote IP Address 	Protocol
-128.103.104.105		Probably something between 1024–49151 	80 (http)		128.103.104.105		18.19.20.21			TCP
-128.103.104.105		Probably something between 1024–49151 	25 (smtp)		128.103.104.105		18.19.20.21			TCP
+<img width="875" alt="screen shot 2018-07-15 at 8 41 40 pm" src="https://user-images.githubusercontent.com/5629547/42740043-82b2c2d0-886f-11e8-9309-fd83ac626d56.png">
 
 
 #### 3.) 
