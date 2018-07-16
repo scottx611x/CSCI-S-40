@@ -184,6 +184,7 @@
 - A router forwards packets based on some information about the "next best hop"
 - All routers in a network talk to eachother and share routing table information
 - **Two network routing behavior** (lecture 5 33:00)
+	- <img width="402" alt="screen shot 2018-07-15 at 8 49 07 pm" src="https://user-images.githubusercontent.com/5629547/42740113-8a924006-8870-11e8-9832-597b88a99ce1.png">
 - How does the "Hop Count" work?
 - After a packet enters a router, it exits with a new Ethernet header. Destination MAC and Source MAC will change (Source now being the MAC of the router) among some other fields.
 - Router forwarding tables are really important
