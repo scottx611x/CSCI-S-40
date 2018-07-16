@@ -65,9 +65,19 @@ Th information from answer 1a. is the same up until the ARP reply
 
 **a.) Describe this specific 5-tuple in detail.**
 
+This 5-tuple that we talked about in lecture 8 allows for unique identification of layer-4 protocol connections on a given host. There needs to be a notion of unique-ness when dealing with these connections so that one isn't sending information through a connection it shouldn't be. Any modern Unix-y or Windows host will have information about its current connections. One can find useful information about these connections on Unix-y machines using: `netstat -an`. Some entries in the output of `netstat` may be counter intuitive at first: i.e. there may be many connections with the same local & remote IP... how is this? It should be noted that inter-process communication is commonly done using layer-4 communication protocols. 
+
+The information in an entry for a single connection that, as a whole, deems it unique is: `(local_ip, remote_ip, local_port, remote_port, protocol)`. 
+Where the local designation is for a given host and the remote designation is for the host on the other side of the connection.  The protocol portion of the tuple is simply the protocol that is providing the connection. There is no definitive answer as to what the source port should be. Its usually determine from a range of ports in the 1024–49151 range.
+The remote port will be specific to the service that the connection is for. For example, webservers generally "talk" on TCP port 80, and ssh is generally done over TCP port 22.
 
 
 **b.) Assume that a user working on a laptop has both an email connection and a web connection open simultaneously to a remote server.  Assume that both the laptop and web server are directly connected to the Internet (in other words, they are not behind a NAT device) and that the IP address of the laptop is 128.103.104.105 and that the IP address of the server is 18.19.20.21.  Describe in detail the 5-tuple information that you would find in the connection table of both the laptop and the server.  (As shown in lecture, you would be able to view these details using the Netstat command.)**
+
+Host				Local Port								Remote Port		Local IP Address	Remote IP Address 	Protocol
+128.103.104.105		Probably something between 1024–49151 	80 (http)		128.103.104.105		18.19.20.21			TCP
+128.103.104.105		Probably something between 1024–49151 	25 (smtp)		128.103.104.105		18.19.20.21			TCP
+
 
 #### 3.) 
 
