@@ -7,14 +7,65 @@
 
 <img width="469" alt="screen shot 2018-07-15 at 2 57 36 pm" src="https://user-images.githubusercontent.com/5629547/42737283-75eaeee0-883f-11e8-9c0d-8efea4f180ba.png">
 
-**a) Suppose that host A has some application layer data (layer-5) to send to host B using UDP.  Describe this process in detail. Specifically, explain what happens on host A at each of the five layers of the Internet Model. Assume for this question that Host Ahas never sent data before to Host B. Write your answer in the form of a detailed list, such that step 1 in your list is "(1) Host A's application passes its data off to the layer-4 UDP module where it is encapsulated and a UDP header is added."  Be sureto include information on how MAC addresses, IP addresses and subnet masks are used by the host.  Include information on the use of ARP and the use of a routing table (if necessary) in your answer.  Your explanation can stop at the point when A's data reaches B's Ethernet interface; you needn't explain what happens in B's protocol stack.**
+**a) Suppose that host A has some application layer data (layer-5) to send to host B using UDP.  Describe this process in detail. Specifically, explain what happens on host A at each of the five layers of the Internet Model. Assume for this question that Host Ahas never sent data before to Host B. Write your answer in the form of a detailed list, such that step 1 in your list is "(1) Host A's application passes its data off to the layer-4 UDP module where it is encapsulated and a UDP header is added."  Be sure to include information on how MAC addresses, IP addresses and subnet masks are used by the host.  Include information on the use of ARP and the use of a routing table (if necessary) in your answer.  Your explanation can stop at the point when A's data reaches B's Ethernet interface; you needn't explain what happens in B's protocol stack.**
 
-**1b) Using the same list format, explain the process by which host A sends some application layer data to host D.  Again, your explanation can stop at the point when A's data reaches D's Ethernet interface. Assume for this question that Host A has never sent data before to the router, or to Host D.PLEASE NOTE: Answering this entire question will probably require two-pages.**
+- The application sending UDP data on Host A will leverage the Operating System's capabilities to it send the information up to the transport layer.
+- At the transport layer, the payload wil be encapulated in a UDP packet where a UDP header is added.
+- This UDP packet now includes information about the: 
+	- Source Port Number: Host A's Port that it's application is interfacing with
+	- Destination Port Number: Depending on what the remote application is, this could be many different things. If we were interacting with a standard web server it would be port 80
+	- UDP Length: The length of the UDP header and UDP data
+	- UDP Checksum: a checksum used for error detection and not error correction
+	- UDP Pseudo-header: A prefix to the regular UDP header to help prevent misdeliveries. As part of the checksum computation, it pulls in the originator's source and destination address, IP protocol field and the UDP length
+- This packet is now ready to move down another layer to the Network layer (layer 3)
+- Another round of encapsulation occurs, this time constructing an IP Packet:
+- This packet will contain the following information:
+	- Some Controls & Flags like IP Version, QoS, Length, Fragmentation Information, etc.
+	- TTL: set to a reasonable initial value and decremented upon each hop the packet takes
+	- Protocol: the corresponding value here for UDP since the data being encapsulated was a UDP packet (17 in this case for UDP)
+	- An IP Checksum: Again, used for error detection and not error correction
+	- Source IP address: Host A's IP address
+	- Destination IP address: IP of the device we are to be interacting with
+- This packet is now ready to move down another layer to the Ethernet layer (layer 2, MAC layer, Data link layer)
+- Upon reaching this layer an Ethernet frame will be built encapsulating the "bundle of bits" we have so far (our IP Packet)
+- This frame will contain the following information:
+	- Source address: MAC address of Host A
+	- Destination address: 
+		- This is determined using an ARP request to broadcast: "Hey, this is my IP & MAC and I'm trying to send data to this IP... does anyone know about it?" 
+		- ARP Table entries on the Hosts reciving this request will be updated to include Host A's information
+		- When another device with the requesting IP receives this request, it will send an ARP reply back with its identifying information and Host A will continue with the construction of the Ethernet frame
+		- Notably, in this example, the destination ip address is on the same subnet as the host IP address, therefore there is no need to interact with the default gateway and they can communicate directly!
+	- EtherType
+	- Checksum (Tacked on to the end of the frame!)
+- This frame is now ready to be put out on the wire at the physical layer (layer 1)
+- This frame will  be delivered directly to Host B due to the fact that they are on the same subnet.
+
+
+**b) Using the same list format, explain the process by which host A sends some application layer data to host D.  Again, your explanation can stop at the point when A's data reaches D's Ethernet interface. Assume for this question that Host A has never sent data before to the router, or to Host D. PLEASE NOTE: Answering this entire question will probably require two-pages.**
+
+Th information from answer 1a. is the same up until the ARP reply
+- Upon reaching this layer an Ethernet frame will be built encapsulating the "bundle of bits" we have so far (our IP Packet)
+- This frame will contain the following information:
+	- Source address: MAC address of Host A
+	- Destination address: 
+		- This is determined using an ARP request to broadcast: "Hey, this is my IP & MAC and I'm trying to send data to this IP... does anyone know about it?" 
+		- ARP Table entries on the Hosts reciving this request will be updated to include Host A's information (IP & MAC)
+		- When another device with the requesting IP receives this request, it will send an ARP reply back with its identifying information and Host A will continue with the construction of the Ethernet frame.
+		- In this scenario, the ARP reply is actually coming back from the default gateway's Interface 1 (MAC_R1)! Why is this!? This is because the ARP propogated to the right side of the router in the diagram, found Host D, updated it's routing table with information on how to get to Host D, and then proceeded to tell Host A that: "Hey, talk to me if you want to get to Host D" since there isn't a direct connection to the recieving host as there was in the last example.
+	- EtherType
+	- Checksum (Tacked on to the end of the frame!)
+- This frame is now ready to be put out on the wire at the physical layer (layer 1)
+- The frame is recieved on interface 1 of the router
+- The ethernet header is stripped and a new ethernet frame is reconstructed with the information available from the router's routing table about how to reach Host D (Change Destination address to MAC_R2)
+	- Note that the payload remains untouched !
+- After the newly update ethernet frame is ready it is sent out on the wire where Host D recieves it
 
 #### 2.) 
 **A "tuple" is a term which means "an ordered set of values" and in our readings and discussions we have observed that connections in the Internet can be uniquely identified using a very specific 5-tuple.**
 
 **a.) Describe this specific 5-tuple in detail.**
+
+
 
 **b.) Assume that a user working on a laptop has both an email connection and a web connection open simultaneously to a remote server.  Assume that both the laptop and web server are directly connected to the Internet (in other words, they are not behind a NAT device) and that the IP address of the laptop is 128.103.104.105 and that the IP address of the server is 18.19.20.21.  Describe in detail the 5-tuple information that you would find in the connection table of both the laptop and the server.  (As shown in lecture, you would be able to view these details using the Netstat command.)**
 
