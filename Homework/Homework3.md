@@ -81,6 +81,8 @@ The remote port will be specific to the service that the connection is for. For 
 
 **a.) Describe the type of information that would be found in a distance vector routing table.  In other words, what are the typical column headings of the routing table in a router using the RIPv2 protocol?**
 
+RIPv2 is a routing protocol that counts hops to measure efficiency of a given route. It then populates a routing table with the most efficient routes that it knows of, and shares this information with all other routers that it can "see". The typical column headings for such a table are: 
+
 **b.) Assume that you had to choose either RIPv2 or OSPF as the routing protocol for a large private enterprise network.  Which one would you pick?  Provide three substantive technical reasons for your choice.**
 
 #### 4.) 

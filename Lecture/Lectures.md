@@ -455,6 +455,7 @@
 		- N-to-N address mapping
 		- Network address and port mapping (NAPT or PAT)
 	- **Remember that Ethernet headers are built on each side of a router!** (Lecture 8 1:05:07)
+    - <img width="408" alt="screen shot 2018-07-15 at 8 50 29 pm" src="https://user-images.githubusercontent.com/5629547/42740131-bae165b6-8870-11e8-9698-1ce656c10df7.png">
 	- <img width="621" alt="screen shot 2018-07-15 at 1 42 37 pm" src="https://user-images.githubusercontent.com/5629547/42736437-f685ab90-8834-11e8-845f-e51fc0feb704.png">
 	- <img width="621" alt="screen shot 2018-07-15 at 1 52 19 pm" src="https://user-images.githubusercontent.com/5629547/42736500-5a5f800e-8836-11e8-98ad-323fd7302dc4.png">
 	- The edge device doing the NAT logic assigns public/mapped ports to be able to route traffic to its private ips on the other side
