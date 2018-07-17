@@ -261,6 +261,7 @@
  - Good comparison at (lecture 6 1:23:11)
  - leading `0`s in each 16 portion get collapsed
  - IPv6 address dissection (lecture 6 1:28:21)
+ - <img width="351" alt="screen shot 2018-07-16 at 6 38 18 pm" src="https://user-images.githubusercontent.com/5629547/42787223-91be3a6c-8927-11e8-8ace-da2dc7dd6217.png">
  - "Private IP" -> Link Local in IPv6
  - FE80:::: is a link local address
  - IPv6 multicast address is much less invasive than IPv4 broadcasting
@@ -475,3 +476,98 @@
 
 ## Section 3:
 
+- Lecture 7 Key topics:
+  - Streams vs. Packets (UDP vs TCP)
+  - UDP & TCP Source and destination ports
+  - UDP: pseudo header
+  - TCP: 3 way handshake, sequencing, congestion control, slow start, connection table, NAT
+  - Connection table (5-tuple)
+  - NAT (7-tuple)
+  - STUN/TURN/ICE
+
+  - IPv6:
+    - ARP/ Fragmentation works differently
+    - Use double colon to mean "all zeroes" Ex. f000:ab::1eab 
+    - Can trim leading zeroes
+    - 2000::/3 Global unicast
+    - FE80::/10 Link Local Unicast
+    - DNS A vs AAAA records for ipv6 (4 times larger that an ipv4 address, also a sick joke! :) )
+    - "Next Header" for encapsulation concept vs russian doll nesting
+    - IPv6 is expensive to implement!
+    - `dig -T AAAA facebook.com` -> `2a03:2880:f112:83:face:b00c::25de` :D
+
+  - TCP & UDP:
+    - UDP:
+      - "User Datagram Protocol"
+      - Unreliable
+    - TCP:
+      - Connection-oriented Protocol
+      - Reliable
+      - bidirectional communication mechanism
+    - Port numbers are "new" concept when these protocols came along
+    - Destination Ports == "What service do I want?"
+    - Source Ports == Identification for the connection
+    - `cat /etc/services` See well known ports
+    - TCP/UDP Pseudo-header:
+      - Brings in information from IP header: (source/destination address, Protocol, UDP length)
+      - Specifically designed so that layer 4 software can tell if a UDP Datagram has been misdelivered
+      - Theres no other mechanism in UDP to detect misdelivery (TCP has the three way handshake as well)
+      - Calculating the entirety of the UDP Datagram plus the above mentioned fields
+      - Is a very basic checksum
+
+    - TCP: 3-Way Handshake
+      - Agree on inital sequence numbers and window sizes
+      - Confirms that the sender and reciever are "real"
+      - SYN -> SYN/ACK -> ACK
+
+    - Send data with TCP segments after connection is established:
+      - Size constrained by the MTU
+      - Keep getting ACKS back from reciever
+      - Can be received out of order
+      - Selective repeat, won't resend entire payload
+    
+    - Flow Control:
+      - Think window size
+      - So that the sender can't overwhelm the receiver
+
+    - Congestion Control:
+      - The network can be saturated even if the endpoints are not!
+      - TCP slow start to the rescue!
+      - Name is a misnomer (slow is relative to sender)
+      - Make the window size exponentially larger until loss  or full transmission happens the chop back down to some threshold and do additive increase afterwards
+      - Window size can constantly be negotiated by both ends of the connection
+      - How is this like the development of ethernet?
+      - UDP has no congestion control (Section 3 1:05:00)! 
+        - Just keeps blasting!
+        - <img width="455" alt="screen shot 2018-07-16 at 7 50 17 pm" src="https://user-images.githubusercontent.com/5629547/42789121-7d87eb7e-8931-11e8-8c3c-f87dbbae86ab.png">
+        - TCP goes through a back off and oscilation phase
+    
+    - Connection Table:
+      - 5-tuple used by each host to uniquely identify connections
+        - Protocol, Source/Destination IP, Source/Destination Port
+      - Each tuple is globally unique! WOW!
+
+    - NAT:
+      - To aid in IP address exhaustion
+      - Allows you to share a very small number of public ips with your friends and neighbors
+      - Now we have public and private addresses!
+      - Three private ranges:
+        - 10. 172.16., 192.168
+      - Not allowed to pass over the internet
+      - Passes messages between public and private
+      - Not the same as a firewall, its primary function is not security
+      - Think "Port Forwarding" & "Bigger on the inside"
+      - Limitations:
+        - Layer 5 protocols won't NAT very well
+      - NAT table:
+        - Sits on NAT device
+        - 7-tuple
+        - Adds two fields: (Mapped IP & Mapped Port)
+      - NAT device rewrites IP header and TCP header & calculate checksums -> and then in reverse on the way back
+      - Completely transparent to end users
+      - A Hack that has broken the end-to-end principal of the internet
+      - A NAT can map public IPs to other Public IPs
+
+    - STUN/TURN/ICE: "Am I behind a NAT? If, so what kind?/Relaying/BEst path to communicate" 
+
+## Midterm Exam Review:
