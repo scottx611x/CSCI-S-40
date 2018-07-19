@@ -807,5 +807,6 @@
 				- On the "right side" the Ethernet frame will have different source/destination addresses, different Frame Check Sequence (would recalculate it)
 				- The IP Datagram in the Ethernet frame have a decrement happen to it's TTL field
 				- Because the TTL changes we have to recalculate the IP header checksum as well
-			-
-				- 
+		- Define time-division multiplexing and frequency division multiplexing. What techniques are used by a cable or DSL connection?
+			- Time Division:
+				- Taking a single piece of media and saying: "at one moment we use this flow, and at another moment we use another flow"
