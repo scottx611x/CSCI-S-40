@@ -816,3 +816,4 @@
 			- Cable and DSL connections use both!
 				- A cable modem divides your coax into multiple channels: (acutal TV cable, incoming bandwith, outgoing bandwith)
 				- A DSL connection divides your RJ-11 into multiple channels: (analog phone system, range for sending, range for receiving)
+				- If you looked at these wires at any given moment a different IP Datagram could be passing over it (Time Division)
