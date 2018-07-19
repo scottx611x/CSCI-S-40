@@ -811,4 +811,8 @@
 			- Time Division:
 				- Taking a single piece of media and saying: "at one moment we use this flow, and at another moment we use another flow"
 			- Frequency Division:
-				- 
+				- Dividing a piece of media using the Electro-Magnetic Spectrum into multiple channels
+				- Think 2.4Ghz & 5Ghz or Radio stations
+			- Cable and DSL connections use both!
+				- A cable modem divides you coax into multiple channels: (acutal TV cable, incoming bandwith, outgoing bandwith)
+				- A DSL connection
