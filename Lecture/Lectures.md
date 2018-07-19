@@ -777,3 +777,5 @@
 				- If any segments are lost in transmission they're sent again
 			- The combination of these facets allows for TCP: a sequenced unreliable protocol to operate over networks that are unsequenced and unreliable
 
+		- Describe what Ethernet, IP, and TCP do when they identify corrupted data
+			-
