@@ -774,4 +774,4 @@
 			- It will "feel" like a connection because TCP is adding in reliability
 				- Ensures that if any segments arrive out of order they get reordered
 				- If any segments are lost in transmission they're sent again
-			- The combination of these facets allows for TCP: a sequenced unreliable protocol to operate over networks
+			- The combination of these facets allows for TCP: a sequenced unreliable protocol to operate over networks that are unsequenced and unreliable
