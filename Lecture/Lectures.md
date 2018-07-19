@@ -804,6 +804,8 @@
 				- No protocol fields change
 			- Router:
 				- When an Ethernet frame hits a layer 3 router, depending on your point of view either the whole frame gets discarded (pulling off the frame on the left side and completely rebuilding it on the right side) 
-				- On the "right side" the frame will have different source/destination addresses, different Frame Check Sequence (would recalculate it)
-				- The IP Datagram in the Ethernet frame would remain the same
+				- On the "right side" the Ethernet frame will have different source/destination addresses, different Frame Check Sequence (would recalculate it)
+				- The IP Datagram in the Ethernet frame have a decrement happen to it's TTL field
+				- Because the TTL changes we have to recalculate the IP header checksum as well
+			-
 				- 
