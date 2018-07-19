@@ -769,4 +769,5 @@
 
 		- Describe the mechanism that TCP uses that makes transmitting layer 3 Datagrams "feel" like a connection.
 			- It is taking a block of data, and dividing said block into individual segments
-			- It is number those segments (starting with a pseudo-random # to avoid leaking knowledge of cryptographical importance)
+			- It is numbering those segments (starting with a pseudo-random # to avoid leaking knowledge of cryptographical importance)
+			- 
