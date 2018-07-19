@@ -772,3 +772,6 @@
 			- It is numbering those segments (starting with a pseudo-random # to avoid leaking knowledge of cryptographical importance)
 			- It send these segments on the wire
 			- It will "feel" like a connection because TCP is adding in reliability
+				- Ensures that if any segments arrive out of order they get reordered
+				- If any segments are lost in transmission they're sent again
+				- 
