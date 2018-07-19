@@ -781,4 +781,5 @@
 			- They all have header checksums of one variety or another
 			- Ethernet has the Frame Check Sequence that is stored at the end
 			- IP has an IP header checksum
-			- TCP has a header checksum based on a pseudo header.
+			- TCP has a header checksum based on a pseudo header
+			
