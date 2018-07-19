@@ -768,4 +768,4 @@
 			- <img width="380" alt="screen shot 2018-07-18 at 9 47 09 pm" src="https://user-images.githubusercontent.com/5629547/42916677-7844870e-8ad4-11e8-9e8e-9e16675e65d9.png">
 
 		- Describe the mechanism that TCP uses that makes transmitting layer 3 Datagrams "feel" like a connection.
-			- 
+			- It is taking a block of data, and dividing said block into
