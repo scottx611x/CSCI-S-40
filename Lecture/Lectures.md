@@ -9,9 +9,17 @@
   - [7](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-7)
   - [8](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-8)
   - [Section 3](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-3)
+  - [Midterm Exam Review](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#midterm-exam-review)
 
 
 ## Lecture 1
+
+- Key Topics:
+  - Bandwith
+  - Multiplexing
+  - Switching
+  - 5-Layer Model
+  - Encapsulation
 
 - Internet 2 (For research purposes)
 - NOC (Network operations Center)
@@ -55,6 +63,15 @@
 
 ## Lecture 2
 
+- Key Topics:
+  - SP3
+  - Packet:
+    - General terminology, think: Ethernet Frame, IP Datagram, UDP Datagram, TCP Segment
+  - Time Sequence Diagrams
+  - Flow Control
+  - Error Control:
+    - Error Detection vs. Error Correction
+
 - "Good news theres lots of standards, bda news theres lots of standards"
 - Mesh Network:
   - Separating the host from the network
@@ -75,6 +92,17 @@
 
 
 ## Lecture 3
+
+- Key Topics:
+  - Ethernet
+  - CSMA/CD:
+    - The development and improvement of Ethernet to maximize the effective bandwith of Ethernet in the "hubbed" era when there were many collisions
+  - Hubs vs. Switches
+  - Duplex
+  - Switching
+  - Switch Table
+    - What do switch tables do? 
+  - Broadcast/Collision (Domains)
 
 - 5 Layer Model is really important
 - LAN: A network that takes up some limited geography
@@ -116,6 +144,20 @@
 - Higher freq. means shorter transmission distance
 
 ## Lecture 4:
+
+- Key Topics:
+  - IPv4
+    - How does it work?
+  - ARP
+    - How does it connect IPv4 to Ethernet?
+  - ARP Table
+    - How is it gradually filled out as IPv4 is talking to Ethernet?
+  - Fragmentation
+    - How does it allow for IP to make more types of networks equal by allowing IP Datagrams to pass over networks that have a smaller maximum transmit size (MTU)?
+  - Classful (10. | 172.) / CIDR (Classless) 
+    - Should be able to do an example of "/" notation
+  - ICMP
+    - **Go back to lecture and review this!**
 
 - ARP takes advantage of the broadcasting nature of ethernet
 - Some home networking all in ones devices encapsulate a router, switch, modem and firewall
@@ -173,6 +215,14 @@
   - If it becomes widely adopted and well documented it can become an internet standard
 
 ## Lecture 5:
+- Key Topics:
+  - IP Routing
+  - Forwarding Table
+    - How is this table populated?
+    - ^^^ Know about RIP & BGP as they apply here
+  - RIP
+  - Count to Infinity Problem
+  - OSPF
 
 - Broadcasts do not pass router boundaries
 - Routers:
@@ -216,6 +266,17 @@
 ## Lecture 6:
 
 **YOU MISSED THE BEGINING OF THIS LECTURE**
+
+- Key Topics:
+  - VLANS
+    - 
+  - IPv6
+    - How is it different than IPv4 for:
+      - Addressing
+      - Fragmentation
+      - The changing of the headers
+    - How is it similar to IPv4 for?
+      - The changing of the headers
 
 - Should be able to complete a basic RIP based routing table
 - VLANS do at level 2 what previously would have had to been done at level 3
@@ -353,6 +414,16 @@
 
 ## Lecture 7:
 
+- Key Topics:
+  - UDP
+  - TCP 
+  - 3-Way Handshake
+  - Sequencing
+    - How a specific stream of bits is divided into multiple segments which are sent individually over the wire in different IP datagrams
+  - Congestion Control
+    - "Slow Start" is a common method
+  - Connection Table
+
 - Most if not all modern devices are running IPv6. But when you talk to something on the larger net, it will most likely be IPv4 due to lack of support from intermediary networks.
 - Is IPv6 gonna happen? Yes! 10% of traffic is currently!
 - Cellular networks had the foresight to be IPv6
@@ -424,6 +495,12 @@
 			- <img width="408" alt="screen shot 2018-07-15 at 11 34 20 am" src="https://user-images.githubusercontent.com/5629547/42735487-1156c8b2-8823-11e8-914a-50f7155c4fcc.png">
 
 ## Lecture 8:
+- Key Topics:
+  - Private Addresses
+  - NAT
+  - NAT Table
+    - 7-Tuple
+
 - Connection Management & NAT (Network Address Translation)
 - IXP (internat exchange points) a bunch of specialized locations where many ISPs get together and pass traffic around
 - UDP Pseudo header (What its there for, why its there, and how it works and prevents mis-delivery)
@@ -571,3 +648,59 @@
     - STUN/TURN/ICE: "Am I behind a NAT? If, so what kind?/Relaying/BEst path to communicate" 
 
 ## Midterm Exam Review:
+
+- Know detailed layout of ethernet header
+- Basic Theories, Technologies and Definitions:
+  - Protocol Layering
+  - Encapsulation
+  - Muxing
+  - Packet Switching
+  - Packet Loss
+
+- Tools:
+  - Time Sequence Diagrams
+  - State Diagrams
+  - 5-tuple/7-tuple
+
+- Protocol Framework:
+  - Protocol Functionality: Error Detection vs. Error Correction
+  - SP3
+
+- Architectures and Topology:
+  - Bus
+  - Point to Point
+  - Ring
+  - Star
+  - Mesh
+
+- Building Blocks:
+  - Switches
+  - Routers
+  - NAT
+
+- Protocols
+
+- Design Tradeoffs and performance issues
+
+- **At this point I'm going back to update my notes from prior lectures as to not duplicate useful info.**
+
+- Types of problems on the midterm:
+  - Math Problems:
+    - Bandwith Calculation from HW1
+    - Basic IP Subnetting and Binary Arithmetic
+    - Example Questions:
+      - How many hosts in a `/24`, `/25`, `/23`?
+        - 32 total bits - the host bits ( in the case of 24 -> 32 - 24 (network bits) = 8 (host bits))
+          - 2^8 = 256
+          - 256 - 2 (Network address (.0) & Broadcast address (.255)) = **254!**
+        - `/23` has 510 potential host for comparison
+      - Are `200.5.67.55/24` and `200.5.68.65` in the same network?
+        - YES! <img width="334" alt="screen shot 2018-07-18 at 8 23 00 pm" src="https://user-images.githubusercontent.com/5629547/42914449-6f56de0a-8ac8-11e8-8a16-9b1d7ef2d2d0.png">
+      - Same question, but `/23`?
+        - "Break" is in the third octet 
+        - <img width="308" alt="screen shot 2018-07-18 at 8 25 02 pm" src="https://user-images.githubusercontent.com/5629547/42914513-bad260a2-8ac8-11e8-9a8c-8337ab4b4161.png">
+        - Nope! Green boxes don't match! (7 boxed from that octet because 16 (first two octets) + 7 = 23) 
+        - <img width="350" alt="screen shot 2018-07-18 at 8 28 47 pm" src="https://user-images.githubusercontent.com/5629547/42914630-5803159c-8ac9-11e8-8c32-3b7c71caa648.png">
+
+
+
