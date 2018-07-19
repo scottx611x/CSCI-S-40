@@ -789,3 +789,6 @@
 
 		- Token ring networks (an older form of LAN) and Ethernet networks have different maximum frame sizes (approximately 1,500 vs. 4,500 bytes). Given that Ethernet switches can be used to interconnect these two different types of networks, should these switches implement fragmentation and reassembly? Why or why not?
 			- No way! You should not be implementing fragmentation and reassembly because its supported as part of the IP protocol at layer 3
+
+		- Describe what happens to an ethernet frame when it traverses a wiring hub, an ethernet switch and a router. In each case, describe what protocol fields (if any) change at both layer 2 and layer 3.
+			- 
