@@ -778,4 +778,6 @@
 			- The combination of these facets allows for TCP: a sequenced unreliable protocol to operate over networks that are unsequenced and unreliable
 
 		- Describe what Ethernet, IP, and TCP do when they identify corrupted data
-			-
+			- They all have header checksums of one variety or another
+			- Ethernet has the Frame Check Sequence that is stored at the end
+			- 
