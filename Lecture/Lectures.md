@@ -694,6 +694,7 @@
           - 2^8 = 256
           - 256 - 2 (Network address (.0) & Broadcast address (.255)) = **254!**
         - `/23` has 510 potential host for comparison
+      
       - Are `200.5.67.55/24` and `200.5.68.65` in the same network?
         - YES! <img width="334" alt="screen shot 2018-07-18 at 8 23 00 pm" src="https://user-images.githubusercontent.com/5629547/42914449-6f56de0a-8ac8-11e8-8a16-9b1d7ef2d2d0.png">
       - Same question, but `/23`?
@@ -701,6 +702,7 @@
         - <img width="308" alt="screen shot 2018-07-18 at 8 25 02 pm" src="https://user-images.githubusercontent.com/5629547/42914513-bad260a2-8ac8-11e8-9a8c-8337ab4b4161.png">
         - Nope! Green boxes don't match! (7 boxed from that octet because 16 (first two octets) + 7 = 23) 
         - <img width="350" alt="screen shot 2018-07-18 at 8 28 47 pm" src="https://user-images.githubusercontent.com/5629547/42914630-5803159c-8ac9-11e8-8c32-3b7c71caa648.png">
+      
       - Lots o' tables:
       	- How is each populated?
       	- What protocols are used by each?
@@ -722,9 +724,24 @@
       	- NAT Table
       		- Describes the data that is passing over a machine
       		- Only the NAT device can know all 7 fields
+      
       - You run a webserver (ports 80 and 443) and recieve connections from hosts A, B and C. A is connecting twice. Draw one possible connection table to describe this.
-      	- 
-      	
-      -	
+      	- <img width="875" alt="screen shot 2018-07-15 at 8 41 40 pm" src="https://user-images.githubusercontent.com/5629547/42740043-82b2c2d0-886f-11e8-9309-fd83ac626d56.png">
+      
+      -	Explain how a link level protocol that uses a window size of 127 could be more efficient than a protocol that uses a window size of 7. Include in your answer how the link's end-to-end delay and the link's bandwith affect the link's performance.
+      	- The larger the window size, the more effective bandwith you can consume because thereis more data thet can be on the wire.
+      	- The 127 one is more efficient because up to 127 "blocks"/frames could be sent before an acknowledgement (ACK) has to be sent.
+      	- A link with a long delay (high latency) will perform very badly with a small window size.
+      	- A large(r) window size could effectively take up the entire link's bandwith
+      
+      - Is it correct to say that one Ethernet frame on the wire (1500 bytes in length) can carry only one encapsulated IP datagram? HOw about the reverse?
+      	- The former is TRUE! The Ethernet protocol only allows for the encapsulation of a single IP datagram.
+      	- The Reverse: You can divide a single IP datagram across multiple Ethernet frames through the use of fragmentation.
+
+      - Know Your Core Protocols:
+      	- Ethernet -> Layer 2
+      	- IPv4 -> Layer 3
+      	- TCP -> Layer 4
+      	- UDP -> Layer 4
 
 
