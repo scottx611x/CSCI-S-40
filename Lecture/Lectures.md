@@ -689,59 +689,83 @@
     - Bandwith Calculation from HW1
     - Basic IP Subnetting and Binary Arithmetic
     - Example Questions:
-      - How many hosts in a `/24`, `/25`, `/23`?
-        - 32 total bits - the host bits ( in the case of 24 -> 32 - 24 (network bits) = 8 (host bits))
-          - 2^8 = 256
-          - 256 - 2 (Network address (.0) & Broadcast address (.255)) = **254!**
-        - `/23` has 510 potential host for comparison
-      
-      - Are `200.5.67.55/24` and `200.5.68.65` in the same network?
-        - YES! <img width="334" alt="screen shot 2018-07-18 at 8 23 00 pm" src="https://user-images.githubusercontent.com/5629547/42914449-6f56de0a-8ac8-11e8-8a16-9b1d7ef2d2d0.png">
-      - Same question, but `/23`?
-        - "Break" is in the third octet 
-        - <img width="308" alt="screen shot 2018-07-18 at 8 25 02 pm" src="https://user-images.githubusercontent.com/5629547/42914513-bad260a2-8ac8-11e8-9a8c-8337ab4b4161.png">
-        - Nope! Green boxes don't match! (7 boxed from that octet because 16 (first two octets) + 7 = 23) 
-        - <img width="350" alt="screen shot 2018-07-18 at 8 28 47 pm" src="https://user-images.githubusercontent.com/5629547/42914630-5803159c-8ac9-11e8-8c32-3b7c71caa648.png">
-      
-      - Lots o' tables:
-      	- How is each populated?
-      	- What protocols are used by each?
-      	- Switch Table
-      		- Listens to the Ethernet frames that are going over the wire, and lloking at the source address fields of each frame.
-      		- "Do I know that this source address comes from this port? No? Cool, I'll add those to my table."
-      	- ARP Table
-      		- Used by IP
-      		- Map IP to Ethernet (MAC) addresses
-      		- Populated by sending an ARP message (broadcast) 
-      		- Will then get an ARP Reply with the destination IP's Ethernet (MAC) address
-      	- Can "zero" these ^^^ two tables at any time and the software will rebuild them. Kind of Transient
-      	- Routing/Forwarding Table:
-      		- Table on a router
-      		- Populated by: RIP, OSPF, or BGP
-      	- Connection Table
-      		- Describes the data that is passing over a machine
-      		- Each host has one
-      	- NAT Table
-      		- Describes the data that is passing over a machine
-      		- Only the NAT device can know all 7 fields
-      
-      - You run a webserver (ports 80 and 443) and recieve connections from hosts A, B and C. A is connecting twice. Draw one possible connection table to describe this.
-      	- <img width="875" alt="screen shot 2018-07-15 at 8 41 40 pm" src="https://user-images.githubusercontent.com/5629547/42740043-82b2c2d0-886f-11e8-9309-fd83ac626d56.png">
-      
-      -	Explain how a link level protocol that uses a window size of 127 could be more efficient than a protocol that uses a window size of 7. Include in your answer how the link's end-to-end delay and the link's bandwith affect the link's performance.
-      	- The larger the window size, the more effective bandwith you can consume because thereis more data thet can be on the wire.
-      	- The 127 one is more efficient because up to 127 "blocks"/frames could be sent before an acknowledgement (ACK) has to be sent.
-      	- A link with a long delay (high latency) will perform very badly with a small window size.
-      	- A large(r) window size could effectively take up the entire link's bandwith
-      
-      - Is it correct to say that one Ethernet frame on the wire (1500 bytes in length) can carry only one encapsulated IP datagram? HOw about the reverse?
-      	- The former is TRUE! The Ethernet protocol only allows for the encapsulation of a single IP datagram.
-      	- The Reverse: You can divide a single IP datagram across multiple Ethernet frames through the use of fragmentation.
+    	- How many hosts in a `/24`, `/25`, `/23`?
+		- 32 total bits - the host bits ( in the case of 24 -> 32 - 24 (network bits) = 8 (host bits))
+		  - 2^8 = 256
+		  - 256 - 2 (Network address (.0) & Broadcast address (.255)) = **254!**
+		- `/23` has 510 potential host for comparison
 
-      - Know Your Core Protocols:
-      	- Ethernet -> Layer 2
-      	- IPv4 -> Layer 3
-      	- TCP -> Layer 4
-      	- UDP -> Layer 4
+		- Are `200.5.67.55/24` and `200.5.68.65` in the same network?
+		- YES! <img width="334" alt="screen shot 2018-07-18 at 8 23 00 pm" src="https://user-images.githubusercontent.com/5629547/42914449-6f56de0a-8ac8-11e8-8a16-9b1d7ef2d2d0.png">
+		- Same question, but `/23`?
+		- "Break" is in the third octet 
+		- <img width="308" alt="screen shot 2018-07-18 at 8 25 02 pm" src="https://user-images.githubusercontent.com/5629547/42914513-bad260a2-8ac8-11e8-9a8c-8337ab4b4161.png">
+		- Nope! Green boxes don't match! (7 boxed from that octet because 16 (first two octets) + 7 = 23) 
+		- <img width="350" alt="screen shot 2018-07-18 at 8 28 47 pm" src="https://user-images.githubusercontent.com/5629547/42914630-5803159c-8ac9-11e8-8c32-3b7c71caa648.png">
 
+		- Lots o' tables:
+			- How is each populated?
+			- What protocols are used by each?
+			- Switch Table
+				- Listens to the Ethernet frames that are going over the wire, and lloking at the source address fields of each frame.
+				- "Do I know that this source address comes from this port? No? Cool, I'll add those to my table."
+			- ARP Table
+				- Used by IP
+				- Map IP to Ethernet (MAC) addresses
+				- Populated by sending an ARP message (broadcast) 
+				- Will then get an ARP Reply with the destination IP's Ethernet (MAC) address
+			- Can "zero" these ^^^ two tables at any time and the software will rebuild them. Kind of Transient
+			- Routing/Forwarding Table:
+				- Table on a router
+				- Populated by: RIP, OSPF, or BGP
+			- Connection Table
+				- Describes the data that is passing over a machine
+				- Each host has one
+			- NAT Table
+				- Describes the data that is passing over a machine
+				- Only the NAT device can know all 7 fields
 
+		- You run a webserver (ports 80 and 443) and recieve connections from hosts A, B and C. A is connecting twice. Draw one possible connection table to describe this.
+			- <img width="875" alt="screen shot 2018-07-15 at 8 41 40 pm" src="https://user-images.githubusercontent.com/5629547/42740043-82b2c2d0-886f-11e8-9309-fd83ac626d56.png">
+
+		- Explain how a link level protocol that uses a window size of 127 could be more efficient than a protocol that uses a window size of 7. Include in your answer how the link's end-to-end delay and the link's bandwith affect the link's performance.
+			- The larger the window size, the more effective bandwith you can consume because thereis more data thet can be on the wire.
+			- The 127 one is more efficient because up to 127 "blocks"/frames could be sent before an acknowledgement (ACK) has to be sent.
+			- A link with a long delay (high latency) will perform very badly with a small window size.
+			- A large(r) window size could effectively take up the entire link's bandwith
+
+		- Is it correct to say that one Ethernet frame on the wire (1500 bytes in length) can carry only one encapsulated IP datagram? HOw about the reverse?
+			- The former is TRUE! The Ethernet protocol only allows for the encapsulation of a single IP datagram.
+			- The Reverse: You can divide a single IP datagram across multiple Ethernet frames through the use of fragmentation.
+
+		- Know Your Core Protocols:
+			- Ethernet -> Layer 2
+				- <img width="764" alt="screen shot 2018-07-18 at 9 19 16 pm" src="https://user-images.githubusercontent.com/5629547/42915853-457c1462-8ad0-11e8-8cc9-fa324942bb62.png">
+				- Frame Check Sequence (Basic Checksum) at the end!!!
+				- Preamble doesn't matter the much
+			- IPv4 -> Layer 3
+				- <img width="483" alt="screen shot 2018-07-18 at 9 22 16 pm" src="https://user-images.githubusercontent.com/5629547/42915945-ae166a72-8ad0-11e8-8348-2cea4e82d3de.png">
+			- TCP -> Layer 4
+				- <img width="778" alt="screen shot 2018-07-18 at 9 22 51 pm" src="https://user-images.githubusercontent.com/5629547/42915960-c140b18e-8ad0-11e8-8989-c65e23da047d.png">
+				- SYN & ACK flags really matter!
+			- UDP -> Layer 4
+				- 
+		- You Have a computer at IP address `10.5.0.10/24` with a default route of 10.5.0.1. Describe what happens when you send a UDP message to `10.6.0.20`. What tables are used on the host?
+			- The host's (`10.5.0.10/24`) routing table will at least have entries fro local delivery (10.5.0.0/24) and the default route mentioned (10.5.0.1)
+			- We create an UDP Datagram (layer-4) encapsulated within an IP Datagram (layer-3):
+				- <img width="531" alt="screen shot 2018-07-18 at 9 32 01 pm" src="https://user-images.githubusercontent.com/5629547/42916209-07b23b32-8ad2-11e8-822a-d67adf43b090.png">
+			- Before anything goes down at layer two, we first consult the afforementioned routing table
+				- "Is `10.6.0.20` in my subnet?" -> No! So lets use the default route
+			- Host now consults its ARP table... and doesn't see anything there
+				- Host sends out an ARP message: "Who has 10.5.0.1?" 
+				- Router responds with ARP Reply containing MAC address of its network interface.
+			- With this new information we can now move on to layer 2 and construct an Ethernet Frame!
+				-  <img width="269" alt="screen shot 2018-07-18 at 9 37 29 pm" src="https://user-images.githubusercontent.com/5629547/42916356-cdbe2f2a-8ad2-11e8-8e6a-bf59d0c0dbff.png">
+
+		- Describe two differences between an IPv4 and an IPv6 header:
+			- Source/destination address sizes
+			- TTL -> Hop limit
+			- <img width="380" alt="screen shot 2018-07-18 at 9 47 09 pm" src="https://user-images.githubusercontent.com/5629547/42916677-7844870e-8ad4-11e8-9e8e-9e16675e65d9.png">
+
+		- Describe the mechanism that TCP uses that makes transmitting layer 3 Datagrams "feel" like a connection.
+			- 
