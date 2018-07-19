@@ -803,4 +803,4 @@
 				- Or "I'm gonna push this out every port except for the port it came in on"
 				- No protocol fields change
 			- Router:
-				- 
+				- When an Ethernet frame hits a layer 3 router.
