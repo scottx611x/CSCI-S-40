@@ -701,6 +701,30 @@
         - <img width="308" alt="screen shot 2018-07-18 at 8 25 02 pm" src="https://user-images.githubusercontent.com/5629547/42914513-bad260a2-8ac8-11e8-9a8c-8337ab4b4161.png">
         - Nope! Green boxes don't match! (7 boxed from that octet because 16 (first two octets) + 7 = 23) 
         - <img width="350" alt="screen shot 2018-07-18 at 8 28 47 pm" src="https://user-images.githubusercontent.com/5629547/42914630-5803159c-8ac9-11e8-8c32-3b7c71caa648.png">
-
+      - Lots o' tables:
+      	- How is each populated?
+      	- What protocols are used by each?
+      	- Switch Table
+      		- Listens to the Ethernet frames that are going over the wire, and lloking at the source address fields of each frame.
+      		- "Do I know that this source address comes from this port? No? Cool, I'll add those to my table."
+      	- ARP Table
+      		- Used by IP
+      		- Map IP to Ethernet (MAC) addresses
+      		- Populated by sending an ARP message (broadcast) 
+      		- Will then get an ARP Reply with the destination IP's Ethernet (MAC) address
+      	- Can "zero" these ^^^ two tables at any time and the software will rebuild them. Kind of Transient
+      	- Routing/Forwarding Table:
+      		- Table on a router
+      		- Populated by: RIP, OSPF, or BGP
+      	- Connection Table
+      		- Describes the data that is passing over a machine
+      		- Each host has one
+      	- NAT Table
+      		- Describes the data that is passing over a machine
+      		- Only the NAT device can know all 7 fields
+      - You run a webserver (ports 80 and 443) and recieve connections from hosts A, B and C. A is connecting twice. Draw one possible connection table to describe this.
+      	- 
+      	
+      -	
 
 
