@@ -761,6 +761,7 @@
 				- Router responds with ARP Reply containing MAC address of its network interface.
 			- With this new information we can now move on to layer 2 and construct an Ethernet Frame!
 				-  <img width="269" alt="screen shot 2018-07-18 at 9 37 29 pm" src="https://user-images.githubusercontent.com/5629547/42916356-cdbe2f2a-8ad2-11e8-8e6a-bf59d0c0dbff.png">
+			- Include the connection table of the host as well!
 
 		- Describe two differences between an IPv4 and an IPv6 header:
 			- Source/destination address sizes
@@ -775,3 +776,4 @@
 				- Ensures that if any segments arrive out of order they get reordered
 				- If any segments are lost in transmission they're sent again
 			- The combination of these facets allows for TCP: a sequenced unreliable protocol to operate over networks that are unsequenced and unreliable
+
