@@ -810,3 +810,5 @@
 		- Define time-division multiplexing and frequency division multiplexing. What techniques are used by a cable or DSL connection?
 			- Time Division:
 				- Taking a single piece of media and saying: "at one moment we use this flow, and at another moment we use another flow"
+			- Frequency Division:
+				- 
