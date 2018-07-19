@@ -823,4 +823,6 @@
 	- Questions from the class:
 		- "I know that routers have ARP tables. Do hosts and switches have ARP tables or must a packet with an IP destination be sent to the router?"
 			- Every device on a wired IP network using Ethernet has an ARP table.
-			- Two machines on the same wired network do not have to talk to the router to communicate because they are on the same subnet. (Machines like this will be in eachothers ARP tables)
+			- Two machines on the same wired network do not have to talk to the router to communicate because they are on the same subnet. (Machines like this will be in eachothers ARP tables (after they've spoken))
+			- Wireless ethernet has no guarantee since the ranges may not overlap, so all communication has to go through the wireless router
+	- 
