@@ -814,5 +814,5 @@
 				- Dividing a piece of media using the Electro-Magnetic Spectrum into multiple channels
 				- Think 2.4Ghz & 5Ghz or Radio stations
 			- Cable and DSL connections use both!
-				- A cable modem divides you coax into multiple channels: (acutal TV cable, incoming bandwith, outgoing bandwith)
-				- A DSL connection
+				- A cable modem divides your coax into multiple channels: (acutal TV cable, incoming bandwith, outgoing bandwith)
+				- A DSL connection divides your RJ-11 into multiple channels: (analog phone system, range for sending, range for receiving)
