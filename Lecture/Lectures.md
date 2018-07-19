@@ -786,3 +786,4 @@
 			- Ethernet and IP will discard the data if error is detected
 			- Ethernet and TCP will notice an error anywhere in the frame/segment since their checksums on on the frame/segment in its entirety
 			- TCP will also discard the data, but it will also enable its error correction techniques to ensure that said data is retransmitted
+			- 
