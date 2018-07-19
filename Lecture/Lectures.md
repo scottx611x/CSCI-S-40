@@ -820,4 +820,7 @@
 				- If you looked at these wires at any given moment a different IP Datagram could be passing over it (Time Division)
 		
 		- Describe your current internet connection briefly. Are you behind a NAT? Do you have a public or private IP address? Describe how you came to these conclusions.
-		
+	- Questions from the class:
+		- "I know that routers have ARP tables. Do hosts and switches have ARP tables or must a packet with an IP destination be sent to the router?"
+			- Every device on a wired IP network using Ethernet has an ARP table.
+			- Two machines on the same wired network do not have to talk to the router to communicate because they are on the same subnet. (Machines like this will be in eachothers ARP tables)
