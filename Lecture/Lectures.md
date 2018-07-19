@@ -791,4 +791,7 @@
 			- No way! You should not be implementing fragmentation and reassembly because its supported as part of the IP protocol at layer 3
 
 		- Describe what happens to an ethernet frame when it traverses a wiring hub, an ethernet switch and a router. In each case, describe what protocol fields (if any) change at both layer 2 and layer 3.
-			- 
+			- Hub:
+				- When a frame traverses a hub it gets "sucked in" and "spit out"
+				- Does not speak Ethernet or check Ethernet Frame Check Sequences
+				- Very simple piece of hardware
