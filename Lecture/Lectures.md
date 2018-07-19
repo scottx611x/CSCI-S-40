@@ -787,4 +787,5 @@
 			- Ethernet and TCP will notice an error anywhere in the frame/segment since their checksums on on the frame/segment in its entirety
 			- TCP will also discard the data, but it will also enable its error correction techniques to ensure that said data is retransmitted
 
-		- 
+		- Token ring networks (an older form of LAN) and Ethernet networks have different maximum frame sizes (approximately 1,500 vs. 4,500 bytes). Given that Ethernet switches can be used to interconnect these two different types of networks, should these switches implement fragmentation and reassembly? Why or why not?
+			- No way! You should not be implementing fragmentation and reassembly because its supported as part of the IP protocol at layer 3
