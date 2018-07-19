@@ -803,4 +803,7 @@
 				- Or "I'm gonna push this out every port except for the port it came in on"
 				- No protocol fields change
 			- Router:
-				- When an Ethernet frame hits a layer 3 router.
+				- When an Ethernet frame hits a layer 3 router, depending on your point of view either the whole frame gets discarded (pulling off the frame on the left side and completely rebuilding it on the right side) 
+				- On the "right side" the frame will have different source/destination addresses, different Frame Check Sequence (would recalculate it)
+				- The IP Datagram in the Ethernet frame would remain the same
+				- 
