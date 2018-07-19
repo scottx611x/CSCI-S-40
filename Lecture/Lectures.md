@@ -801,4 +801,6 @@
 				- A switch will check the Ethernet Frame check sequence and do error detection by discarding frames
 				- It could consult its stich table and say "I'm gonna send this frame out port X"
 				- Or "I'm gonna push this out every port except for the port it came in on"
+				- No protocol fields change
+			- Router:
 				- 
