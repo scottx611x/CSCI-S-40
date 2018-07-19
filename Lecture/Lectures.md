@@ -795,3 +795,8 @@
 				- When a frame traverses a hub it gets "sucked in" and "spit out"
 				- Does not speak Ethernet or check Ethernet Frame Check Sequences
 				- Very simple piece of hardware
+				- No protocol fields change
+			- Switch:
+				- Still gets "sucked in" and "spit out"
+				- A switch will check the Ethernet Frame check sequence and do error detection by discarding frames
+				- 
