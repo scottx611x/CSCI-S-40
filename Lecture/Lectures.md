@@ -903,10 +903,11 @@
 - DNS TTL: How long something will be cached at the local resolver
 
 - SMTP (Electronic Mail):
+  - RFC 5321 & 5322
   - A specific protocol for the delivery of email messages
   - There is also a set of protocols for formatting those email messages
   - Internet came after email
-  - MTA (Mail transfer agent) Email is sent between MTAs using SMTP
+  - MTA (Mail transfer agent) Email is sent between MTAs using SMTP 
   - 3 parts:
     - Envelope
     - Headers
