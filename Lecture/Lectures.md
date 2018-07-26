@@ -874,3 +874,4 @@
     - `dig yale.edu mx` Yale has silly tea names for subdomains of their mail servers
   - Address Resolution:
     - It seems simple, but it isn't
+      - <img width="715" alt="screen shot 2018-07-25 at 10 14 16 pm" src="https://user-images.githubusercontent.com/5629547/43237509-1b50da00-9058-11e8-984b-eb3014c84685.png">
