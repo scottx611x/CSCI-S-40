@@ -871,4 +871,6 @@
   - DNS helps with loadsharing
   - There are certain times where we don't want to have to know the "name" of the machine we want to talk to
     - MX records! We want the Mail Server for Harvard.edu we can get back a name that maps to an ip without knowing the full "name" of that machine
-    - `dig yale.edu mx` Yale has silly tes names for subdomains of their mail servers
+    - `dig yale.edu mx` Yale has silly tea names for subdomains of their mail servers
+  - Address Resolution:
+    - It seems simple, but it isn't
