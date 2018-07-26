@@ -901,7 +901,12 @@
 - DNS Address Resolution
   - <img width="803" alt="screen shot 2018-07-26 at 7 47 52 pm" src="https://user-images.githubusercontent.com/5629547/43294345-d0c0701c-910c-11e8-8855-8663a455de28.png">
 - DNS TTL: How long something will be cached at the local resolver
-  
+
+- SMTP (Electronic Mail):
+  - A specific protocol for the delivery of email messages
+  - There is also a set of protocols for formatting those email messages
+  - Internet came after email
+  -  
 
 
 
