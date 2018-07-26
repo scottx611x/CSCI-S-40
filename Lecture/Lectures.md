@@ -865,4 +865,5 @@
   - DNS Servers map between domain names and IP addresses
   - DNSSEC is an update on DNS that provides security and authentication
   - `dig` will tell you what your local DNS knwos about a given domain
+  - AAAA record is for an IPv6 Address (4 times larger thta IPv4, a sick joke hahaha)
   - 
