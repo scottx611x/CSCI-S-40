@@ -906,7 +906,7 @@
   - A specific protocol for the delivery of email messages
   - There is also a set of protocols for formatting those email messages
   - Internet came after email
-  - MTA (Mail transfer agent) Email is sent between MTAs
+  - MTA (Mail transfer agent) Email is sent between MTAs using SMTP
   - 3 parts:
     - Envelope
     - Headers
