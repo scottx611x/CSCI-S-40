@@ -864,3 +864,5 @@
   - 1500 TLDs now
   - DNS Servers map between domain names and IP addresses
   - DNSSEC is an update on DNS that provides security and authentication
+  - `dig` will tell you what your local DNS knwos about a given domain
+  - 
