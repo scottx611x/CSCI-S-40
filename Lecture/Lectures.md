@@ -887,3 +887,7 @@
     - www.root-servers.org
     - 13 named root servers but hundreds of machines
     - Root Zone File
+    - IANA vs ICANN:
+      - <img width="711" alt="screen shot 2018-07-25 at 10 38 51 pm" src="https://user-images.githubusercontent.com/5629547/43238281-89200832-905b-11e8-8642-461bfbbc1857.png">
+    - ICANN expanded TLDs in 2000 
+    - 
