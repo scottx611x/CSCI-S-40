@@ -866,4 +866,6 @@
   - DNSSEC is an update on DNS that provides security and authentication
   - `dig` will tell you what your local DNS knwos about a given domain
   - AAAA record is for an IPv6 Address (4 times larger thta IPv4, a sick joke hahaha)
+  - DNS resource records:
+    - <img width="610" alt="screen shot 2018-07-25 at 9 57 33 pm" src="https://user-images.githubusercontent.com/5629547/43236998-c27a6df8-9055-11e8-9cea-c9b9ca18d14b.png">
   - 
