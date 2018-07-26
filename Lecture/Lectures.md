@@ -911,7 +911,8 @@
     - Envelope
     - Headers
     - Body
-  - 
+  - The headers and the bosy make up the actual email message
+  -  
 
 
 
