@@ -11,6 +11,8 @@
   - [Section 3](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-3)
   - [Midterm Exam Review](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#midterm-exam-review)
   - [9](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-9)
+  - [10](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-10)
+  - [11](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-11)
 
 
 
@@ -892,4 +894,14 @@
     - ICANN expanded TLDs in 2000 
     - gTLD in 2008
       - .me .cool etc.
-     
+
+## Lecture 10:
+
+- DNS Zones 
+- DNS Address Resolution
+  - <img width="803" alt="screen shot 2018-07-26 at 7 47 52 pm" src="https://user-images.githubusercontent.com/5629547/43294345-d0c0701c-910c-11e8-8855-8663a455de28.png">
+-   
+
+
+
+## Lecture 11:
