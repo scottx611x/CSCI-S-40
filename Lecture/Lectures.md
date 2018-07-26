@@ -879,7 +879,8 @@
     - A DNS server is called a resolver
     - Uses TCP & UDP for different things
     - In order to answer a query for a host outside of its own zone, it must ask other DNS servers for that information
-    - <img width="778" alt="screen shot 2018-07-25 at 10 22 30 pm" src="https://user-images.githubusercontent.com/5629547/43237756-40e19722-9059-11e8-87b9-b41579790109.png">
+      - <img width="778" alt="screen shot 2018-07-25 at 10 22 30 pm" src="https://user-images.githubusercontent.com/5629547/43237756-40e19722-9059-11e8-87b9-b41579790109.png">
+      - `dig +norec www.csail.mit.edu +trace`
     - Root servers only know about TLD IPs
     - TLDs only know about the next level down in their namespace
     - An organiztaion's DNS servers must know of at least one root-level domain to begin using DNS
