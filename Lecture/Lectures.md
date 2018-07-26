@@ -869,4 +869,5 @@
   - DNS resource records:
     - <img width="610" alt="screen shot 2018-07-25 at 9 57 33 pm" src="https://user-images.githubusercontent.com/5629547/43236998-c27a6df8-9055-11e8-9cea-c9b9ca18d14b.png">
   - DNS helps with loadsharing
-  - 
+  - There are certain times where we don't want to have to know the "name" of the machine we want to talk to
+    - 
