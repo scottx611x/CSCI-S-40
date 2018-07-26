@@ -10,6 +10,8 @@
   - [8](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-8)
   - [Section 3](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-3)
   - [Midterm Exam Review](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#midterm-exam-review)
+  - [9](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-9)
+
 
 
 ## Lecture 1
@@ -827,4 +829,38 @@
 			- Wireless ethernet has no guarantee since the ranges may not overlap, so all communication has to go through the wireless router
 			- Switches don't have ARP tables
 
-	-  
+## Lecture 9:
+
+- DNS
+- Application Layer Protocols
+- EMAIL Protocols (SMTP) and Architecture
+
+
+- Connection management:
+  - Network Security & Firewalling
+  - 5-tuple
+  - Connection Management Table **Final***
+
+- NAT:
+  - 7-tuple
+    - Map Source IP/Ports
+    - The Muxing is done on the source port number
+      -<img width="744" alt="screen shot 2018-07-25 at 9 17 35 pm" src="https://user-images.githubusercontent.com/5629547/43235905-2f2e5d2a-9050-11e8-9b00-946e28075682.png">
+    - If a NAT box dies all connections will be broken
+    - If a router crashes, its not gonna reset any state information
+
+- STUN/TURN/ICE:
+  - Know what these do (Lecture 9 7:05)
+
+- DNS:
+  - Application Layer Protocol
+  - Rudimentry form initially (Emails and IPs mailed out in book)
+  - Hierarchical name space to preserve naming uniqueness
+  - Decentralized Distributed Database to hold all records
+  - <img width="690" alt="screen shot 2018-07-25 at 9 34 32 pm" src="https://user-images.githubusercontent.com/5629547/43236335-93452936-9052-11e8-9e49-c738f8816096.png">
+  - <img width="697" alt="screen shot 2018-07-25 at 9 35 18 pm" src="https://user-images.githubusercontent.com/5629547/43236347-a8c8fb48-9052-11e8-9a92-c62674ce02e3.png">
+  - TLD (Top-Level Domain)
+  - Each branch in the above diagram is a "zone" a.k.a A unique portion of the namespace
+  - 1500 TLDs now
+  - DNS Servers map between domain names and IP addresses
+  - DNSSEC is an update on DNS that provides security and authentication
