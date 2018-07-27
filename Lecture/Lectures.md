@@ -945,6 +945,7 @@
 
 - Network And System Security:
   - Hard area of work to understand
+  - Security has to be considered everywhere in the network!
   - 
 
 
