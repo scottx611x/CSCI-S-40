@@ -993,3 +993,5 @@
 - Understand the envelope and the content (body & headers)
 - Understand POP3 and IMAP
 - Symmetric vs Asymmetric cryptography
+  - Symmetric is much faster
+  - 
