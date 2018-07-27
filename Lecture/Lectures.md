@@ -979,7 +979,8 @@
       - Key pairs, one public one private
       - Data encrypted by one key must be decrypted by the other key
       - Diffie Hellman & RSA
-  - 
+    - Key length determines the strength of the encryption
+    - 
 
 
 
