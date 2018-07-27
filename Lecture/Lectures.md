@@ -994,4 +994,6 @@
 - Understand POP3 and IMAP
 - Symmetric vs Asymmetric cryptography
   - Symmetric is much faster
-  - 
+- AES:
+  - The algorithm is not the secret! The key is!
+- 
