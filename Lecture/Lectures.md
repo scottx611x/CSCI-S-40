@@ -1047,3 +1047,6 @@
   - <img width="773" alt="screen shot 2018-07-27 at 12 46 12 am" src="https://user-images.githubusercontent.com/5629547/43302086-83192f96-9136-11e8-9bfb-e83f1568e41e.png">
   - Recommended to have 2 firewalls: an inner and an outer and that they come from diferent vendors
   - The hope id that any security holes on one vendor would be addressed before the 2nd one is breached
+  - Firewall with ALG (application layer gateway):
+    - <img width="770" alt="screen shot 2018-07-27 at 12 48 47 am" src="https://user-images.githubusercontent.com/5629547/43302149-e5a5a72a-9136-11e8-8b8d-70104ad8bef4.png">
+  - 
