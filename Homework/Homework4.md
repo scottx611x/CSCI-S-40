@@ -20,6 +20,7 @@ standard PKCS #1's [Client Key Exchange Message](https://tools.ietf.org/html/rfc
 
 #### 2.) 
 **The following questions all relate to email. Answer each question in detail.**
+
 **a). Explain the structure of the envelope, the header and the body of an SMTP message.**
 - The envelope in this case is the encapsulation mechanism that allows email traffic to be sent between MTAs (Mail transfer Agents). It is important to appreciate that the envelope isn't responsible for determining how the message is sent. The actual send done between MTAs can be done in many ways (HTTP, SMTP, a Vendor software). The header has lots of useful information. This information includes things such as: From, Subject, Date, To, Received etc. There are many headers used nowadays, but as a whole they describe the lifecycle of the piece of mail being transmitted. The body is simply the more human readable message that you want your receiver to interpret. 
 
@@ -36,7 +37,7 @@ standard PKCS #1's [Client Key Exchange Message](https://tools.ietf.org/html/rfc
 
 
 #### 3.)
-** Web browsers have a configuration field for a Proxy Server. Describe the technical
+**Web browsers have a configuration field for a Proxy Server. Describe the technical
 operation of a proxy server and give at least two technical reasons why a company would implement a
 proxy server on their network.**
 
@@ -55,17 +56,18 @@ DNS server it is configured to use, and the multiple intervening DNS servers, in
 address for the machine at Yale.**
 
 First off, My computer must be configured to use DNS i.e. talk to some resolver (DNS Server). This can be done manually or automatically with DHCP. The configuration will end up pointing to at least one DNS root server (we'll see why below). When my client makes the request to www.yale.edu my resolver has no clue initially what to do so it needs to ask for some help. Since the DNS namespace is: hierarchical, a decentralized distributed "database", and our resolver has an idea of at least one server that knows about the "root namespace" our resolver can perform lookups in the following manner:
-	- Ask root server: "Who knows about **`.edu`**?" and gets a reply: `EDU DNS SERVER A`
-	- My resolver then asks `EDU DNS SERVER A`: "Who knows about the **`yale`** zone?" and gets a reply `YALE.EDU DNS SERVER X`
-	- My resolver then asks `YALE.EDU DNS SERVER X`: "What IP is the **`www`** host?" and gets an IP in reply `X.X.X.123`
-	- My resolver then discloses the IP of `www.yale.edu` to my computer then allowing it to do the usual HTTP GET to: `X.X.X.123`
-	- Its crucial to appreciate that my computer **ONLY** talks to the resolver its configured to use. Its that resolvers responsibility to do the DNS lookups
+
+- Ask root server: "Who knows about **`.edu`**?" and gets a reply: `EDU DNS SERVER A`
+- My resolver then asks `EDU DNS SERVER A`: "Who knows about the **`yale`** zone?" and gets a reply `YALE.EDU DNS SERVER X`
+- My resolver then asks `YALE.EDU DNS SERVER X`: "What IP is the **`www`** host?" and gets an IP in reply `X.X.X.123`
+- My resolver then discloses the IP of `www.yale.edu` to my computer then allowing it to do the usual HTTP GET to: `X.X.X.123`
+- Its crucial to appreciate that my computer **ONLY** talks to the resolver its configured to use. Its that resolvers responsibility to do the DNS lookups
 
 **b) What is DNS caching? How and why is it used?**
 - DNS Caching would be done on any given resolver to avoid unnecessary lookups. Once a record has been looked up, it can be cached for quicker responses to the requesting client. There is a TTL associated with DNS records so that they can be purged appropriately. 
 
 #### 5) 
-** Determine the public IP address of your Internet connection at your home, school, or
+**Determine the public IP address of your Internet connection at your home, school, or
 office, and then identify the Autonomous System Number (ASN) that corresponds to your public network
 address. You can use the various tools we have demonstrated in lecture to learn your public IP address
 and the corresponding ASN.**
