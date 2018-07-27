@@ -974,7 +974,7 @@
     - Two common approaches
     - Symmetric:
       - Same key is used to encrypt and decrypt
-      - AES
+      - AES, IDEA
     - Asymmetric:
       - Key pairs, one public one private
       - Data encrypted by one key must be decrypted by the other key
