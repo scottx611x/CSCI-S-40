@@ -1021,4 +1021,7 @@
   - <img width="753" alt="screen shot 2018-07-27 at 12 16 34 am" src="https://user-images.githubusercontent.com/5629547/43301310-5bf0d5c6-9132-11e8-9857-cbd3d316f978.png">
 - Authorization with response to challenge (Lecture 11 1:09)
 - Why do we need a nonce in this example?
-- 
+  - A bad actor could capture the sender and secret and "replay" the message later on. The random number from the authenticating server is crucial! The bad actor's "replay" attempt would have a different nonce!
+- Digital signatures:
+  - Should prove that a message should come from a specific user (authentication) and that it has remained unchanged (integrity)
+  - 
