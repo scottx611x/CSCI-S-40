@@ -921,6 +921,8 @@
   - <img width="765" alt="screen shot 2018-07-26 at 8 15 39 pm" src="https://user-images.githubusercontent.com/5629547/43295079-b1a7fc46-9110-11e8-9f7c-9cff0fc30beb.png">
   - Simplified SMTP Procedure (Lecture 10 23:00)
   - 3 digit response codes (Idea has been carried over to things like HTTP)
+  - TELNET:
+    - Very simple application layer protocol to which you can setup a port and open a connection to any device on the network that is configured to accept it
   - 
 
 
