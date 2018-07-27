@@ -445,7 +445,7 @@
 	- How does a "dual stack" devices know whether or not to handle an incoming frame with IPv4/IPv6? -> The EtherType (Protocol Type) field in the Ethernet header!
 - Address Allocation:
 	- <img width="407" alt="screen shot 2018-07-15 at 10 17 02 am" src="https://user-images.githubusercontent.com/5629547/42734827-4af2c66c-8818-11e8-8cb9-1951269eacd0.png">
-- Autoomous Systems, ASN, & Routing:
+- Autonomous Systems, ASN, & Routing:
 	- Routing Protocol Families:
 		- Interior/Exterior
 		- (OSPF/RIP)/BGP
