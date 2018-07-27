@@ -29,7 +29,7 @@ attacks for analysis since they have been covered to such a large extent in the 
 - IMAP allows for the sync of email across many devices since it allows email to reside on remote servers.
 
 **d). What is SMTP relaying and why is it not a good idea? How can it be used maliciously?**
-- STMP relaying allows for email to be transmitted around the internet to other MTAs in a chain like fashion until a message is delivered. This is a bad idea because email/SMTP is inherently unreliable
+- STMP relaying allows for email to be transmitted around the internet to other MTAs in a chain like fashion until a message is delivered. This is a bad idea because email/SMTP is inherently unreliable. There is no guarantee that said mail will be delivered between each "hop" (modern solutions do fancy things like retries and delivery receipts), but one can imagine that in a basic diagram the more MTA's "hands" that get on a message, the more room for failure of delivery.
 
 
 #### 3.)
