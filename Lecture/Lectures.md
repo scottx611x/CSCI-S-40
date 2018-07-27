@@ -980,8 +980,10 @@
       - Data encrypted by one key must be decrypted by the other key
       - Diffie Hellman & RSA
     - Key length determines the strength of the encryption
-    - Public key encryption:
+    - Public/Private key encryption:
       - `ssh-keygen -t rsa`
+      - How do you use it to send a secure message?
+      - How can you use it to authenticate someone in the conversation?
 
 
 
