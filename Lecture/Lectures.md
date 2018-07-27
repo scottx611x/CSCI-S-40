@@ -953,7 +953,20 @@
     - Integrity
       - The data hasn't been altered
     - Availability
-  -
+  - Basic Security building blocks:
+    - <img width="720" alt="screen shot 2018-07-26 at 9 11 05 pm" src="https://user-images.githubusercontent.com/5629547/43296277-76577f2e-9118-11e8-961f-fdba9fb81f10.png">
+  - Security Requires:
+    - Hardware
+    - Software
+    - People
+    - Processes
+    - People Educated on what security means and how to do it
+  - Five important elements of structured security:
+    - Privacy and confidentiallity
+    - Authentication
+    - Authorization
+    - Integrity
+    - Nonrepudiation
 
 
 
