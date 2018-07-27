@@ -1049,4 +1049,4 @@
   - The hope id that any security holes on one vendor would be addressed before the 2nd one is breached
   - Firewall with ALG (application layer gateway):
     - <img width="770" alt="screen shot 2018-07-27 at 12 48 47 am" src="https://user-images.githubusercontent.com/5629547/43302149-e5a5a72a-9136-11e8-8b8d-70104ad8bef4.png">
-  - 
+  - IDS (intrusion detection system)
