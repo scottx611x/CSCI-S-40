@@ -920,6 +920,8 @@
   - <img width="538" alt="screen shot 2018-07-26 at 8 02 25 pm" src="https://user-images.githubusercontent.com/5629547/43294715-da9ed90a-910e-11e8-9281-7c45cebdf892.png">
   - <img width="765" alt="screen shot 2018-07-26 at 8 15 39 pm" src="https://user-images.githubusercontent.com/5629547/43295079-b1a7fc46-9110-11e8-9f7c-9cff0fc30beb.png">
   - Simplified SMTP Procedure (Lecture 10 23:00)
+  - 3 digit response codes (Idea has been carried over to things like HTTP)
+  - 
 
 
 
