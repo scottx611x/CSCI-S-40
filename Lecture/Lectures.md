@@ -966,9 +966,11 @@
     - Authentication
       - Are you who you say you are?
     - Authorization
-      - 
+      - Are you allowed to do a certain action
     - Integrity
     - Nonrepudiation
+      - Can you prove that someone did or didn't do an action?
+  - 
 
 
 
