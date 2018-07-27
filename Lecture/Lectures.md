@@ -1013,3 +1013,6 @@
     - Lecture 11 42:00
   - Reverse hashing
   - Rainbow tables
+  - Do not store the user password hashes! Common password hashes are known!
+  - Add something extra instead and then hash
+  - 
