@@ -1037,5 +1037,8 @@
   - <img width="731" alt="screen shot 2018-07-27 at 12 35 29 am" src="https://user-images.githubusercontent.com/5629547/43301757-0921e026-9135-11e8-8bc4-b7e6af11d005.png">
   - When you think of Firewalls think of 5-tuples!
   - Firewall functionality (Lecture 11 1:29)
+  - Inbound/Outbound rules
+  - Can be simple or complex:
+    - <img width="551" alt="screen shot 2018-07-27 at 12 40 33 am" src="https://user-images.githubusercontent.com/5629547/43301869-b262acec-9135-11e8-9fc1-35421aec0cde.png">
   - 
 
