@@ -914,7 +914,8 @@
     - Body
   - The headers and the bosy make up the actual email message
   -  SMTP mail servers are discovered using MX records in DNS
-  
+  - Is a very simple protocol
+  - 
 
 
 
