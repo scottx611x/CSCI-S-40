@@ -1003,4 +1003,4 @@
 - This approach is because asymmetric approach is slow! 
 - <img width="688" alt="screen shot 2018-07-26 at 11 42 18 pm" src="https://user-images.githubusercontent.com/5629547/43300482-8dc93106-912d-11e8-89e9-893aaf9bb4cf.png">
 - Public key encryption does not provide authentication by default!
-- 
+- Encrypt session key with my private key, encrypt again with friends public key. Friend comes along and decrypts with his private key. He then decrypts with my public key to get the session key! He can then go ahead and decrypt the large file.
