@@ -1010,3 +1010,4 @@
   - MD5 etc.
   - Produce a "message digest" much smaller than the original data
   - Provide integrity check, but does not provide confidentiallity
+    - 
