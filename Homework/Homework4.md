@@ -26,9 +26,11 @@ attacks for analysis since they have been covered to such a large extent in the 
 **c). Give 2 examples of the differences between POP and IMAP.**
 
 - POP downloads email to your local machine and deletes it from the remote server. Think of going to physically pick up your mail from the **P**ost **O**ffice
-- 
+- IMAP allows for the sync of email across many devices since it allows email to reside on remote servers.
 
 **d). What is SMTP relaying and why is it not a good idea? How can it be used maliciously?**
+
+
 
 #### 3.)
 ** Web browsers have a configuration field for a Proxy Server. Describe the technical
