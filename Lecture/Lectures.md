@@ -934,7 +934,9 @@
   - Message Disposition Header Field:
     - Used for Email delivery notification
     - Handled by the recieving mail client
-  - 
+  - MIME (Multipurpose internet mail extensions):
+    - Defines additional message headers in email (and now utilized in the web)
+    -
 
 
 ## Lecture 11:
