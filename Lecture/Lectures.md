@@ -949,7 +949,10 @@
   - Some Obvious types of threats:
     - <img width="692" alt="screen shot 2018-07-26 at 9 06 12 pm" src="https://user-images.githubusercontent.com/5629547/43296179-c6418e9a-9117-11e8-80f4-1ebb8a8bc928.png">
   - A very common approach to securtiy is known as the infosec triangle
-    - 
+    - Confidentiality
+    - Integrity
+    - Availability
+  
 
 
 ## Lecture 11:
