@@ -15,6 +15,8 @@ https://www.kb.cert.org/vuls
 IMPORTANT NOTE: You should not select the Security Alerts related to the various DDOS
 attacks for analysis since they have been covered to such a large extent in the technical press.**
 
+I've chosen [Vulnerability Note VU#144389](https://www.kb.cert.org/vuls/id/144389) to report on. In short, VU#144389 describes a scenario with TLS where a given TLS implementation can allow for an unauthenticated remote party to obtain the TLS session key and be able to decrypt all of said implementation's TLS traffic. This vulnerabilits stems from the way an implementer could mishandle the padding within the (Client Key Exchange Message)[] which is responsible for setting the premaster secret.
+
 #### 2.) 
 **The following questions all relate to email. Answer each question in detail.**
 **a). Explain the structure of the envelope, the header and the body of an SMTP message.**
