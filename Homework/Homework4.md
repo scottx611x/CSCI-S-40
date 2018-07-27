@@ -15,8 +15,8 @@ https://www.kb.cert.org/vuls
 IMPORTANT NOTE: You should not select the Security Alerts related to the various DDOS
 attacks for analysis since they have been covered to such a large extent in the technical press.**
 
-I've chosen [Vulnerability Note VU#144389](https://www.kb.cert.org/vuls/id/144389) to report on. In short, VU#144389 describes a scenario with TLS where a given TLS implementation can allow for an unauthenticated remote party to obtain the TLS session key and be able to decrypt all of said implementation's TLS traffic. This vulnerability stems from the way an implementer could mishandle the padding within the RSA encryption
-standard PKCS #1's [Client Key Exchange Message](https://tools.ietf.org/html/rfc5246#section-7.4.7) which is responsible for setting the premaster secret private RSA key. If implemented inproperly, there are scenarios that can occur that would allow for an attacker to distinguish between valid and invalid messages further allowing for the use of these discrepancies to obtain the afforemetioned pre-master secret key private RSA key. I've read that a common name for such an attack is knwon as a [Bleichenbacher attack](http://archiv.infsec.ethz.ch/education/fs08/secsem/bleichenbacher98.pdf).
+I've chosen [Vulnerability Note VU#144389](https://www.kb.cert.org/vuls/id/144389) to report on. In short, VU#144389 describes a scenario with TLS where a given TLS implementation can allow for an unauthenticated remote party to obtain the TLS session key and be able to decrypt all of said implementation’s TLS traffic. This vulnerability stems from the way an implementer could mishandle the padding within the RSA encryption
+standard PKCS #1's [Client Key Exchange Message](https://tools.ietf.org/html/rfc5246#section-7.4.7) which is responsible for setting the premaster secret private RSA key. If implemented improperly, there are scenarios that can occur that would allow for an attacker to distinguish between valid and invalid messages further allowing for the use of these discrepancies to obtain the aforementioned pre-master secret key private RSA key. I've read that a common name for such an attack is knwon as a [Bleichenbacher attack](http://archiv.infsec.ethz.ch/education/fs08/secsem/bleichenbacher98.pdf).
 
 #### 2.) 
 **The following questions all relate to email. Answer each question in detail.**
@@ -42,9 +42,9 @@ proxy server on their network.**
 
 - A Proxy server sits as an intermediary between two (or more) hosts forwarding (mainly) web traffic in between them. The functionality of a proxy server commonly known to the public is to "get around website blocks at work/school". What is really happening here is that the local institution's policies are being circumvented. Instead of a user making a request to a blocked `netflix.com`, they can send the request to a proxy server which, to the local institution is a perfectly valid, unblocked host, and said server will forward the request and the response back from `www.netflix.com` to the requesting host.
 
-- A company could use a proxy server for a mutlitude of reasons. A few of them being:
+- A company could use a proxy server for a multitude of reasons. A few of them being:
 	- As a initial layer of security. You could advertise the public IP of your proxy server and have it forward traffic to your webserver sitting behind some additional fortifications.
-	- Load sharing. The single proxy could be responsible for forwarding traffic to the approate N hosts behind it
+	- Load sharing. The single proxy could be responsible for forwarding traffic to the appropriate N hosts behind it
 	- Caching files (I haven't looked into how this specifically works yet, but Len said it in lecture so it must be important)
 
 #### 4.)
@@ -126,4 +126,5 @@ one page or less (exclusive of any diagrams.)**
 The underlying problem with the Lenovo laptops in this case was that adware software called Superfish came pre-installed on some laptops, and this software installed a trusted root CA certificate for itself. It did this so that some spying could be done on user's web requests to provide targeted advertising. By doing this they essentially were doing a man-in-the-middle attack against their users. All web traffic from the user would be caught by the Superfish software, decrypted, read/utilized, re-encrpyted and then passed along to the browser. The scary part here is that according to the webbrowser this was a completely legitimate operation due to the afformentiond trusted root CA certificate that the Superfish software installed. The common user would have no clue this was going on (unless they we're savvy enough to interpret where some of their targeted advertisments were coming from)
 
 Superfish used a software library called: Komodia Redirector to do the HTTPS traffic decryption among some other things. Come to find out, this software was vulnerable to attacks! Specifically the Komodia software's root CA certificates that it installed used easily obtainable hard-coded private keys! An attacker could take advantage this vulnerability in the underlying Komodia software to spoof HTTPS websites and intercept HTTPS traffic on affected systems.
+
 
