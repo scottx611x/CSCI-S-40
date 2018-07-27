@@ -1011,3 +1011,5 @@
   - Produce a "message digest" much smaller than the original data
   - Provide integrity check, but does not provide confidentiallity
     - Lecture 11 42:00
+  - Reverse hashing
+  - Rainbow tables
