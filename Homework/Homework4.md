@@ -18,7 +18,7 @@ attacks for analysis since they have been covered to such a large extent in the 
 #### 2.) 
 **The following questions all relate to email. Answer each question in detail.**
 **a). Explain the structure of the envelope, the header and the body of an SMTP message.**
-- The envelope in this case is the encapsulation mechanism that allows email traffic to be sent between MTAs (Mail transfer Agents). It is important to appreciate that the envelope isn't responsible for determining how the message is sent. The actual send done between MTAs can be done in many ways (HTTP, SMTP, a Vendor software). The header has lots of useful information. this information include things such as: From, Subject, Date, To, Recieved etc. There are many headers used nowadays, but as a whole they describe the lifecycle of the piece of mail being transmitted. The body is simply the more human readable message that you want your reciever to interpret. 
+- The envelope in this case is the encapsulation mechanism that allows email traffic to be sent between MTAs (Mail transfer Agents). It is important to appreciate that the envelope isn't responsible for determining how the message is sent. The actual send done between MTAs can be done in many ways (HTTP, SMTP, a Vendor software). The header has lots of useful information. this information include things such as: From, Subject, Date, To, Recieved etc. There are many headers used nowadays, but as a whole they describe the lifecycle of the piece of mail being transmitted. The body is simply the more human readable message that you want your receiver to interpret. 
 
 **b). Explain how MIME is used to send non-ASCII, binary data (such as images) as an attachment.**
 
