@@ -1016,5 +1016,6 @@
   - Rainbow tables
   - Do not store the user password hashes! Common password hashes are known!
   - Add something extra instead and then hash
-  - User authentication
-    - 
+- User authentication
+  - <img width="765" alt="screen shot 2018-07-27 at 12 14 07 am" src="https://user-images.githubusercontent.com/5629547/43301269-1964217c-9132-11e8-997f-98801c75c036.png">
+  - 
