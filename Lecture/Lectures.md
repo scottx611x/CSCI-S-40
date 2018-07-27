@@ -929,6 +929,8 @@
     - The sending MTA will try periodically to redeliver on failure
   - MTA forwarding:
     - Lecture 10 50:00
+    - <img width="539" alt="screen shot 2018-07-26 at 8 51 11 pm" src="https://user-images.githubusercontent.com/5629547/43295846-a84d9b56-9115-11e8-8d9e-539cfd9b2c2b.png">
+  - 
 
 
 ## Lecture 11:
