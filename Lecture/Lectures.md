@@ -924,7 +924,10 @@
   - TELNET:
     - Very simple application layer protocol to which you can setup a port and open a connection to any device on the network that is configured to accept it
   - `telnet mail.dcd.harvard.edu 25`
-
+  - Email delivery problems:
+    - Its up to the mail system to alert the user or keep the info to itself
+    - The sending MTA will try periodically to redeliver on failure
+    - 
 
 
 ## Lecture 11:
