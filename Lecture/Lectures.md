@@ -964,7 +964,9 @@
   - Five important elements of structured security:
     - Privacy and confidentiallity
     - Authentication
+      - Are you who you say you are?
     - Authorization
+      - 
     - Integrity
     - Nonrepudiation
 
