@@ -1005,4 +1005,8 @@
 - Public key encryption does not provide authentication by default!
 - Encrypt session key with my private key, encrypt again with friends public key. Friend comes along and decrypts with his private key. He then decrypts with my public key to get the session key! He can then go ahead and decrypt the large file.
 - <img width="673" alt="screen shot 2018-07-26 at 11 50 59 pm" src="https://user-images.githubusercontent.com/5629547/43300729-cce9e442-912e-11e8-82e9-ab97abf7a9ac.png">
-
+- Hash Functions:
+  - a one way mathematical function
+  - MD5 etc.
+  - Produce a "message digest" much smaller than the original data
+  - Provide integrity check, but does not provide confidentiallity
