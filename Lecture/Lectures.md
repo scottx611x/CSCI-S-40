@@ -971,7 +971,14 @@
     - Nonrepudiation
       - Can you prove that someone did or didn't do an action?
   - Cryptography:
-    - 
+    - Two common approaches
+    - Symmetric:
+      - Same key is used to encrypt and decrypt
+      - AES
+    - Asymmetric:
+      - Key pairs, one public one private
+      - Data encrypted by one key must be decrypted by the other key
+      - Diffie Hellman & RSA
 
 
 
