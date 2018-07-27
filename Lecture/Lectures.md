@@ -927,6 +927,7 @@
   - Email delivery problems:
     - Its up to the mail system to alert the user or keep the info to itself
     - The sending MTA will try periodically to redeliver on failure
+  - MTA forwarding:
     - 
 
 
