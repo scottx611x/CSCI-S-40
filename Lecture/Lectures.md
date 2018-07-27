@@ -936,6 +936,8 @@
     - Handled by the recieving mail client
   - MIME (Multipurpose internet mail extensions):
     - Defines additional message headers in email (and now utilized in the web)
+    - Content-Type
+    - Content Transfer Encoding
     -
 
 
