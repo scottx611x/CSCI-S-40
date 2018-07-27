@@ -1027,3 +1027,6 @@
   - <img width="672" alt="screen shot 2018-07-27 at 12 25 40 am" src="https://user-images.githubusercontent.com/5629547/43301507-a13a593a-9133-11e8-8c09-6a79c654d3d1.png">
 - Security provided by routers and firewalls
   - ACL (based on the 5-tuple)
+  - Router filters and forwards packets
+  - Could simply state in config that you don't want a specific type of traffic (web, email, etc)
+  -
