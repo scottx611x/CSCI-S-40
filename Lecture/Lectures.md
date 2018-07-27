@@ -997,7 +997,7 @@
 - AES:
   - The algorithm is not the secret! The key is!
 - <img width="656" alt="screen shot 2018-07-26 at 11 33 40 pm" src="https://user-images.githubusercontent.com/5629547/43300295-594c34e2-912c-11e8-81b3-571dd36e1552.png">
-- Session keys!
+- Session keys Save a ton of time units!!!
   - Encrypt with whoevers public key that you're trying to talk today
   - Reciever can then decrypt the session key and then decrypt the larger message with the session key
 - This approach is because asymmetric approach is slow! 
