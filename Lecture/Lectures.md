@@ -940,6 +940,8 @@
     - Content-Transfer Encoding
     - Is really just a way to deliver non- text information
     - IANA
+  - Ways to send mail to an MTA:
+    - <img width="785" alt="screen shot 2018-07-26 at 9 01 31 pm" src="https://user-images.githubusercontent.com/5629547/43296105-3e5f8bda-9117-11e8-96ad-7faaa4d48640.png">
   - 
 
 
