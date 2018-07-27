@@ -18,7 +18,7 @@ attacks for analysis since they have been covered to such a large extent in the 
 #### 2.) 
 **The following questions all relate to email. Answer each question in detail.**
 **a). Explain the structure of the envelope, the header and the body of an SMTP message.**
-- The envelope in this case is the encapsulation mechanism that allows email traffic to be sent between MTAs
+- The envelope in this case is the encapsulation mechanism that allows email traffic to be sent between MTAs (Mail transfer Agents)
 
 **b). Explain how MIME is used to send non-ASCII, binary data (such as images) as an attachment.**
 
