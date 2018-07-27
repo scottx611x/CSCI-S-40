@@ -21,7 +21,7 @@ attacks for analysis since they have been covered to such a large extent in the 
 - The envelope in this case is the encapsulation mechanism that allows email traffic to be sent between MTAs (Mail transfer Agents). It is important to appreciate that the envelope isn't responsible for determining how the message is sent. The actual send done between MTAs can be done in many ways (HTTP, SMTP, a Vendor software). The header has lots of useful information. This information includes things such as: From, Subject, Date, To, Received etc. There are many headers used nowadays, but as a whole they describe the lifecycle of the piece of mail being transmitted. The body is simply the more human readable message that you want your receiver to interpret. 
 
 **b). Explain how MIME is used to send non-ASCII, binary data (such as images) as an attachment.**
-- Originally, email was a text only deal. This fell short when folks wanted to start sending their .mp3s .etc. To be able to send a multitude of formats through email/SMTP MIME and the notion of content types was introduced.
+- Originally, email was a text only deal. This fell short when folks wanted to start sending their .mp3s .etc. To be able to send a multitude of formats through email/SMTP MIME (Multipurpose internet mail extensions) and the notion of content types was introduced.
 
 **c). Give 2 examples of the differences between POP and IMAP.**
 
