@@ -914,7 +914,7 @@
     - Envelope
     - Headers
     - Body
-  - The headers and the bosy make up the actual email message
+  - The headers and the body make up the actual email message
   -  SMTP mail servers are discovered using MX records in DNS
   - Is a very simple protocol
   - <img width="538" alt="screen shot 2018-07-26 at 8 02 25 pm" src="https://user-images.githubusercontent.com/5629547/43294715-da9ed90a-910e-11e8-9281-7c45cebdf892.png">
