@@ -944,7 +944,7 @@
     - <img width="785" alt="screen shot 2018-07-26 at 9 01 31 pm" src="https://user-images.githubusercontent.com/5629547/43296105-3e5f8bda-9117-11e8-96ad-7faaa4d48640.png">
 
 - Network And System Security:
-  - 
+  - HArd area of work to understand
 
 
 ## Lecture 11:
