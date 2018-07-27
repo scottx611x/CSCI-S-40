@@ -988,3 +988,8 @@
 
 
 ## Lecture 11:
+
+- Understand the difference between how email can be sent between MTAs
+- Understand the envelope and the content (body & headers)
+- Understand POP3 and IMAP
+- 
