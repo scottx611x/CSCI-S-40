@@ -951,8 +951,10 @@
   - A very common approach to securtiy is known as the infosec triangle
     - Confidentiality
     - Integrity
+      - The data hasn't been altered
     - Availability
-  
+  -
+
 
 
 ## Lecture 11:
