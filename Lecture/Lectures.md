@@ -1001,4 +1001,6 @@
   - Encrypt with whoevers public key that you're trying to talk today
   - Reciever can then decrypt the session key and then decrypt the larger message with the session key
 - This approach is because asymmetric approach is slow! 
+- <img width="688" alt="screen shot 2018-07-26 at 11 42 18 pm" src="https://user-images.githubusercontent.com/5629547/43300482-8dc93106-912d-11e8-89e9-893aaf9bb4cf.png">
+- Public key encryption does not provide authentication by default!
 - 
