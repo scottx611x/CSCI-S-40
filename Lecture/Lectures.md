@@ -923,7 +923,7 @@
   - 3 digit response codes (Idea has been carried over to things like HTTP)
   - TELNET:
     - Very simple application layer protocol to which you can setup a port and open a connection to any device on the network that is configured to accept it
-  - 
+  - `telnet mail.dcd.harvard.edu 25`
 
 
 
