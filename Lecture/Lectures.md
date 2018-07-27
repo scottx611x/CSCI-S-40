@@ -904,6 +904,8 @@
 
 - SMTP (Electronic Mail):
   - RFC 5321 & 5322
+  - Application Layer protocol
+  - TCP port 25
   - A specific protocol for the delivery of email messages
   - There is also a set of protocols for formatting those email messages
   - Internet came after email
