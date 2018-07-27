@@ -1000,3 +1000,5 @@
 - Session keys!
   - Encrypt with whoevers public key that you're trying to talk today
   - Reciever can then decrypt the session key and then decrypt the larger message with the session key
+- This approach is because asymmetric approach is slow! 
+- 
