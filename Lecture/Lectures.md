@@ -937,8 +937,10 @@
   - MIME (Multipurpose internet mail extensions):
     - Defines additional message headers in email (and now utilized in the web)
     - Content-Type
-    - Content Transfer Encoding
-    -
+    - Content-Transfer Encoding
+    - Is really just a way to deliver non- text information
+    - IANA
+  - 
 
 
 ## Lecture 11:
