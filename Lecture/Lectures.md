@@ -1095,5 +1095,7 @@ Section 4:
     - This is the responsibility of the Recieving Host
 - TCP Congestion Control
   - Flow Control: The recieving system controls the sending rate (Think TCP connection window size) Is end-to-end
+  - Two Hosts overwhelming the available bandwith of the inner network:
+    - <img width="1169" alt="screen shot 2018-07-29 at 5 42 15 pm" src="https://user-images.githubusercontent.com/5629547/43370979-c4e3c82e-9356-11e8-84ce-acbaeede2b8c.png">
   - 
 
