@@ -1089,5 +1089,6 @@ Section 4:
   - In a perfect world, frames would be of infinite size, but this is not the case
   - This is not the case
   - Its unrealistic for a desinger to assume that all applications will know what the MTU (Max transmit units) will be for different networks
+  - Fragmentation will rarely happen at the host (section 4 53:00)
   - 
 
