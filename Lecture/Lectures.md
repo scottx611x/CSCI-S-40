@@ -1094,6 +1094,6 @@ Section 4:
   - IPv6 sends out PROBE packets that are smart enough to check the intervening paths of the network and not create any packets that couldn't be handled
     - This is the responsibility of the Recieving Host
 - TCP Congestion Control
-  - Flow Control: The recieving system controls the sending rate (Think TCP connection window size)
+  - Flow Control: The recieving system controls the sending rate (Think TCP connection window size) Is end-to-end
   - 
 
