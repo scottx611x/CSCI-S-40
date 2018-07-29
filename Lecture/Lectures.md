@@ -1085,4 +1085,9 @@ Section 4:
     - Also provides the default gateway/netmask
 - <img width="1283" alt="screen shot 2018-07-29 at 4 59 11 pm" src="https://user-images.githubusercontent.com/5629547/43370644-c3dbed0e-9350-11e8-9991-023b11982146.png">
 - TCP segment lifecycle and its interaction with the OS (Section 4 47:00)
+- Fragmentation
+  - In a perfect world, frames would be of infinite size, but this is not the case
+  - This is not the case
+  - Its unrealistic for an OS desinger to assume that all applications will know what the MTU (Max transmit units) will be for different networks
+  - 
 
