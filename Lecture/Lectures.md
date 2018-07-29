@@ -13,6 +13,7 @@
   - [9](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-9)
   - [10](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-10)
   - [11](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-11)
+  - [Section 4](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-4)
 
 
 
@@ -1052,3 +1053,32 @@
   - IDS (intrusion detection system)
   - A proxy can cache pages!
   - VPNs and IPSec!
+
+Section 4:
+
+- Host vs Client vs Server etc.
+- OS/ Net Stack/ Real World implementations
+- TCP Congestion Control
+- Default Host Config
+- Routing Issues & Problems
+- IP Functionality - Fragmentation
+- End-to-end vs. Millde Boxes (NAT, Firewall)
+- Encapsulation
+
+- Host/Client/Server used to be used distinctly
+  - Devices in the inner network were very simple and had a single responsibility
+  - Nowadays these terms can more or less be used interchangeably
+  - <img width="856" alt="screen shot 2018-07-29 at 4 21 32 pm" src="https://user-images.githubusercontent.com/5629547/43370349-8dc8b1ac-934b-11e8-8261-b6357f18546a.png">
+
+- End-to-end: connection directly from one IP to another
+- A "Middle box" can break end-to-end connections:
+  - Lets say a NAT box goes down and loses its NAT Table. This could cause a break in the end-to-end connection because a NAT box then won't know how to forward a request to private IP on it's other side
+  - <img width="1217" alt="screen shot 2018-07-29 at 4 31 35 pm" src="https://user-images.githubusercontent.com/5629547/43370472-2dd50de8-934d-11e8-8f71-34573e7e1ab1.png">
+- NAT64: NAPT for IPv6 devices
+  - Mobile phones etc. 
+  - Appreciate the impact that could happen if one of these went down!
+- IPv6 allows for autoconfiguration due to the fact that the address space is massive and the chance of a collision is minimal
+- IPv6 only has "slash" notation no netmask like IPv4 
+-
+
+
