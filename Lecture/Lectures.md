@@ -1080,7 +1080,8 @@ Section 4:
 - IPv6 allows for autoconfiguration due to the fact that the address space is massive and the chance of a collision is minimal
 - IPv6 only has "slash" notation no netmask like IPv4 
 - DHCP:
-  - Client send s broadcast out: "Hey someone give me an IP!"
-  - 
-
+  - Client sends a broadcast out: "Hey someone give me an IP!"
+  - DHCP Server sets that IP and send a responding packet to the client
+    - Also provides the default gateway/netmask
+- 
 
