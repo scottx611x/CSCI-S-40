@@ -1079,6 +1079,8 @@ Section 4:
   - Appreciate the impact that could happen if one of these went down!
 - IPv6 allows for autoconfiguration due to the fact that the address space is massive and the chance of a collision is minimal
 - IPv6 only has "slash" notation no netmask like IPv4 
--
+- DHCP:
+  - Client send s broadcast out: "Hey someone give me an IP!"
+  - 
 
 
