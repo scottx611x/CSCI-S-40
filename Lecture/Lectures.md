@@ -1054,7 +1054,7 @@
   - A proxy can cache pages!
   - VPNs and IPSec!
 
-#### Section 4:
+## Section 4:
 
 - Host vs Client vs Server etc.
 - OS/ Net Stack/ Real World implementations
