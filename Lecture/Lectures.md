@@ -1091,5 +1091,5 @@ Section 4:
   - Its unrealistic for a desinger to assume that all applications will know what the MTU (Max transmit units) will be for different networks
   - Fragmentation will rarely happen at the host (section 4 53:00)
   - Large Frame Network vs Small Frame Network
-  - 
+  - IPv6 sends out PROBE packets that are smart enough to check the intervening paths of the network and not create any packets that couldn't be handled
 
