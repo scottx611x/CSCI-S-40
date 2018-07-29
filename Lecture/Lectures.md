@@ -1092,4 +1092,5 @@ Section 4:
   - Fragmentation will rarely happen at the host (section 4 53:00)
   - Large Frame Network vs Small Frame Network
   - IPv6 sends out PROBE packets that are smart enough to check the intervening paths of the network and not create any packets that couldn't be handled
+    - This is the responsibility of the Recieving Host
 
