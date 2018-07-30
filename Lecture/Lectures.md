@@ -1262,5 +1262,5 @@
     - But then there were Firewalls, and different codecs etc.
     - This complexity continued...
     - SRTP for media exchange
-    - 
+    - ICE/TURN/STUN for NAT traversal
 
