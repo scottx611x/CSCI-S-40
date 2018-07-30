@@ -1176,5 +1176,7 @@
     - The recieving system know how to distinguish between vidoe and voice packets at the transport layer by the port number
     - These port numbers are assigned during the capabilities exchange
 
+- SIP:
+  - 
 
 
