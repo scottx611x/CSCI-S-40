@@ -1191,7 +1191,9 @@
   - <img width="736" alt="screen shot 2018-07-29 at 10 32 55 pm" src="https://user-images.githubusercontent.com/5629547/43374763-5c72eda0-937f-11e8-8740-8227fa9824ee.png">
   - Used for Voice/video, instant messaging
   - Developed 15 years ago
-  - Looks like Email (uses MIMETYPEs)
+  - Looks like Email ((similar to headers)
+    - <img width="716" alt="screen shot 2018-07-29 at 10 41 34 pm" src="https://user-images.githubusercontent.com/5629547/43375014-92792030-9380-11e8-979f-db7926e43d60.png">
+
   - Responsible for determining:
     - protocols for setting up the connection/session
     - protocols for determining the specific voice/video capabilities and parameters that end systems will use
