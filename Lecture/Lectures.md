@@ -1152,4 +1152,5 @@
     - If integrity has been proven, then alice extracts and trusts Bob's public key
     - Alice encrypts the message with Bob's public key
     - Alice sends the message which Bob is then able to decrpyt when he gets it (with his public key)
+  -
 
