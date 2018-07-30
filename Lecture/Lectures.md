@@ -1232,7 +1232,7 @@
       - Via fields: just breadcrumbs to show how packets flow from one place to the other
     - DNS & SIP how do they fit together?
       - Think about EMAIL again! 
-      - An MX record is to Email as aN SRV or 
+      - An MX record is to Email as aN SRV or NAPTR
 
 
   - RTCWEB/WEBRTC
