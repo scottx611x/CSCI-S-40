@@ -1225,6 +1225,10 @@
       - <img width="720" alt="screen shot 2018-07-30 at 6 51 21 pm" src="https://user-images.githubusercontent.com/5629547/43427878-944230b0-9429-11e8-96d7-4a1baa83ee4c.png">
       - Again this is super similar to MTA forwarding!!!
     - **How is SIP similar to EMAIL?**
+    - Note that a **HUGE** difference in this scenario is that the media exchange is done end-to-end and not through the SIP proxies! 
+      - Real time applications are performance wary and shouldn't go through these extra hops
+      - This is a big **DIFFERENCE** from EMAIL/MTA forwarding
+    - 
 
 
   - RTCWEB/WEBRTC
