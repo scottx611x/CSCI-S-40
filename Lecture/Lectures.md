@@ -1247,7 +1247,7 @@
 
   - SIP and NAT and Firewalls (oh my!):
     - Supporting VoIP through NAT/FW is not easy!
-    
+    - The normal case for dealing with 
 
 
   - RTCWEB/WEBRTC
