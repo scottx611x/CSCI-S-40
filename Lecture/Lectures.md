@@ -1179,7 +1179,7 @@
 - SIP:
   - Establishes a session
   - A session is generally a "call" but could be Instant messaging or something else similar
-  - remember again the three main concepts provided by SIP:
+  - **Remember again the three main concepts provided by SIP**:
     - Signalling (Call Setup)
     - Capabilities
     - Media Exchange
