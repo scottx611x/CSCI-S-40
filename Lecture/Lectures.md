@@ -1179,4 +1179,8 @@
   - H264 is a common video streaming codec
   - Delivered unreliably over UDP
   - RTP (another protocol inserted between UDP and the application layer voice packets)
-  - 
+  - Three phases to any conversation:
+    - Protocol for setting up the connection (acknowledge that both sides want to talk)
+    - Setup capabilities:
+      - Which codecs are we using etc.
+    - 
