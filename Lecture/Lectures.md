@@ -1166,4 +1166,4 @@
 - VPNs and IPSec (Lecture 12 1:16):
   - Two types:
     - Tunnel mode:
-      - 
+      - Two firewalls have established a secure, encrypted connection    
