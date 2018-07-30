@@ -1250,6 +1250,7 @@
     - The normal case for dealing with NAT forwarding info (address & port) is done at the UDP/IP levels
     - In the case of SIP there is also information that needs to be mapped and forwarded (dest IP and port) and this information is set by SDP which lives inside the UDP payload
     - <img width="741" alt="screen shot 2018-07-30 at 7 37 29 pm" src="https://user-images.githubusercontent.com/5629547/43429175-0640680c-9430-11e8-9f6e-453a0fe47cb8.png">
+    - SIP uses STUN, TURN, and ICE!
     - 
 
 
