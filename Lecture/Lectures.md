@@ -1180,7 +1180,7 @@
   - Establishes a session
   - A session is generally a "call" but could be Instant messaging or something else similar
   - remember again the three main concepts provided by SIP:
-    - Signalling
+    - Signalling (Call Setup)
     - Capabilities
     - Media Exchange
   - Appreciate the SIP Protocol architecture allowing for UDP and TCP transport:
