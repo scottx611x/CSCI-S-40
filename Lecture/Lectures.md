@@ -1256,7 +1256,8 @@
   - RTCWEB/WEBRTC
     - WebRTC is W3C work, RTCWeb is IETF work
     - The idea is that: "Lets allow the web to directly use VoIP"
+    - No need to install 3rd party plugins or software
     - HTML5 Code that starts a call
     - But then there were Firewalls, and different codecs etc.
     - This complexity continued...
-    
+
