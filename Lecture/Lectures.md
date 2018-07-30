@@ -1206,7 +1206,8 @@
      - Again appreciate the three phases!
      - <img width="676" alt="screen shot 2018-07-30 at 6 33 23 pm" src="https://user-images.githubusercontent.com/5629547/43427341-2080319c-9427-11e8-93f3-1337a73ecfe6.png">
      - Appreciate the similarities to EMAIL (HELO -> 250 vs. INVITE -> 180)
-     - 
+     - Regarding the above diagram, its not immediately apparent where the capabilities exhange is happening. 
+      - Be aware that this could simply piggy back on the the call setup portion
 
 
   - RTCWEB/WEBRTC
