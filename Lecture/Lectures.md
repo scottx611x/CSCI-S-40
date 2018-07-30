@@ -1245,7 +1245,8 @@
     - Gives you the ability to specify the types of Codecs, the IP addresses to send specific media streams to, and the port numbers to which the streams should be delivered
     - We could spend days on SDP but this is the most important thing to appreciate
 
-  - 
+  - SIP and NAT and Firewalls:
+    - 
 
 
   - RTCWEB/WEBRTC
