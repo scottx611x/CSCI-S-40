@@ -1235,7 +1235,9 @@
       - An MX record is to Email as aN SRV or NAPTR (Name authority pointer) is to SIP!
     - `dig sip.mit.edu SRV`
 
-  - SDP:
+  
+
+  - SDP (Session Description Protocol):
 
 
   - RTCWEB/WEBRTC
