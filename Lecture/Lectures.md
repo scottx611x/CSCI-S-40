@@ -1134,5 +1134,5 @@
 
 - Certificates and Website Security
   - A culmination of Asymmetric Cryptography (public/private keys), Hashing (think integrity), and digital signatures
-  - 
+  - Digital signatures ensure integrity
 
