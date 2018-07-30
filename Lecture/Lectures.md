@@ -1216,7 +1216,8 @@
       - The TTL at the IP layer is never going to catch that its in a bad situation
       - So there is a Max-forwards in the SIP INVITE message to account for this
         - When designing protocols always try to account form something that could go wrong
-      -
+    - SIP Reply codes look very similar to Email HTTP etc. Good ideas from the past prevail!
+    - 
 
 
 
