@@ -1177,6 +1177,8 @@
     - These port numbers are assigned during the capabilities exchange
 
 - SIP:
+  - Establishes a session
+  - A session is generally a "call" but could be Instant messaging or something else similar
   - 
 
 
