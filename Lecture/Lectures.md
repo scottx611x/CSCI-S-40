@@ -1155,6 +1155,7 @@
   - X509 Public Key Infrastructure is not the same as TLS
     - The PKI requires a trusted thrid party such as a CA
     - Remember that one could be sending large data over TLS so there is Asymmetric enrcyption done first and a smaller session key is encrypted and shared
-  - Websites use a combination of TLS and Certificates to ensure  
+  - Websites use a combination of TLS and Certificates to secure traffic
+  - 
 
 
