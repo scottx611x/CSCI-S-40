@@ -1140,5 +1140,7 @@
   - We want to accomplish Authentication, Integrity, and Confidentiality
   - Man in the middle (MITM):
     - <img width="198" alt="screen shot 2018-07-29 at 9 04 43 pm" src="https://user-images.githubusercontent.com/5629547/43372817-09a0b2e4-9373-11e8-8006-d6934254da96.png">
- 
+  - Avoiding a MITM attack:
+    - Using a CA (Certificate authority)
+    -
 
