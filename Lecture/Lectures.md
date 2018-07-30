@@ -1197,7 +1197,7 @@
     - User Agents
     - Proxies
       - Have the Registrar and other related services
-      - Also called
+      - Also called Call Managers or Unified Communication Servers
       - Handles all of the call processing
       - Has a very specific functionality for SIP
     - 
