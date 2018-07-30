@@ -1189,4 +1189,5 @@
   - Used for Voice/video, instant messaging
   - Developed 15 years ago
   - Looks like Email (uses MIMETYPEs)
-  - Responsible for picking protocols for setting up 
+  - Responsible for picking protocols for setting up the connection/session
+  - 
