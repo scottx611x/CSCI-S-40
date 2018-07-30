@@ -1247,7 +1247,8 @@
 
   - SIP and NAT and Firewalls (oh my!):
     - Supporting VoIP through NAT/FW is not easy!
-    - The normal case for dealing with 
+    - The normal case for dealing with NAT forwarding info (address & port) is done at the UDP/IP levels
+    - In the case of SIP this information is set by SDP which lives inside the UDP payload
 
 
   - RTCWEB/WEBRTC
