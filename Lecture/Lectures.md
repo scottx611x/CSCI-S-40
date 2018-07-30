@@ -1178,4 +1178,4 @@
   - G.711 is a famous codec
   - H264 is a common video streaming codec
   - Delivered unreliably over UDP
-  - RTP (another protocol inserted between UDP and the )
+  - RTP (another protocol inserted between UDP and the application layer voice packets)
