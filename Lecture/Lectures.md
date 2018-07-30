@@ -1168,4 +1168,6 @@
     - Tunnel mode:
       - Two firewalls have established a secure, encrypted connection and the parties behind the firewalls have this protection
       - A user does not have a notion as to if their traffic is encrypted or not
-      -
+    - Transport Mode:
+      - You load the VPN softwre on one "side" and talk to a specific Host somewhere, bypassing the firewall
+  - A third
