@@ -1120,4 +1120,7 @@
   - Integrity
   - Nonrepudiantion
 
+- Firewalls
+  - Homework question about ACLs (the underpinning for the Firewall GUIs from lecture)
+  - 
 
