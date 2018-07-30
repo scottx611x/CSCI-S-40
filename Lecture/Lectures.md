@@ -1177,4 +1177,5 @@
   - Analog singal is converted to bits using a Codec
   - G.711 is a famous codec
   - H264 is a common video streaming codec
-  - Delivered unreliable over UDP
+  - Delivered unreliably over UDP
+  - RTP (another protocol inserted between UDP and the )
