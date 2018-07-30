@@ -1170,4 +1170,5 @@
       - A user does not have a notion as to if their traffic is encrypted or not
     - Transport Mode:
       - You load the VPN softwre on one "side" and talk to a specific Host somewhere, bypassing the firewall
-  - A third
+  - This encryption is done using IPSec
+  
