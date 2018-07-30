@@ -1131,5 +1131,8 @@
     - Terminates requests and creates them anew with some visage of the original information inbound and outbound
     - Usually sits at edge of network w/ Firewall or part of Firewall:
       - <img width="780" alt="screen shot 2018-07-29 at 8 51 18 pm" src="https://user-images.githubusercontent.com/5629547/43372676-40783956-9371-11e8-9adf-d1b0e114bc4b.png">
+
+- Certificates and Website Security
+  - A culmination of Asymmetric Cryptography (public/private keys), Hashing (think integrity), and digital signatures
   - 
 
