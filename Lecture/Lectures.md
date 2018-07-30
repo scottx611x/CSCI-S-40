@@ -1233,7 +1233,7 @@
     - DNS & SIP how do they fit together?
       - Think about EMAIL again! 
       - An MX record is to Email as aN SRV or NAPTR (Name authority pointer) is to SIP!
-    - `dig mit.edu SRV`
+    - `dig sip.mit.edu SRV`
 
 
   - RTCWEB/WEBRTC
