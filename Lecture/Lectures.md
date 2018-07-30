@@ -15,6 +15,7 @@
   - [11](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-11)
   - [Section 4](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-4)
   - [12](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-12)
+  - [13](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-13)
 
 
 
