@@ -1150,5 +1150,6 @@
     - Bob sends his certificate over to alice (which includes his public key info and has been digitally signed)
     - Alice uses the Public key of the CA (which she has had from the begining) to verify the integrity of Bob's certificate
     - If integrity has been proven, then alice extracts and trusts Bob's public key
+    - Alice encrypts the message with Bob's public key
     - 
 
