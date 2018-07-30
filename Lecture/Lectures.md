@@ -1218,7 +1218,8 @@
         - When designing protocols always try to account form something that could go wrong
     - SIP Reply codes look very similar to Email HTTP etc. Good ideas from the past prevail!
     - The capabilities are included within the SIP INVITE message
-    - 
+    - Following the SIP INVITE is the SDP (Session Description Protocol) which includes the capabilities exchange information
+      - 
 
 
 
