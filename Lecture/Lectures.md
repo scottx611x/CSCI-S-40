@@ -1174,4 +1174,5 @@
   - This encryption is done using IPSec
 
 - VOIP (Voice and video over IP):
+  - Analog singal is converted to bits using a Codec
   - 
