@@ -1148,5 +1148,5 @@
     - The CA sends this certificate back to Bob
     - Alice now wants to send a secret message over to Bob
     - Bob sends his certificate over to alice (which includes his public key info and has been digitally signed)
-    - Alice uses the Public key of the CA (which she has had from the begining) 
+    - Alice uses the Public key of the CA (which she has had from the begining) to verify t
 
