@@ -1190,7 +1190,7 @@
     - IANA assigns these!
   - Think of SIP as the suite or family name Because there are a multitude of protocols underneath it to get it where it is today
     - Things got so confusing that RFC 5411 was written ("A hitchhikers guide to the session initiation protocol")
-    - 25 pages of mentions of RFCs that are necessary to implement SIP
+    - 25 pages of mentions of RFCs that are necessary to implement SIP properly
   - RTCWEB/WEBRTC
 
 
