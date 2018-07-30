@@ -1183,4 +1183,5 @@
     - Protocol for setting up the connection (acknowledge that both sides want to talk)
     - Setup capabilities:
       - Which codecs are we using etc.
-    - 
+    - Send the video/audio
+  -
