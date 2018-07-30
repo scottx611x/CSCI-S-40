@@ -1145,5 +1145,6 @@
     - Bob and Alice both trust the CA and have its public key loaded on their computers
     - Bob creates a keypair and sends his public key to the CA in a secure manner
     - The CA confirms that the public key is coming from Bob and then digitally signs a Certificate that includes Bob's public key and some extra info
-    -  
+    - The CA sends this certificate back to Bob
+    - 
 
