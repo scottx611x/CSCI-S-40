@@ -1197,5 +1197,6 @@
     - protocols for determining the specific voice/video capabilities and parameters that end systems will use
     - protocols for actually sending the voice/video
   - "Three Phases of the Call"
-  - 
+  - SIP is one particular protocol for establishing a session
+  - More than 30 protocols build upon this
   - 
