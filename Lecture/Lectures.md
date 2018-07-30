@@ -1261,5 +1261,6 @@
       - HTML5 Code to start a call "one click"
     - But then there were Firewalls, and different codecs etc.
     - This complexity continued...
+    - SRTP for media exchange
     - 
 
