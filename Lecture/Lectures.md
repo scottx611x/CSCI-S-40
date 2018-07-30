@@ -1146,5 +1146,5 @@
     - Bob creates a keypair and sends his public key to the CA in a secure manner
     - The CA confirms that the public key is coming from Bob and then digitally signs a Certificate that includes Bob's public key and some extra info
     - The CA sends this certificate back to Bob
-    - 
+    - Alice now wants to send a secret message over to Bob
 
