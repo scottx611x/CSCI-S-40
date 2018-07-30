@@ -1186,6 +1186,8 @@
   - Appreciate the SIP Protocol architecture allowing for UDP and TCP transport:
     - <img width="401" alt="screen shot 2018-07-30 at 6 14 42 pm" src="https://user-images.githubusercontent.com/5629547/43426654-75f70900-9424-11e8-9308-895dba4713e5.png">
   - Real-Time applications (skype, Facetime, etc.) will use UDP always
-  - SIP Port numbers: 5060 or 5061
+  - SIP Port numbers: 5060 or 5061 
+    - IANA assigns these!
+  - 
 
 
