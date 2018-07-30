@@ -1167,5 +1167,7 @@
 
 - Voice and Video over IP (VoIP)
   - RTP Packet flow for a Video or Voice call
-  -  
+    - Voice packets are distinct from video packets
+    - There are distinct "media streams"
+    - 
 
