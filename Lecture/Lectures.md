@@ -1220,7 +1220,7 @@
     - The capabilities are included within the SIP INVITE message
     - Following the SIP INVITE is the SDP (Session Description Protocol) which includes the capabilities exchange information
       - <img width="178" alt="screen shot 2018-07-30 at 6 47 35 pm" src="https://user-images.githubusercontent.com/5629547/43427777-1eafd370-9429-11e8-9554-dcd705ab41ae.png">
-
+    - 
 
 
 
