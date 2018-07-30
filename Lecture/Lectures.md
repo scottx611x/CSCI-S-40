@@ -1113,5 +1113,11 @@
   - Written Procedures and processes
   - Educated people who care
 
--
+- Five Important Elements of Security (ON FINAL EXAM):
+  - Privacy and Confidentiality
+  - Authentication
+  - Authorization
+  - Integrity
+  - Nonrepudiantion
+  
 
