@@ -1186,6 +1186,8 @@
     - Send the video/audio
 
 - SIP (Session Initiation Protocol):
+  - Lives at layer-5
+  - Can run over TCP/UDP and within TLS
   - <img width="736" alt="screen shot 2018-07-29 at 10 32 55 pm" src="https://user-images.githubusercontent.com/5629547/43374763-5c72eda0-937f-11e8-8740-8227fa9824ee.png">
   - Used for Voice/video, instant messaging
   - Developed 15 years ago
