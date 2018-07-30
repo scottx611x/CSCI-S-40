@@ -1239,6 +1239,9 @@
     - The port information!
 
   - SDP (Session Description Protocol):
+    - A mechanism to allow for direction of media stream to different places
+    - Specifying the types of media streams
+    - Imagine a scenario where ou want to send audio to the nice speakers in the back (one IP) and the video to the machine with the nice screen (another IP)
     - 
 
 
