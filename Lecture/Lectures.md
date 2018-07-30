@@ -1209,7 +1209,7 @@
       - Regarding the above diagram, its not immediately apparent where the capabilities exhange is happening. 
         - Be aware that this could simply piggy back on the the call setup portion (Within the same packet)
     - <img width="652" alt="screen shot 2018-07-30 at 6 39 52 pm" src="https://user-images.githubusercontent.com/5629547/43427541-f977712c-9427-11e8-969d-b6178b6c87d7.png">
-    - Learning from the past: What prevents loops in routing networks?
+    - Learning from the past: What prevents loops in IP routing networks?
       - TTL!
       - 
 
