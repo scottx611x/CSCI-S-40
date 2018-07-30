@@ -1159,6 +1159,8 @@
 - NFV (Network Function Virtualization)
 
 - **Remember the Five Important Elements of Security**
-- Digital Signatures came up again
+- Digital Signatures came up again (provide authentication & integrity)
+- CA certificate is basically a digitally signed doc reflecting a website's identity and public key
+- 
 - 
 
