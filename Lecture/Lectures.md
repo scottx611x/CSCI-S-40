@@ -1163,6 +1163,7 @@
     - CAs may have subsidiaries, this is also known as the "chain of trust"
     - Can HTTPS traffic be intercepted?:
       - <img width="773" alt="screen shot 2018-07-29 at 10 05 44 pm" src="https://user-images.githubusercontent.com/5629547/43374025-910fea44-937b-11e8-9691-2c3689bb34f9.png">
+
 - VPNs and IPSec (Lecture 12 1:16):
   - Two types:
     - Tunnel mode:
@@ -1171,4 +1172,5 @@
     - Transport Mode:
       - You load the VPN softwre on one "side" and talk to a specific Host somewhere, bypassing the firewall
   - This encryption is done using IPSec
-  
+
+- VOIP (Voice and video over IP):
