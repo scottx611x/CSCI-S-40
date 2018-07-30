@@ -1198,5 +1198,6 @@
     - protocols for actually sending the voice/video
   - "Three Phases of the Call"
   - SIP is one particular protocol for establishing a session
-  - More than 30 protocols build upon this
+  - More than 30 protocols build up SIP
+  - 
   - 
