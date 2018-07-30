@@ -1167,3 +1167,4 @@
   - Two types:
     - Tunnel mode:
       - Two firewalls have established a secure, encrypted connection and the parties behind the firewalls have this protection
+      - 
