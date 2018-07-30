@@ -1137,5 +1137,5 @@
   - Digital signatures ensure integrity in data being sent as well as assuring that the sender is who they say they are (authentication)
     - Producing a digital Signature:
       - <img width="648" alt="screen shot 2018-07-29 at 8 57 25 pm" src="https://user-images.githubusercontent.com/5629547/43372744-05b0251c-9372-11e8-84b3-98d4adc1b27f.png">
-  - 
+  - We want to accomplish Authentication, Integrity, and Confidentiality
 
