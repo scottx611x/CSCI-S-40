@@ -1200,6 +1200,7 @@
       - Also called Call Managers or Unified Communication Servers nowadays
       - Handles all of the call processing
       - Has a very specific functionality for SIP
+    - Asterisk is a popular open source solution
     - 
 
 
