@@ -1263,4 +1263,6 @@
     - This complexity continued...
     - SRTP for media exchange
     - ICE/TURN/STUN for NAT traversal
+    - "Click to talk customer service" is a proposed use case
+    
 
