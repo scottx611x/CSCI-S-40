@@ -1175,4 +1175,4 @@
 
 - VOIP (Voice and video over IP):
   - Analog singal is converted to bits using a Codec
-  - 
+  - G.711 is a codec
