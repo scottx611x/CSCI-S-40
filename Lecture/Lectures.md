@@ -1191,5 +1191,6 @@
   - Looks like Email (uses MIMETYPEs)
   - Responsible for determining:
     - protocols for setting up the connection/session
-    - protocols for 
+    - protocols for determining the specific voice/video capabilities and parameters that end systems will use
+    - 
   - 
