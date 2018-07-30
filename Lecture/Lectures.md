@@ -1201,7 +1201,8 @@
       - Handles all of the call processing
       - Has a very specific functionality for SIP
     - Asterisk is a popular open source solution
-    - SIP call through a single proxy
+    - SIP call through a single proxy 
+     - RFC 3261
      - Again appreciate the three phases!
      - <img width="676" alt="screen shot 2018-07-30 at 6 33 23 pm" src="https://user-images.githubusercontent.com/5629547/43427341-2080319c-9427-11e8-93f3-1337a73ecfe6.png">
      - 
