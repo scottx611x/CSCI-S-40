@@ -1229,7 +1229,7 @@
       - Real time applications are performance wary and shouldn't go through these extra hops
       - This is a big **DIFFERENCE** from EMAIL/MTA forwarding
     - Important to keep track of the path that the INVITE messages takes through the network
-      - VIA fields
+      - Via fields: just breadcrumbs to show how packets flow from one place to the other
 
 
   - RTCWEB/WEBRTC
