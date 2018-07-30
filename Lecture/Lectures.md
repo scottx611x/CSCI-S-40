@@ -1235,7 +1235,8 @@
       - An MX record is to Email as aN SRV or NAPTR (Name authority pointer) is to SIP!
     - `dig sip.mit.edu SRV`
 
-  - how you tell an
+  - How you tell an inbound SIP call from an inbound Email from an inbound Web?
+    - The port information!
 
   - SDP (Session Description Protocol):
 
