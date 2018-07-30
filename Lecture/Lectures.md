@@ -1201,5 +1201,4 @@
   - "Three Phases of the Call"
   - SIP is one particular protocol for establishing a session
   - More than 30 protocols build up SIP
-  - 
-  - 
+  - Appreciate the three phases!
