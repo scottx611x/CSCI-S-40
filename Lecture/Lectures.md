@@ -1123,5 +1123,6 @@
 - Firewalls
   - Homework question about ACLs (the underpinning for the Firewall GUIs from lecture)
   - Can reside on prem or be a managed service (ISP, third part etc.)
-  - 
+  - Firewalls can be very simple to vey complex
+    - 
 
