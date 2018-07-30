@@ -1231,7 +1231,8 @@
     - Important to keep track of the path that the INVITE messages takes through the network
       - Via fields: just breadcrumbs to show how packets flow from one place to the other
     - DNS & SIP how do they fit together?
-    - 
+      - Think about EMAIL again! 
+      - An MX record is to Email as a  
 
 
   - RTCWEB/WEBRTC
