@@ -1173,6 +1173,6 @@
     - When you hear RTP (Real-Time Protocol) think: two-way interactive communication
     - This is different than video streaming!
       - Video streams (and separate Voice streams) are generally sent over tcp
-    - The recieving system know how to dist
+    - The recieving system know how to distinguish between vidoe and voice packets at the transport layer by 
 
 
