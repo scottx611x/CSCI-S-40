@@ -1170,5 +1170,6 @@
     - Voice packets are distinct from video packets
     - There are distinct "media streams"
     - <img width="932" alt="screen shot 2018-07-30 at 6 05 13 pm" src="https://user-images.githubusercontent.com/5629547/43426261-22f31d62-9423-11e8-8bb3-069379dfbc3d.png">
-    - When you hear RTP (Real-Time Protocol) think 
+    - When you hear RTP (Real-Time Protocol) think: two-way interactive communication
+    - 
 
