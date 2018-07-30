@@ -1150,5 +1150,8 @@
     - The CA sends this certificate back to Bob
     - Alice wants to send a secret message to Bob now
     - Bob sends his certificate which has his public key and has been digitally signed by the CA
-    -  
+
+## Lecture 13:
+
+- 
 
