@@ -1214,7 +1214,9 @@
       - What if the SIP Proxy we're dealing with is buggy and sends the SIP INVITE to another SIP Proxy and another ..... etc.?
       - That SIP Proxy is UDP and the message is going from server to server
       - The TTL at the IP layer is never going to catch that its in a bad situation
-      - So there is a Max-forwards
+      - So there is a Max-forwards in the SIP INVITE message to account for this
+        - When designing protocols always try to account form something that could go wrong
+      -
 
 
 
