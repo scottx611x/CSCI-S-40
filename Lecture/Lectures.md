@@ -1159,6 +1159,7 @@
   - Certificate chain of trust:
     - Hundres of CA public keys are stored on your computer!
     - Don't have to worry about MITM when if you had to talk to the CA to get this information
-    - 
+    - Software vendors/Browsers/OSes have their own way of providing you with these certs
+  -
 
 
