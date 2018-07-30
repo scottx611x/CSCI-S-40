@@ -1127,5 +1127,6 @@
     - <img width="517" alt="screen shot 2018-07-29 at 8 45 17 pm" src="https://user-images.githubusercontent.com/5629547/43372590-562b0f0e-9370-11e8-8a0a-728140502e55.png">
   - ALG (Application-Layer Gateway):
     - An extreme form of deep packet inspection 
-    - basically used because you don't trust anything about the client 
+    - Basically used because you don't trust anything about the client or end system so you parse all traffic at any level you want
+    - 
 
