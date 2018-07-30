@@ -1246,7 +1246,8 @@
     - We could spend days on SDP but this is the most important thing to appreciate
 
   - SIP and NAT and Firewalls (oh my!):
-    - 
+    - Supporting VoIP through NAT/FW is not easy!
+    
 
 
   - RTCWEB/WEBRTC
