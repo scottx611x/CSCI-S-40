@@ -1175,4 +1175,5 @@
 
 - VOIP (Voice and video over IP):
   - Analog singal is converted to bits using a Codec
-  - G.711 is a codec
+  - G.711 is a famous codec
+  - H264 is a common video streaming codec
