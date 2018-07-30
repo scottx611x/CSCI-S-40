@@ -1193,5 +1193,6 @@
     - protocols for setting up the connection/session
     - protocols for determining the specific voice/video capabilities and parameters that end systems will use
     - protocols for actually sending the voice/video
-  -
+  - "Three Phases of the Call"
+  - 
   - 
