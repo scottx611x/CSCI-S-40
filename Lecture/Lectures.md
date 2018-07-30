@@ -1196,7 +1196,8 @@
     - <img width="782" alt="screen shot 2018-07-30 at 6 29 13 pm" src="https://user-images.githubusercontent.com/5629547/43427182-7d6c716e-9426-11e8-9833-3ce67633b7e8.png">
     - User Agents
     - Proxies
-      - Have the Registrar
+      - Have the Registrar and other related services
+      - Also called
       - Handles all of the call processing
       - Has a very specific functionality for SIP
     - 
