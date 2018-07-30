@@ -1211,7 +1211,7 @@
     - <img width="652" alt="screen shot 2018-07-30 at 6 39 52 pm" src="https://user-images.githubusercontent.com/5629547/43427541-f977712c-9427-11e8-969d-b6178b6c87d7.png">
     - Learning from the past: What prevents loops in IP routing networks?
       - TTL!
-      - 
+      - What if the SIP Proxy we're dealing with is buggy and sends the SIP INVITE to another 
 
 
 
