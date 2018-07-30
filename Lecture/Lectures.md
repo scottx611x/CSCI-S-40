@@ -1224,7 +1224,7 @@
       - When multiple SIP Proxies are involved:
       - <img width="720" alt="screen shot 2018-07-30 at 6 51 21 pm" src="https://user-images.githubusercontent.com/5629547/43427878-944230b0-9429-11e8-96d7-4a1baa83ee4c.png">
       - Again this is super similar to MTA forwarding!!!
-    
+    - **How is SIP similar to EMAIL?**
 
 
   - RTCWEB/WEBRTC
