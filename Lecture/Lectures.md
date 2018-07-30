@@ -1201,7 +1201,9 @@
       - Handles all of the call processing
       - Has a very specific functionality for SIP
     - Asterisk is a popular open source solution
-    - 
+    - SIP call through a single proxy
+     - Again appreciate the three phases!
+     - 
 
 
   - RTCWEB/WEBRTC
