@@ -1143,6 +1143,7 @@
   - Avoiding a MITM attack:
     - Using a CA (Certificate authority)
     - Bob and Alice both trust the CA and have its public key loaded on their computers
+    - Bob creates a keypair and sends his public key to the CA in a secure manner
     - 
     - 
 
