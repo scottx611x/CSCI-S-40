@@ -1212,7 +1212,7 @@
     - Learning from the past: What prevents loops in IP routing networks?
       - TTL!
       - What if the SIP Proxy we're dealing with is buggy and sends the SIP INVITE to another SIP Proxy and another ..... etc.?
-      - 
+      - That SIP Proxy is UDP 
 
 
 
