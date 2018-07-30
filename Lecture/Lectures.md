@@ -1153,5 +1153,5 @@
     - Alice encrypts the message with Bob's public key
     - Alice sends the message which Bob is then able to decrpyt when he gets it (with his public key)
   - X509 Public Key Infrastructure is not the same as TLS
-  - 
+    - The PKI requires a trusted thrid party such as a CA
 
