@@ -1156,4 +1156,5 @@
 - Certificate Authorities/DNS
 - SIP
 - SDN (Software Defined Networks)
+- NFV (Network Function Virtualization)
 
