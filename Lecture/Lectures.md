@@ -1161,6 +1161,7 @@
 - **Remember the Five Important Elements of Security**
 - Digital Signatures came up again (provide authentication & integrity)
 - CA certificate is basically a digitally signed doc reflecting a website's identity and public key
+- Non-trivial example of DNS hijacking (Lecture 13 8:30)
 - 
 - 
 
