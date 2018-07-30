@@ -1184,4 +1184,8 @@
     - Setup capabilities:
       - Which codecs are we using etc.
     - Send the video/audio
-  -
+
+- SIP (Session Initiation Protocol):
+  - Used for Voice/video, instant messaging
+  - Developed 15 years ago
+  - 
