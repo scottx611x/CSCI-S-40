@@ -1153,5 +1153,7 @@
 
 ## Lecture 13:
 
-- 
+- Certificate Authorities/DNS
+- SIP
+- SDN (Software Defined Networks)
 
