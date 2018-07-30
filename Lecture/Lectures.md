@@ -1193,6 +1193,7 @@
     - 25 pages of mentions of RFCs that are necessary to implement SIP properly
   - SIP building blocks
     -  <img width="764" alt="screen shot 2018-07-30 at 6 24 49 pm" src="https://user-images.githubusercontent.com/5629547/43427029-e0b27f6c-9425-11e8-87fc-c23757aa7442.png">
+    - <img width="782" alt="screen shot 2018-07-30 at 6 29 13 pm" src="https://user-images.githubusercontent.com/5629547/43427182-7d6c716e-9426-11e8-9833-3ce67633b7e8.png">
     - User Agents
     - Proxies
       - Have the Registrar
