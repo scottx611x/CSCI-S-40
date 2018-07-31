@@ -1282,7 +1282,5 @@
       - In the old days one had to buy specialized hardware to move packets around
       - Nowadays general hardware is fast enough!
       - Specific software can implement networking functionality on non-specialized hardware
-
-    -
-
+      - Switching, routing, firewalls etc.
 
