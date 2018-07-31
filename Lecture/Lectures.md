@@ -1269,6 +1269,7 @@
     - Separates the control plane and the data plane **For routers**
     - Data plane: Handling of packets
     - Control plane: OSPF or RIPv2 (manages the forwarding)
+    -  <img width="770" alt="screen shot 2018-07-30 at 8 13 10 pm" src="https://user-images.githubusercontent.com/5629547/43430048-001527ce-9435-11e8-89a9-3107313ef5a3.png">
     - <img width="752" alt="screen shot 2018-07-30 at 8 12 25 pm" src="https://user-images.githubusercontent.com/5629547/43430034-e5341bf4-9434-11e8-814a-22573cf9edc2.png">
     - 
 
