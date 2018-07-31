@@ -1286,5 +1286,4 @@
 
   - Models and standards groups:
     - IETF, Open Network Foundation etc.
-  
 
