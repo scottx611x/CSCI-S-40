@@ -1285,5 +1285,6 @@
     - Switching, routing, firewalls etc.
 
   - Models and standards groups:
-    - 
+    - IETF, Open Network Foundation etc.
+  
 
