@@ -1268,5 +1268,7 @@
   - SDN (Software defined networking): 
     - Separates the control plane and the data plane **For routers**
     - Data plane: Handling of packets
-    - Control plane: 
+    - Control plane: OSPF or RIPv2 (manages the forwarding)
+    - 
+
 
