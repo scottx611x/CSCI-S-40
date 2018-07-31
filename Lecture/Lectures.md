@@ -1273,6 +1273,7 @@
     - <img width="752" alt="screen shot 2018-07-30 at 8 12 25 pm" src="https://user-images.githubusercontent.com/5629547/43430034-e5341bf4-9434-11e8-814a-22573cf9edc2.png">
     - This idea is really nice because "above the line" in the control plane the problem is really tuned for a software based solution and "below" the line in the data plane its really a speed and hardware solution, but there still needs to be an interface (software) for the two to communicate
     - <img width="633" alt="screen shot 2018-07-30 at 8 17 52 pm" src="https://user-images.githubusercontent.com/5629547/43430190-a98c5bb0-9435-11e8-85dd-5002b75d4558.png">
-    - 
+    - Homework question on Openflow:
+      - 
 
 
