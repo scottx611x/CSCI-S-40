@@ -1283,5 +1283,7 @@
     - Nowadays general hardware is fast enough!
     - Specific software can implement networking functionality on non-specialized hardware
     - Switching, routing, firewalls etc.
-    
-    
+
+  - Models and standards groups:
+    - 
+
