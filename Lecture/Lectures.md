@@ -1275,6 +1275,7 @@
     - <img width="633" alt="screen shot 2018-07-30 at 8 17 52 pm" src="https://user-images.githubusercontent.com/5629547/43430190-a98c5bb0-9435-11e8-85dd-5002b75d4558.png">
     - Homework question on Openflow:
       - <img width="687" alt="screen shot 2018-07-30 at 8 19 01 pm" src="https://user-images.githubusercontent.com/5629547/43430228-d8a2fa08-9435-11e8-844d-734e6e462c65.png">
+    - See Lecture 13 1:36:00 for more details on Openflow
     - 
 
 
