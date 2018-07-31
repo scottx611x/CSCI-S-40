@@ -1264,5 +1264,8 @@
     - SRTP for media exchange
     - ICE/TURN/STUN for NAT traversal
     - "Click to talk customer service" is a proposed use case
-    
+
+  - SDN (Software defined networking): 
+    - Separates the control plane and the data plane **For routers**
+    - 
 
