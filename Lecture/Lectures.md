@@ -1298,6 +1298,7 @@
   - "If everybody brings two goats"
   - "If everyone became a spammer"
 - Spam is unsolicited and in bulk
-- 
+- 1966 first networked email
+- 1978 first spam mail was sent
 
 ## Lecture 14:
