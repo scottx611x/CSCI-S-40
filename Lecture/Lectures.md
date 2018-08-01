@@ -1327,7 +1327,7 @@
     - Real-time block lists (DNSBLs)
       - Blocklists distributed through the DNS protocol
       - Cooperative approach
-      - 
+      - List adapts in real time based on who is sending spam "now"
     - Greylisting
     - DomainKeys
   - At the MTA
