@@ -16,7 +16,7 @@
   - [Section 4](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-4)
   - [12](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-12)
   - [13](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-13)
-
+  - [14](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-14)
 
 
 ## Lecture 1
@@ -1286,4 +1286,7 @@
 
   - Models and standards groups:
     - IETF, Open Network Foundation etc.
+
+## Lecture 14:
+
 
