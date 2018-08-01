@@ -1343,6 +1343,7 @@
       - Identify spam based on content and headers
       - URL in email blocking
     - Bayesian filters
+    - Big companies running neural networks and crowd-sourcing
   - At the User Agent
 
 ## Lecture 14:
