@@ -1306,5 +1306,14 @@
   - Commercial email senders
   - Abused ISPs
   - Botnets (compromised systems)
+- Botnets are the big evil
+- Should ISPs block outbound port 25? what about the internet's end to end principle?
+- Costs of Spam:
+  - Network Bandwith
+  - Disk Space
+  - CPU Cycles
+  - Lost Time
+  - Almost $22 billion lost annually to spam (in 2004)
+- 
 
 ## Lecture 14:
