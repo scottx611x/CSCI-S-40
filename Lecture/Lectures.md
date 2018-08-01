@@ -1328,6 +1328,7 @@
       - Blocklists distributed through the DNS protocol
       - Cooperative approach
       - List adapts in real time based on who is sending spam "now"
+      - <img width="321" alt="screen shot 2018-08-01 at 7 14 33 pm" src="https://user-images.githubusercontent.com/5629547/43553871-2b110e30-95bf-11e8-9d09-8d9ca6c8a11b.png">
     - Greylisting
     - DomainKeys
   - At the MTA
