@@ -1300,5 +1300,7 @@
 - Spam is unsolicited and in bulk
 - 1966 first networked email
 - 1978 first spam mail was sent
+- <img width="634" alt="screen shot 2018-08-01 at 6 56 47 pm" src="https://user-images.githubusercontent.com/5629547/43553383-b3196834-95bc-11e8-94b3-a1b81cf6af8d.png">
+- 
 
 ## Lecture 14:
