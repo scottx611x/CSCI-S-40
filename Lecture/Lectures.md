@@ -1322,7 +1322,14 @@
   - Everywhere!
   - At the sender
   - At the network (block known spammers from communicationg at all)
+    - ACLs
+    - Real-time block lists (DNSBLs)
+    - Greylisting
+    - DomainKeys
   - At the MTA
+    - Rules-based systems
+    - Bayesian filters
+  
   - At the User Agent
 
 ## Lecture 14:
