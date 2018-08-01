@@ -1318,7 +1318,11 @@
 - Adopt a layered approach
 - First lines of defense are key
 - The "deeper" into your network spam gets the worse off you'll be
-- 
-
+- Where should you block spam?
+  - Everywhere!
+  - At the sender
+  - At the network (block known spammers from communicationg at all)
+  - At the MTA
+  - At the User Agent
 
 ## Lecture 14:
