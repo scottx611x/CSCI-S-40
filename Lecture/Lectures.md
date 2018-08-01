@@ -1329,12 +1329,19 @@
       - Cooperative approach
       - List adapts in real time based on who is sending spam "now"
       - <img width="321" alt="screen shot 2018-08-01 at 7 14 33 pm" src="https://user-images.githubusercontent.com/5629547/43553871-2b110e30-95bf-11e8-9d09-8d9ca6c8a11b.png">
+      - Honey pots: Place a never used email address on a webpage. Any email that arrives would most likely be spam
+      - Blocking things before you ever see the mail so it could be risky
     - Greylisting
-    - DomainKeys
+      - Not a black or a white list but something inbetween
+      - Send back SMTP 450 (try again later)
+      - "Spammers do not queue" it would be very unlikely for a spammer to resend their messages
+      - SPF (Sender Policy Framework) (38:00)
+    - DomainKeys (DKIM)
+      - Emails are signed with the private key of the sending domains
+      - 
   - At the MTA
     - Rules-based systems
     - Bayesian filters
-
   - At the User Agent
 
 ## Lecture 14:
