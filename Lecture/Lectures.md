@@ -1314,6 +1314,8 @@
   - CPU Cycles
   - Lost Time
   - Almost $22 billion lost annually to spam (in 2004)
+- No silver bullet to preventing spam
+- Adopt a layered approach
 - 
 
 ## Lecture 14:
