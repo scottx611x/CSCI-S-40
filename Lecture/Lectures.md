@@ -1289,5 +1289,9 @@
     - IETF, Open Network Foundation etc.
 
 ## Spam and Email Filtering:
+- Spam is the single greatest challenge to email providers and users
+- Without constant anti-spam efforts Email would be useless
+- Spam has decreased significantly in recent years
+- 60% of email is currently spam
 
 ## Lecture 14:
