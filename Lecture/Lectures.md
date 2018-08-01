@@ -1291,7 +1291,12 @@
 ## Spam and Email Filtering:
 - Spam is the single greatest challenge to email providers and users
 - Without constant anti-spam efforts Email would be useless
+- At one point 98% of email was spam, and the infrastrucure to support anti-spam efforts cost more than the infra. to support the email itself
 - Spam has decreased significantly in recent years
 - 60% of email is currently spam
+- Tragedy of the commons
+  - "If everybody brings two goats"
+  - "If everyone became a spammer"
+
 
 ## Lecture 14:
