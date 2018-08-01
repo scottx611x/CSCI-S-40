@@ -1347,5 +1347,6 @@
   - At the User Agent
     - CAPTCHA
     - Outbound filtering
+  - Future of email?
 
 ## Lecture 14:
