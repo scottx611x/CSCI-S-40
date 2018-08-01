@@ -1338,9 +1338,10 @@
       - SPF (Sender Policy Framework) (38:00)
     - DomainKeys (DKIM)
       - Emails are signed with the private key of the sending domains
-      - 
   - At the MTA
     - Rules-based systems
+      - Identify spam based on content and headers
+      
     - Bayesian filters
   - At the User Agent
 
