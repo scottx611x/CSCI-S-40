@@ -1345,5 +1345,7 @@
     - Bayesian filters
     - Big companies running neural networks and crowd-sourcing
   - At the User Agent
+    - CAPTCHA
+    - Outbound filtering
 
 ## Lecture 14:
