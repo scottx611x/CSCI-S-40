@@ -1297,6 +1297,6 @@
 - Tragedy of the commons
   - "If everybody brings two goats"
   - "If everyone became a spammer"
-
+- Spam is unsolicited and in bulk
 
 ## Lecture 14:
