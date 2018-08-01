@@ -1316,6 +1316,9 @@
   - Almost $22 billion lost annually to spam (in 2004)
 - No silver bullet to preventing spam
 - Adopt a layered approach
+- First lines of defense are key
+- The "deeper" into your network spam gets the worse off you'll be
 - 
+
 
 ## Lecture 14:
