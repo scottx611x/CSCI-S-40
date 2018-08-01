@@ -16,6 +16,7 @@
   - [Section 4](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-4)
   - [12](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-12)
   - [13](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-13)
+  - [Spam and Email Filtering](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#spam-and-email-filtering)
   - [14](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-14)
 
 
