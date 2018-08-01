@@ -1325,6 +1325,9 @@
     - ACLs
       - Traditional Block lists
     - Real-time block lists (DNSBLs)
+      - Blocklists distributed through the DNS protocol
+      - Cooperative approach
+      - 
     - Greylisting
     - DomainKeys
   - At the MTA
