@@ -27,7 +27,7 @@ DomainKeys (DKIM) combat spam emails by digitally signing them with the private 
 
 #### 5.) Describe the functionality and operation of a SIP proxy server and also the other types of SIP servers that would be used in a network to support VoIP. Try to be clear and specific in your answer about the functionality of each server since current real-world product implementations combine a lot of the functionality into a single box.
 
-
+Think of the SIP trapezoid! Think of the similarities between SIP PRoxies and MTAs! Important to mention the three phases of the call! Important to mention that the media transfer phase is end-to-end!!!!!!
 
 #### 6.) Assume that you have recently implemented a Layer 2 switching environment in your network that uses OpenFlow. Assume that a packet enters the switch and a lookup is done in the flow tables in the switch, but no match is found. Describe the most common options for handling this packet. (Note: review the OpenFlow Switch Specification and the textbook for information on packet processing in OpenFlow switches.)
 
