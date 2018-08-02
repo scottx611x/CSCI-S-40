@@ -25,7 +25,9 @@ The above scenario is avoided with the use of Certificate Authorities and X.509 
 
 #### 4.) Assume that you are submitting your homework via email. Describe in detail the methodology for using a digital signature using public-key cryptography to sign and submit your homework. (Note that an email that is digitally signed is not the same as encrypting it.)
 
-To submit my homework over email and have the reciver be able to verify that it came from me and that its contents have not been altered I would have to encrypt as well as digitally sign said homework. First I would run a one-way hash function over the contents of the homework and append said hash to the hoemwork file. I would then encrypt session key with my private key, encrypt again with friends public key. Friend comes along and decrypts with his private key. He then decrypts with my public key to get the session key! He can then go ahead and decrypt the large file.
+To submit my homework over email and have the reciver be able to verify that it came from me and that its contents have not been altered I would have to encrypt as well as digitally sign said homework. Lets assume that in this scenario that my homework was an extremely large file, and that it would take too many time units to encrypt with assyemmetric cryptography. Lets also assume that myself and the recieving party have securely transferred public keys.
+
+First I would run a one-way hash function over the contents of the homework and append said hash to the homework file. I would then create a session key and encrypt the contents of my homework including this message digest with it since it is much faster to do asymmetrically. I would then encrypt the session key with my private key and then again with the recipient's public key. I can, at this point, send the encrypted session key and encrypted homework over email. The  along and decrypts with his private key. He then decrypts with my public key to get the session key! He can then go ahead and decrypt the large file.
 DomainKeys (DKIM) combat spam emails by digitally signing them with the private key of the sending domain.
 
 
