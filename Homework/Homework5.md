@@ -14,7 +14,7 @@ DO THIS!
 
 #### 3.) What is a X.509 certificate? What is a Certificate Authority? Given that anyone can create a public/private key pair on their own, describe why certificates and certificate authorities are necessary and how they are used?
 
-An X.509 certificate at it's simplist is a culmination of asymmetric cryptography, hashing, and digital signatures that allows for . What this certificate is actually providing is a way to verify that a website is trusted. It is a digitally signed doc reflecting a website's identity and public key.
+An X.509 certificate at it's simplist is a culmination of asymmetric cryptography, hashing, and digital signatures. What this certificate is actually providing is a way to verify that a website is trusted. It is a digitally signed doc reflecting a website's identity and public key.
 
 Certificate Authorities are third parties that must be trusted be all actors in a request
 
