@@ -9,6 +9,8 @@ These opt-out links could potentially sneaky. A given link could indeed opt the 
 #### 2.) All routers today implement policies for packet filtering and forwarding and most of them use what are called Access Control Lists (ACLs) to configure these policies. Do some research on a commercially available router that uses ACLs (pick the router vendor of your choice) and describe in detail how ACLs are used and how the packet filtering is done. Include specific examples of the ACLs in your answer, but note that you do not need to describe how the hardware implements the packet filtering and forwarding. Make sure to identify the router you are describing. Note that most of the routers meant for home networks do not allow users to configure or view the actual ACLs, rather, they use a simple GUI interface to set router policy; such a device would not be a good example for this question. Also, many of the commercial routers also provide a GUI interface to setting ACLs. For this question it is important that you describe the use of the ACL, not the GUI interface.
 
 
+DO THIS!
+
 
 #### 3.) What is a X.509 certificate? What is a Certificate Authority? Given that anyone can create a public/private key pair on their own, describe why certificates and certificate authorities are necessary and how they are used?
 
@@ -27,11 +29,11 @@ DomainKeys (DKIM) combat spam emails by digitally signing them with the private 
 
 #### 5.) Describe the functionality and operation of a SIP proxy server and also the other types of SIP servers that would be used in a network to support VoIP. Try to be clear and specific in your answer about the functionality of each server since current real-world product implementations combine a lot of the functionality into a single box.
 
-Think of the SIP trapezoid! Think of the similarities between SIP PRoxies and MTAs! Important to mention the three phases of the call! Important to mention that the media transfer phase is end-to-end!!!!!!
+Think of the SIP trapezoid! Think of the similarities between SIP PRoxies and MTAs! Important to mention the three phases of the call! Important to mention that the media transfer phase is end-to-end!
 
 #### 6.) Assume that you have recently implemented a Layer 2 switching environment in your network that uses OpenFlow. Assume that a packet enters the switch and a lookup is done in the flow tables in the switch, but no match is found. Describe the most common options for handling this packet. (Note: review the OpenFlow Switch Specification and the textbook for information on packet processing in OpenFlow switches.)
 
-
+DO THIS!
 
 ---
 
