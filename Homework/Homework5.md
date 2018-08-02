@@ -32,8 +32,10 @@ First I would run a one-way hash function over the contents of the homework and 
 
 #### 5.) Describe the functionality and operation of a SIP proxy server and also the other types of SIP servers that would be used in a network to support VoIP. Try to be clear and specific in your answer about the functionality of each server since current real-world product implementations combine a lot of the functionality into a single box.
 
-When I think of the scenario provided, and SIP in general, I begin to think of all the similarities it has with Email. MTA forwarding is to Email as SIP proxies are to SIP. When a SIP INVITE is initially sent, it is not known how many SIP proxy servers that it will be interacting with. 
+The other two types of servers that work in unison with the SIP proxy to support VoIP are: the Registrar server and the Location Server.
 
+
+When I think of the scenario provided, and SIP in general, I begin to think of all the similarities it has with Email. MTA forwarding is to Email as SIP proxies are to SIP. When a SIP INVITE is initially sent, it is not known how many SIP proxy servers that it will be interacting with. 
 Think of the SIP trapezoid! Think of the similarities between SIP PRoxies and MTAs! Important to mention the three phases of the call! Important to mention that the media transfer phase is end-to-end!
 
 #### 6.) Assume that you have recently implemented a Layer 2 switching environment in your network that uses OpenFlow. Assume that a packet enters the switch and a lookup is done in the flow tables in the switch, but no match is found. Describe the most common options for handling this packet. (Note: review the OpenFlow Switch Specification and the textbook for information on packet processing in OpenFlow switches.)
