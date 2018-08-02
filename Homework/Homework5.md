@@ -12,7 +12,7 @@ These opt-out links could potentially sneaky. A given link could indeed opt the 
 
 #### 3.) What is a X.509 certificate? What is a Certificate Authority? Given that anyone can create a public/private key pair on their own, describe why certificates and certificate authorities are necessary and how they are used?
 
-An X.509 certificate at it's simpleist
+An X.509 certificate at it's simplist is the culmination of a digital signature
 
 #### 4.) Assume that you are submitting your homework via email. Describe in detail the methodology for using a digital signature using public-key cryptography to sign and submit your homework. (Note that an email that is digitally signed is not the same as encrypting it.)
 
