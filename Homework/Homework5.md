@@ -22,7 +22,7 @@ CAs are necessary because they prevent a Man in the middle attack from being abl
 #### 4.) Assume that you are submitting your homework via email. Describe in detail the methodology for using a digital signature using public-key cryptography to sign and submit your homework. (Note that an email that is digitally signed is not the same as encrypting it.)
 
 
-Emails are signed with the private key of the sending domains
+DomainKeys (DKIM) combat spam emails by digitally signing them with the private key of the sending domain.
 
 
 #### 5.) Describe the functionality and operation of a SIP proxy server and also the other types of SIP servers that would be used in a network to support VoIP. Try to be clear and specific in your answer about the functionality of each server since current real-world product implementations combine a lot of the functionality into a single box.
