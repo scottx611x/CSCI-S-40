@@ -12,9 +12,16 @@ These opt-out links could potentially sneaky. A given link could indeed opt the 
 
 #### 3.) What is a X.509 certificate? What is a Certificate Authority? Given that anyone can create a public/private key pair on their own, describe why certificates and certificate authorities are necessary and how they are used?
 
-An X.509 certificate at it's simplist is the culmination of a digital signature
+An X.509 certificate at it's simplist is a culmination of asymmetric cryptography (public/private keys), hashing, and digital signatures. What this certificate is actually providing is a way to verify that a website is trusted. 
+
+Certificate Authorities are third parties that must be trusted be all actors in a request
+
+CAs are necessary because they prevent a Man in the middle attack from being able to happen
+
 
 #### 4.) Assume that you are submitting your homework via email. Describe in detail the methodology for using a digital signature using public-key cryptography to sign and submit your homework. (Note that an email that is digitally signed is not the same as encrypting it.)
+
+
 
 #### 5.) Describe the functionality and operation of a SIP proxy server and also the other types of SIP servers that would be used in a network to support VoIP. Try to be clear and specific in your answer about the functionality of each server since current real-world product implementations combine a lot of the functionality into a single box.
 
