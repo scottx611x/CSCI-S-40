@@ -32,7 +32,7 @@ First I would run a one-way hash function over the contents of the homework and 
 
 #### 5.) Describe the functionality and operation of a SIP proxy server and also the other types of SIP servers that would be used in a network to support VoIP. Try to be clear and specific in your answer about the functionality of each server since current real-world product implementations combine a lot of the functionality into a single box.
 
-The other two types of servers that work in unison with the SIP proxy to support VoIP are: the Registrar server and the Location Server. As stated in the homework question it is quite often found that nowadays these services are all combined in one with 
+The other two types of servers that work in unison with the SIP proxy to support VoIP are: the Registrar server and the Location Server. As stated in the homework question it is quite often found that nowadays these services are all combined in one with a marketing names like: Call Managers or Unified Communication Servers. The SIP registrar is responsible for registering
 
 
 When I think of the scenario provided, and SIP in general, I begin to think of all the similarities it has with Email. MTA forwarding is to Email as SIP proxies are to SIP. When a SIP INVITE is initially sent, it is not known how many SIP proxy servers that it will be interacting with. 
