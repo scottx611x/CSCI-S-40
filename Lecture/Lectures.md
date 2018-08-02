@@ -1139,6 +1139,7 @@
       - <img width="780" alt="screen shot 2018-07-29 at 8 51 18 pm" src="https://user-images.githubusercontent.com/5629547/43372676-40783956-9371-11e8-9adf-d1b0e114bc4b.png">
 
 - Certificates and Website Security
+  - X.509 Certificate
   - A culmination of Asymmetric Cryptography (public/private keys), Hashing (think integrity), and digital signatures
   - Digital signatures ensure integrity in data being sent as well as assuring that the sender is who they say they are (authentication)
     - Producing a digital Signature:
