@@ -38,7 +38,7 @@ The other two types of servers that work in unison with the SIP proxy to support
 
 #### 6.) Assume that you have recently implemented a Layer 2 switching environment in your network that uses OpenFlow. Assume that a packet enters the switch and a lookup is done in the flow tables in the switch, but no match is found. Describe the most common options for handling this packet. (Note: review the OpenFlow Switch Specification and the textbook for information on packet processing in OpenFlow switches.)
 
-In this scenario, if no packet match is found, according to the OpenFlow specification the first step taken is to take a look and see if there is a matching table-miss flow entry. The table-miss flow entry states how a packet that hasn't been matched should be handled. From here, the packet could be sent off to the flow controller, dropped, or directed to another flow table where this match/table-miss cycle would happen again.
+In this scenario, if no packet match is found, according to the OpenFlow specification the first step taken is to take a look and see if there is a matching table-miss flow entry. The table-miss flow entry states how a packet that hasn't been matched during a cycle of packet flow should be handled. From here, the packet could be sent off to the flow controller, dropped, or directed to another flow table where this match/table-miss cycle would happen again.
 
 ---
 
