@@ -18,7 +18,9 @@ An X.509 certificate at it's simplist is a combination of asymmetric cryptograph
 
 Certificate Authorities are corporations that issue these digital certificates. It is integral that Certificate Authorities must be trusted by all actors in a given interaction on the web.
 
-CAs are necessary because they allow for the prevention of the following attack scenario from being able to happen: 
+CAs are necessary because they allow for the prevention of the following attack scenario from being able to happen. Imagine a scene where there are two folks, User A & User B, that want to be able to transmit data amongst themselves securely. They have a notion of asymmetric cryptography and have shared their public keys with eachother in a secure manner. Due to the fact that public key information is public, a bad actor could get their hnds on these keys. They could then jump in between the users and probe their conversation by decrypting, reading/utilizing the payload, and re-encrypting then sending the message off to its intended destination. In this scenario, the original message would get to User B just fine and both users would have no clue that their information was being spyed on. This is typically called a Man In The Middle attack.
+
+The above scenario is avoided with the use of Certificate Authorities and X.509 certificates
 
 
 #### 4.) Assume that you are submitting your homework via email. Describe in detail the methodology for using a digital signature using public-key cryptography to sign and submit your homework. (Note that an email that is digitally signed is not the same as encrypting it.)
