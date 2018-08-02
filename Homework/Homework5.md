@@ -1,0 +1,19 @@
+## Homework 5
+### Scott Ouellette 
+### Scott_Ouellette@hms.harvard.edu
+
+#### 1.) 
+
+1.) (2 points) CAN-SPAM section 5.a.5 requires all bulk email senders to require an opt-out link on all emails, as well as certain other requirements. How might clicking on these opt-out links be counter- productive for the email recipient?
+2.) (3 points) All routers today implement policies for packet filtering and forwarding and most of them use what are called Access Control Lists (ACLs) to configure these policies. Do some research on a commercially available router that uses ACLs (pick the router vendor of your choice) and describe in detail how ACLs are used and how the packet filtering is done. Include specific examples of the ACLs in your answer, but note that you do not need to describe how the hardware implements the packet filtering and forwarding.
+Make sure to identify the router you are describing. Note that most of the routers meant for home networks do not allow users to configure or view the actual ACLs, rather, they use a simple GUI interface to set router policy; such a device would not be a good example for this question. Also, many of the commercial routers also provide a GUI interface to setting ACLs. For this question it is important that you describe the use of the ACL, not the GUI interface.
+3.) (3 points) What is a X.509 certificate? What is a Certificate Authority? Given that anyone can create a public/private key pair on their own, describe why certificates and certificate authorities are necessary and how they are used?
+4.) (3 points) Assume that you are submitting your homework via email. Describe in detail the methodology for using a digital signature using public-key cryptography to sign and submit your homework. (Note that an email that is digitally signed is not the same as encrypting it.)
+© 2018 L. Evenchik Page 1 of 2
+5.) (3 points) Describe the functionality and operation of a SIP proxy server and also the other types of SIP servers that would be used in a network to support VoIP. Try to be clear and specific in your answer about the functionality of each server since current real-world product implementations combine a lot of the functionality into a single box.
+6.) (3 points) Assume that you have recently implemented a Layer 2 switching environment in your network that uses OpenFlow. Assume that a packet enters the switch and a lookup is done in the flow tables in the switch, but no match is found. Describe the most common options for handling this packet. (Note: review the OpenFlow Switch Specification and the textbook for information on packet processing in OpenFlow switches.)
+EXTRA CREDIT:
+We will add 3 points to your total homework grade for the term if you answer this question.
+7.) (3 points) In lecture, we will demonstrate a SIP softphone calling other SIP clients. Create an account for yourself on a SIP service provider (such as www.iptel.org) and using a SIP phone of your choice, call us at sip:cs40@iptel.org and leave us a voicemail message.
+This question is worth 3 points and you should state in your homework that you have left us the voicemail, or tried to leave us a voicemail. The reason we are asking you to confirm this in your homework is that we are not sure how large a voicemail box we have. If your SIP registration did not work or if your call did not go through, then you should describe your configuration and the steps you used when you tried to debug the problem. You will get full credit, or partial credit, for explaining your configuration and your approach to debugging.
+Important Note: The security and privacy policies of free SIP providers, might, or might not meet industry standard security practices and standards. Given this, we strongly recommend that the login and password that you use with these sites when you create your account should be ones that you don’t care about, and should be limited to use at these sites only.
