@@ -16,9 +16,9 @@ DO THIS!
 
 An X.509 certificate at it's simplist is a combination of asymmetric cryptography, hashing, and digital signatures. What this certificate is actually providing is: a way to verify that a website is trusted and is who they claim to be, a way for data to be transmitted confidentially, and a way for ensuring the integrity of the data being sent between the parties (end-users and the website). Underneath it all the the X.509 certificate is a digitally signed document reflecting a website's identity and public key.
 
-Certificate Authorities are third party corporations that issue these digital certificates. It is integral that Certificate Authorities must be trusted by all actors in a given interaction on the web.
+Certificate Authorities are corporations that issue these digital certificates. It is integral that Certificate Authorities must be trusted by all actors in a given interaction on the web.
 
-CAs are necessary because they prevent a Man in the middle attack from being able to happen
+CAs are necessary because they allow for the prevention of the following attack scenario from being able to happen: 
 
 
 #### 4.) Assume that you are submitting your homework via email. Describe in detail the methodology for using a digital signature using public-key cryptography to sign and submit your homework. (Note that an email that is digitally signed is not the same as encrypting it.)
