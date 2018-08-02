@@ -16,3 +16,6 @@
 
 #### EXTRA CREDIT:
 #### 7.) In lecture, we will demonstrate a SIP softphone calling other SIP clients. Create an account for yourself on a SIP service provider (such as www.iptel.org) and using a SIP phone of your choice, call us at sip:cs40@iptel.org and leave us a voicemail message.
+
+I was unable to make a successful call to cs40@iptel.org, but was able to connect to music@iptel.org
+<img width="785" alt="screen shot 2018-08-01 at 9 39 48 pm" src="https://user-images.githubusercontent.com/5629547/43557646-a124d99e-95d3-11e8-8b36-2820a9396d51.png">
