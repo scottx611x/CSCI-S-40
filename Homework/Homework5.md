@@ -25,7 +25,7 @@ The above scenario is avoided with the use of Certificate Authorities and X.509 
 
 #### 4.) Assume that you are submitting your homework via email. Describe in detail the methodology for using a digital signature using public-key cryptography to sign and submit your homework. (Note that an email that is digitally signed is not the same as encrypting it.)
 
-To submit my homework over email, and have the reciver be able to verify that it came from me, and that its contents have not been altered, I would have to encrypt as well as digitally sign said homework. First I would encrypt session key with my private key, encrypt again with friends public key. Friend comes along and decrypts with his private key. He then decrypts with my public key to get the session key! He can then go ahead and decrypt the large file.
+To submit my homework over email and have the reciver be able to verify that it came from me and that its contents have not been altered I would have to encrypt as well as digitally sign said homework. First I would encrypt session key with my private key, encrypt again with friends public key. Friend comes along and decrypts with his private key. He then decrypts with my public key to get the session key! He can then go ahead and decrypt the large file.
 DomainKeys (DKIM) combat spam emails by digitally signing them with the private key of the sending domain.
 
 
