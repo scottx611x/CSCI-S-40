@@ -1531,4 +1531,6 @@ Key Topics:
     - DiffServ "packet marking" ended up being implemented within some bits that were available in the IP header
       -  Specifically in the TOS (Type of Service) portion of the IP Header (6 bits)
     - <img width="717" alt="screen shot 2018-08-04 at 7 34 08 pm" src="https://user-images.githubusercontent.com/5629547/43681297-5d889fda-981d-11e8-8220-0233245c98ab.png">
-    -   
+    - Typical assignment for DiffServ:
+      - <img width="658" alt="screen shot 2018-08-04 at 7 38 30 pm" src="https://user-images.githubusercontent.com/5629547/43681329-06568f1e-981e-11e8-8d7e-bd227b07541b.png">
+      
