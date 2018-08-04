@@ -20,10 +20,7 @@
   - [Section 5](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-5)
   - [14](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-14)
 
-  ---
-  
-  - [14](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-14)
-
+---
 
 ## Lecture 1
 
