@@ -1497,4 +1497,6 @@ Key Topics:
     - Voice and vidoe packets will have spearate sequence numbers
     - Port number tells the reciever wheter its voice or video and port number is set during the capabilities phase
     - Another issue arises here (think the "DUBBING"/"LipSync" problem)
-    - RTP 
+    - RTP Header has a notion of a timestamp in the header for both audio and video packets
+    - The reciever can then say that: "this audio and video go together, I'll play them at the same time"
+    - 
