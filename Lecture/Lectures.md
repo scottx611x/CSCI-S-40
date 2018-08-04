@@ -1470,5 +1470,8 @@ Key Topics:
   - SIP initiation can run over UDP & TCP
   - The capabilities phase can be piggy-backed on the session initiation
   - Really appreciate the SIP trapezoid and how all of the various protocol elements are working together
-  
+- SDN:
+  - Network function virtualization
+    - A router or networking component has been implemented through software on some generic hardware
+  - Openflow
 
