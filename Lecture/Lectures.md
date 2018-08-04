@@ -1514,4 +1514,6 @@ Key Topics:
       - Delay
     - QoS is not a new issue
     - If you have a lot of bandwith available you don't have to worry about QoS (as much)
+    - Thinking back to IP which included QoS as a part of its header format, we can imagine specifc types of traffic being given a higher priority than others
+    - <img width="746" alt="screen shot 2018-08-04 at 7 08 58 pm" src="https://user-images.githubusercontent.com/5629547/43681143-de09f342-9819-11e8-9e00-3b56528af20a.png">
     - 
