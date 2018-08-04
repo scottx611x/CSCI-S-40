@@ -1535,5 +1535,6 @@ Key Topics:
       - <img width="658" alt="screen shot 2018-08-04 at 7 38 30 pm" src="https://user-images.githubusercontent.com/5629547/43681329-06568f1e-981e-11e8-8d7e-bd227b07541b.png">
     - All of the network service carriers have different pricepoints for traffic that should be treated better than other traffic
     - The general internet does not implement QoS
-    - DSCP to UP mapping example for 802.11
+    - DSCP to UP mapping example for 802.11 (recent example 2017)
+    - 
     -   
