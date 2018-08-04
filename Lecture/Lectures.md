@@ -1491,5 +1491,5 @@ Key Topics:
       - <img width="575" alt="screen shot 2018-08-04 at 5 59 07 pm" src="https://user-images.githubusercontent.com/5629547/43680788-30b274de-9810-11e8-8770-224a5b7328e6.png">
     - Because we don't want the delays that come with a reliable protocol, we use UDP.
     - This is troublesome because UDP doesn't provide sequence # for ordered delivery
-    - RTP provides sequence #'s so that the recieving application can reassemble that data in the proper order
-     
+    - RTP's functionality (SP3) provides sequence #'s so that the recieving application can reassemble that data in the proper order
+    - 
