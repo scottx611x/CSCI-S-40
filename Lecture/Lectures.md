@@ -1394,5 +1394,9 @@ Key Topics:
     - A, AAAA, MX, NS, etc.
   - CNAME is like a symlink
   - Multiple A records can be used for loadsharing
+  - TLDs:
+    - gTLDS & ccTLD
+      - .com & .us
+      - New tlds today: .ninja etc.
   -
 
