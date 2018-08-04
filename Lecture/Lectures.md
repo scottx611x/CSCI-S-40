@@ -1507,4 +1507,9 @@ Key Topics:
     - The afforementioned metrics are QoS (Quality of Service) parameters
   
   - QoS (Quality of Service):
+    - The requirements focus on:
+      - Bandwith
+      - Error Rate
+      - Jitter
+      - Delay
     - 
