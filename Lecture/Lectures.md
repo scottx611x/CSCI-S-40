@@ -1484,4 +1484,7 @@ Key Topics:
 
 - Voice and Video over IP:
   - Taking analog voice or video and packetizing it
-  -  
+  - Delay should be 100ms or less
+  - RTP (Real Time Transport Protocol): 
+    - Uses UDP
+    - Example of Voice Data with  
