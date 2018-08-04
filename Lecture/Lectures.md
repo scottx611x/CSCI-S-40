@@ -1432,5 +1432,7 @@ Key Topics:
   - Integrity
   - Nonrepudiation
   - Security should happen at every layer
-  - Security
+  - Humans are always the weakest link
+  - Caeser Cyphers (substitution cypher)
+  - 
 
