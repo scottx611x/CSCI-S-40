@@ -1437,7 +1437,8 @@ Key Topics:
 - Cryptography:
   - Caeser Cyphers (substitution cypher)
   - Symmetric
-    - 
+    - One key can go "back and forth" between encrypted version and original text
   - Asymmetric
-
+    - Need both keys to be able to be able to go "back and forth"
+  
 
