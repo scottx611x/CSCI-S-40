@@ -1414,5 +1414,6 @@ Key Topics:
 
 - SMTP:
   - Was the first "Killer App bro"
-  - 
+  - Think of it as a sute of mail based protocols
+  - MTAs 
 
