@@ -1441,5 +1441,5 @@ Key Topics:
   - Asymmetric
     - Need both keys to be able to be able to go "back and forth"
   - Hashing provides integrity
-  - s
-
+    - One-directional cryptographical method of giving a "fingerprint" of data
+    - 
