@@ -1513,4 +1513,6 @@ Key Topics:
     - If you have a lot of bandwith available you don't have to worry about QoS (as much)
     - Thinking back to IP which included QoS as a part of its header format, we can imagine specifc types of traffic being given a higher priority than others
     - <img width="746" alt="screen shot 2018-08-04 at 7 08 58 pm" src="https://user-images.githubusercontent.com/5629547/43681143-de09f342-9819-11e8-9e00-3b56528af20a.png">
-    - 
+    - When a router is reciving packets and implementing a smarter approch to sending them out the other side:
+      - Identify the type of packet (what type of service?)
+        - Think about sending USPS mail (Priority vs. regular)
