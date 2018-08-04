@@ -1399,5 +1399,10 @@ Key Topics:
       - .com & .us
       - New tlds today: .ninja etc.
   - Nameservers are queried from root to bottom
-  - 
+    - Caching Nameserver is queried initially  with a recursive DNS query from local machine (this is the NS configured for your local machine to use)
+    - Caching NS then makes non-recursive queries to resolve
+      - asks root: do you know about www.harvard.edu? root says: "no but I know another NS you can query about .edu domains"
+      - asks .edu NS and rinse & repeat
+  
+
 
