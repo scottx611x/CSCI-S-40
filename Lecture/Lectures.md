@@ -1538,5 +1538,6 @@ Key Topics:
     - DSCP to UP mapping example for 802.11 (recent example 2017)
     - QoS really works well when implemented properly
 
-  - IoT
+  - IoT:
+    - 
     -   
