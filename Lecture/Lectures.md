@@ -1521,4 +1521,6 @@ Key Topics:
       - The most significant delay component nowadays is the queueing of a packet in a given networking device while it is waiting to reach the front of a queue
       - Only one packet can be sent at a time and all other packets must wait for their time to be sent
       - Delay becomes cumulative over the course of hops taken throught a network
-    -
+    - Policing of QoS traffic can be done with a Firewall or something similar so that a bad actor doesn't exploit the QoS functionaly to their advantage
+      - QoS bits in IP packets could be set to 0 upon crossing the firewall boundary
+    - 
