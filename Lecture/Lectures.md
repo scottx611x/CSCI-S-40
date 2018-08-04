@@ -1358,4 +1358,10 @@
 
 Key Topics:
 - DNS
-- 
+  - Hierarchy
+  - Record Types
+  - Reverse Lookups
+  - TLDs
+  - Authoritative Nameservers vs. Caching
+  - Recursive Lookups
+  - Root Servers
