@@ -1407,6 +1407,9 @@ Key Topics:
     - Authoritative Nameservers know about their specific friens
     - Reverse DNS:
       - <img width="552" alt="screen shot 2018-08-04 at 2 20 08 pm" src="https://user-images.githubusercontent.com/5629547/43679327-83550efa-97f1-11e8-9572-5a1e9b74c94f.png">
-- 
+- TELNET
+  - Older machine administration protocol
+  - Connect to a port and give human readable commands to interrogte a machine
+  
 
 
