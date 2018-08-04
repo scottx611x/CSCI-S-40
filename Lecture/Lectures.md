@@ -1501,4 +1501,6 @@ Key Topics:
     - The reciever can then say that: "this audio and video go together, I'll play them at the same time"
     - Codecs could change during the duration of a stream, but it would take a very sophisticated system to do this
     - In the case of more complex applications (VR, multi-channel audio) each media stream will have its own port number and RTP sequence numbers
+    - Jitter: Variability in delay
+      - There should be less than 40ms of Jitter for good quality streams
     - 
