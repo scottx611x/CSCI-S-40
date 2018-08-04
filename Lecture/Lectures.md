@@ -1440,5 +1440,6 @@ Key Topics:
     - One key can go "back and forth" between encrypted version and original text
   - Asymmetric
     - Need both keys to be able to be able to go "back and forth"
-  
+  - Hashing provides integrity
+  - s
 
