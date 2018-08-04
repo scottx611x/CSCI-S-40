@@ -1536,5 +1536,7 @@ Key Topics:
     - All of the network service carriers have different pricepoints for traffic that should be treated better than other traffic
     - The general internet does not implement QoS
     - DSCP to UP mapping example for 802.11 (recent example 2017)
-    - 
+    - QoS really works well when implemented properly
+
+  - 
     -   
