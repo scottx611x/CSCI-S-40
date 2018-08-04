@@ -1423,5 +1423,6 @@ Key Topics:
     - Headers: Used by User agents (To: FROM: etc.)
     - Body: (Acutal message)
   - MIME: Defines a content encoding and filetype
+    - text/plain, text/html, image/jpeg
   - 
 
