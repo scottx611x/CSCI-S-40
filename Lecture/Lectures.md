@@ -1417,5 +1417,6 @@ Key Topics:
   - Think of it as a sute of mail based protocols
   - MTAs are responsible for sending mail to its intended destination (very possible to send along to another MTA)
   - SMTP port 25 between MTAs
+  - Appreciate that the connection to the MTA can vary: HTTPS, SMTP etc.
   - 
 
