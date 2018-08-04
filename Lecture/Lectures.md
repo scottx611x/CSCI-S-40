@@ -1398,5 +1398,6 @@ Key Topics:
     - gTLDS & ccTLD
       - .com & .us
       - New tlds today: .ninja etc.
-  -
+  - Nameservers are queried from root to bottom
+  - 
 
