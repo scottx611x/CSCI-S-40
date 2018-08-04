@@ -1497,4 +1497,4 @@ Key Topics:
     - Voice and vidoe packets will have spearate sequence numbers
     - Port number tells the reciever wheter its voice or video and port number is set during the capabilities phase
     - Another issue arises here (think the "DUBBING"/"LipSync" problem)
-    - 
+    - RTP 
