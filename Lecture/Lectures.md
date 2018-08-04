@@ -1390,5 +1390,9 @@ Key Topics:
   - DNS hierarchy/Tree
   - Root -> TLDs -> Specific Zones -> etc.
     - <img width="977" alt="screen shot 2018-08-04 at 1 58 00 pm" src="https://user-images.githubusercontent.com/5629547/43679161-6c5c49aa-97ee-11e8-838c-eb142dbcd7ae.png">
-  - 
+  - One domain name can have many record types:
+    - A, AAAA, MX, NS, etc.
+  - CNAME is like a symlink
+  - Multiple A records can be used for loadsharing
+  -
 
