@@ -1453,6 +1453,13 @@ Key Topics:
     - Nowadays we use VPN routers at two locations
     - Encrypted point to point connection
     - Uses IPSEC or something similar to beable to send data over the internet to the next VPN and have it remain encrypted
+    - Host machine does not know its on a VPN
   - TRANSPORT: 
     - host to routers
+    - Host machine uses client software to connect to a VPN server
+    - Another NIC will show up in host OS
+    - Host knows that its on a VPN
+
+- Website Security:
+  - TLS
 
