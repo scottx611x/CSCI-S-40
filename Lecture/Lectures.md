@@ -1478,6 +1478,7 @@ Key Topics:
       - Has been done for a number of years in proprietary ways by different vendors
       - Could do some packet processing on hardware specifically meant to do so
       - This is now done in a more general way through the use of software
-      - 
+  - Network Virtualization and NFV are not the same!!!
+    - Think VLANs & VPNs 
   - Openflow
 
