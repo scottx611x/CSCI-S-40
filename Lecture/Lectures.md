@@ -1388,5 +1388,7 @@ Key Topics:
 - DNS
   - The largest distributed database system ever created (as an aggregate)
   - DNS hierarchy/Tree
+  - Root -> TLDs -> Specific Zones -> etc.
+    - <img width="977" alt="screen shot 2018-08-04 at 1 58 00 pm" src="https://user-images.githubusercontent.com/5629547/43679161-6c5c49aa-97ee-11e8-838c-eb142dbcd7ae.png">
   - 
 
