@@ -1365,3 +1365,14 @@ Key Topics:
   - Authoritative Nameservers vs. Caching
   - Recursive Lookups
   - Root Servers
+- Email Basics
+  - SMTP
+  - MIME Types
+  - Email Flow (through User Agents/MTAs)
+- Other Protocols 
+  - TELNET
+  - FTP
+  - HTTP
+- Firewalls
+  - Different Types/Granularity
+  - 
