@@ -1526,4 +1526,6 @@ Key Topics:
     - If any devices in the network don't implement QoS, then they will probably use a general means of choosing packets which come into the queue and QoS benefeits are lost at those hops
     - Approches to managing QoS:
       - Have a ton of available bandwith
-      - Allocate bandwith to particular users or conversations and manage that bandwith allocation as  
+      - Allocate bandwith to particular users or conversations and manage that bandwith allocation as they change (this is a very outdated and unsed apprach today)
+      - DiffServ (Differentiated Services) Marking of packets in a specific manner so they get treated differently over a network
+      -  
