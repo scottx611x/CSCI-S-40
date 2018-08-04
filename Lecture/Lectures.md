@@ -17,6 +17,7 @@
   - [12](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-12)
   - [13](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-13)
   - [Spam and Email Filtering](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#spam-and-email-filtering)
+  - [Section 5](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-5)
 
   ---
   
@@ -1353,4 +1354,6 @@
     - Outbound filtering
   - Future of email?
 
-## Lecture 14:
+## Section 5:
+
+
