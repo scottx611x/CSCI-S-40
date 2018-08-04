@@ -1475,5 +1475,9 @@ Key Topics:
     - A router or networking component has been implemented through software on some generic hardware
     - <img width="559" alt="screen shot 2018-08-04 at 4 30 59 pm" src="https://user-images.githubusercontent.com/5629547/43680245-c9eb349a-9803-11e8-8e12-e47c5c38ea86.png">
     - Separation of control and data planes
+      - Has been done for a number of years in proprietary ways by different vendors
+      - Could do some packet processing on hardware specifically meant to do so
+      - This is now done in a more general way through the use of software
+      - 
   - Openflow
 
