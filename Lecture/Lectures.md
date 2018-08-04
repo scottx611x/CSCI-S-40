@@ -18,6 +18,7 @@
   - [13](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-13)
   - [Spam and Email Filtering](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#spam-and-email-filtering)
   - [Section 5](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-5)
+  - [14](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-14)
 
   ---
   
@@ -1463,6 +1464,7 @@ Key Topics:
 - Website Security:
   - TLS
 
+## Lecture 14:
 
 
 
