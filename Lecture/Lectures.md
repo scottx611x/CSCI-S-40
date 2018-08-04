@@ -1517,4 +1517,5 @@ Key Topics:
       - The Sender identifies the type of packet (what type of service?)
         - Think about sending USPS mail (Priority vs. regular)
       - All devices in the network treat high QoS packets first
-      - 
+    - Network delay in the real world means that the QoS metric is extremely important
+      - The most significant delay component nowadays is the queueing of  
