@@ -1528,4 +1528,5 @@ Key Topics:
       - Have a ton of available bandwith
       - Allocate bandwith to particular users or conversations and manage that bandwith allocation as they change (this is a very outdated and unsed apprach today)
       - DiffServ (Differentiated Services) Marking of packets in a specific manner so they get treated differently over a network
-      -  
+    - DiffServ "packet marking" ended up being implemented within some bits that were available in the IP header
+    -   
