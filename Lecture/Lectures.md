@@ -1442,4 +1442,8 @@ Key Topics:
     - Need both keys to be able to be able to go "back and forth"
   - Hashing provides integrity
     - One-directional cryptographical method of giving a "fingerprint" of data
-    - 
+  - Appreciate one-time-use session keys, and be able to talk about them
+  - A digital signature is hashing plus Asymmetric cryptography
+
+- VPN Tunneling:
+  - 
