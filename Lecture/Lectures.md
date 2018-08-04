@@ -1466,5 +1466,9 @@ Key Topics:
 
 ## Lecture 14:
 - SIP: 
-
+  - Three phases
+  - SIP initiation can run over UDP & TCP
+  - The capabilities phase can be piggy-backed on the session initiation
+  - Really appreciate the SIP trapezoid and how all of the various protocol elements are working together
+  
 
