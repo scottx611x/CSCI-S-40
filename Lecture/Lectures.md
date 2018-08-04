@@ -1492,4 +1492,6 @@ Key Topics:
     - Because we don't want the delays that come with a reliable protocol, we use UDP.
     - This is troublesome because UDP doesn't provide sequence # for ordered delivery
     - RTP's functionality (SP3) provides sequence #'s so that the recieving application can reassemble that data in the proper order
-    - 
+    - RTP Header Format:
+      - <img width="601" alt="screen shot 2018-08-04 at 6 15 28 pm" src="https://user-images.githubusercontent.com/5629547/43680873-688227b8-9812-11e8-91db-3e1a54df20c3.png">
+    -
