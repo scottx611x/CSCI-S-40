@@ -1487,4 +1487,6 @@ Key Topics:
   - Delay should be 100ms or less
   - RTP (Real Time Transport Protocol): 
     - Uses UDP
-    - Example of Voice Data with  
+    - Example of Voice Data with G728 Codec encapsulated within a UDP packet
+      - <img width="575" alt="screen shot 2018-08-04 at 5 59 07 pm" src="https://user-images.githubusercontent.com/5629547/43680788-30b274de-9810-11e8-8770-224a5b7328e6.png">
+     
