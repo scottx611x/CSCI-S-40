@@ -1415,5 +1415,6 @@ Key Topics:
 - SMTP:
   - Was the first "Killer App bro"
   - Think of it as a sute of mail based protocols
-  - MTAs 
+  - MTAs are responsible for sending mail to its intended destination (very possible to send along to another MTA)
+  -
 
