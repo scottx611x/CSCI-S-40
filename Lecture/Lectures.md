@@ -1518,4 +1518,7 @@ Key Topics:
         - Think about sending USPS mail (Priority vs. regular)
       - All devices in the network treat high QoS packets first
     - Network delay in the real world means that the QoS metric is extremely important
-      - The most significant delay component nowadays is the queueing of  
+      - The most significant delay component nowadays is the queueing of a packet in a given networking device while it is waiting to reach the front of a queue
+      - Only one packet can be sent at a time and all other packets must wait for their time to be sent
+      - Delay becomes cumulative over the course of hops taken throught a network
+    -
