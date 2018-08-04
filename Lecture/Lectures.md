@@ -1524,4 +1524,6 @@ Key Topics:
     - Policing of QoS traffic can be done with a Firewall or something similar so that a bad actor doesn't exploit the QoS functionaly to their advantage
       - QoS bits in IP packets could be set to 0 upon crossing the firewall boundary
     - If any devices in the network don't implement QoS, then they will probably use a general means of choosing packets which come into the queue and QoS benefeits are lost at those hops
-    -  
+    - Approches to managing QoS:
+      - Have a ton of available bandwith
+      - Allocate bandwith to particular users or conversations and manage that bandwith allocation as  
