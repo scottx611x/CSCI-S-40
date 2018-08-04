@@ -1529,4 +1529,6 @@ Key Topics:
       - Allocate bandwith to particular users or conversations and manage that bandwith allocation as they change (this is a very outdated and unsed apprach today)
       - DiffServ (Differentiated Services) Marking of packets in a specific manner so they get treated differently over a network
     - DiffServ "packet marking" ended up being implemented within some bits that were available in the IP header
+      -  Specifically in the TOS (Type of Service) portion of the IP Header (6 bits)
+    - <img width="717" alt="screen shot 2018-08-04 at 7 34 08 pm" src="https://user-images.githubusercontent.com/5629547/43681297-5d889fda-981d-11e8-8220-0233245c98ab.png">
     -   
