@@ -1512,4 +1512,5 @@ Key Topics:
       - Error Rate
       - Jitter
       - Delay
+    - QoS is not a new issue
     - 
