@@ -1432,5 +1432,5 @@ Key Topics:
   - Integrity
   - Nonrepudiation
   - Security should happen at every layer
-  - 
+  - Security
 
