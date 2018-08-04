@@ -1494,4 +1494,6 @@ Key Topics:
     - RTP's functionality (SP3) provides sequence #'s so that the recieving application can reassemble that data in the proper order
     - RTP Header Format:
       - <img width="601" alt="screen shot 2018-08-04 at 6 15 28 pm" src="https://user-images.githubusercontent.com/5629547/43680873-688227b8-9812-11e8-91db-3e1a54df20c3.png">
-    -
+    - Voice and vidoe packets will have spearate sequence numbers
+    - Port number tells the reciever wheter its voice or video and port number is set during the capabilities phase
+    - 
