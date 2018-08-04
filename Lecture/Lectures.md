@@ -1424,5 +1424,12 @@ Key Topics:
     - Body: (Acutal message)
   - MIME: Defines a content encoding and filetype
     - text/plain, text/html, image/jpeg
-  - 
+
+- Structured way to think about security
+  - Privacy and confidentiallity
+  - Authentication
+  - Authorization
+  - Integrity
+  - Nonrepudiation
+  
 
