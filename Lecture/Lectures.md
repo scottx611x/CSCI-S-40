@@ -1503,4 +1503,7 @@ Key Topics:
     - In the case of more complex applications (VR, multi-channel audio) each media stream will have its own port number and RTP sequence numbers
     - Jitter: Variability in delay
       - There should be less than 40ms of Jitter for good quality streams
+    - There should also be less than 0.1% Error Rate (meaning that packets just aren't showing up)
+    - The afforementioned metrics are QoS (Quality of Service) parameters
+  - QoS (Quality of Service):
     - 
