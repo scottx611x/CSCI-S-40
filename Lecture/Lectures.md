@@ -1373,6 +1373,14 @@ Key Topics:
   - TELNET
   - FTP
   - HTTP
-- Firewalls
-  - Different Types/Granularity
-  - 
+- Security
+  - Types of security
+  - Firewalls: Different Types/Granularity
+  - Symmetric vs. Asymmetric cryptography
+  - Hashing
+  - Digital signatures
+  - Website security
+  - VPNs
+    - Tunnel & Transport VPNs
+
+
