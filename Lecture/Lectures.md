@@ -1404,6 +1404,8 @@ Key Topics:
       - asks root: do you know about www.harvard.edu? root says: "no but I know another NS you can query about .edu domains"
       - asks .edu NS and rinse & repeat
     - Caching nameservers know nothing initially but are willing to lookup anything
-    - Authoritative Nameservers know about their specific friends, but
+    - Authoritative Nameservers know about their specific friens
+    - Reverse DNS:
+      - 
 
 
