@@ -1431,5 +1431,6 @@ Key Topics:
   - Authorization
   - Integrity
   - Nonrepudiation
-  
+  - Security should happen at every layer
+  - 
 
