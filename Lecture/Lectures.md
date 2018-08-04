@@ -1413,14 +1413,15 @@ Key Topics:
   - Connect to a port and give human readable commands to interrogte a machine
 
 - SMTP:
-  - Was the first "Killer App bro"
   - Think of it as a sute of mail based protocols
   - MTAs are responsible for sending mail to its intended destination (very possible to send along to another MTA)
   - SMTP port 25 between MTAs
   - Appreciate that the connection to the MTA can vary: HTTPS, SMTP etc.
-  - Email is not reliable (ould be caught by spam filter, no proof of delivery, improper recipient) even though all of the protocols it uses are (TCP, SMTP, HTTPS)
+  - Email is not reliable (ould be caught by spam filter, no proof of delivery, improper recipient) even though all of the protocols it uses are (TCP, IP, SMTP, HTTPS)
   - Parts of Email:
     - Envelope: Used by MTAs
     - Headers: Used by User agents (To: FROM: etc.)
-    - Body
+    - Body: (Acutal message)
+  - MIME: Defines a content encoding and filetype
+  - 
 
