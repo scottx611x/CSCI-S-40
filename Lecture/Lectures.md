@@ -1446,4 +1446,6 @@ Key Topics:
   - A digital signature is hashing plus Asymmetric cryptography
 
 - VPN Tunneling:
-  - 
+  - Tunnel: router to router VPN
+  - Transport: Host to router VPN
+  
