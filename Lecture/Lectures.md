@@ -1448,5 +1448,10 @@ Key Topics:
 - VPN Tunneling:
   - Tunnel: router to router VPN
   - Transport: Host to router VPN
-  - Olden days we used to lease a physical line between two places, but that became expensive
-  - Nowadays we use  VPN routers
+  - TUNNELING:
+    - Olden days we used to lease a physical line between two places, but that became expensive
+    - Nowadays we use VPN routers at two locations
+    - Encrypted point to point connection
+    - Uses IPSEC or something similar to beable to send data over the internet to the next VPN and have it remain encrypted
+  -  
+
