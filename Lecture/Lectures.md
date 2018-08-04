@@ -1513,4 +1513,5 @@ Key Topics:
       - Jitter
       - Delay
     - QoS is not a new issue
+    - If you have a lot of bandwith available you don't have to worry about QoS (as much)
     - 
