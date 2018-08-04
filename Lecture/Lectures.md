@@ -1433,6 +1433,11 @@ Key Topics:
   - Nonrepudiation
   - Security should happen at every layer
   - Humans are always the weakest link
+
+- Cryptography:
   - Caeser Cyphers (substitution cypher)
-  - 
+  - Symmetric
+    - 
+  - Asymmetric
+
 
