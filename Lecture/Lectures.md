@@ -1632,4 +1632,8 @@ Key Topics:
 
 - SDNs (Software Defined Networks):
   - "Virtualization for networks"
-  
+  - Network Virtualization
+    - Separates the logical from the physical (think VLANs)
+  - Network Function Virtualization
+    - Networking function in software on generic hardware and not an a typical network appliance
+    - 
