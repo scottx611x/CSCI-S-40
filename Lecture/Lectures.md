@@ -1627,5 +1627,4 @@ Key Topics:
     - Rules based filters
 
 - QoS:
-
-
+  - IP type of service header inspected and
