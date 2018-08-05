@@ -1596,7 +1596,10 @@ Key Topics:
   - SIP uses RTP underneath the hood
     - RTP is an unreliable, sequenced protocol
       - Use of codecs and content encoding for specific types of media transfers
-  -  
+      - G series is audio, H series is video
+    - RTCP is a status protocol. "How your transmission is doing", Jitter metrics
+    - Trapezoid!
+      - 
 
 - Email and Spam:
   -  
