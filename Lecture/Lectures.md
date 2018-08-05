@@ -1579,4 +1579,18 @@ Key Topics:
 ## Section 6:
 
 - Key Topics:
+  - RTP/RTCP
+  - SIP/SIP Trapezoid
+  - VoIP
+  - QoS
+  - SDN
+  - IoT
+  - SDN
+  - Email and Spam
+
+- Email and Spam:
+  -  
   - 
+
+- QoS:
+
