@@ -1592,6 +1592,10 @@ Key Topics:
   - Is a big suite/collection of protocols
   - Companies aren't implementing SIP as we see in class, but are using smaller pieces of it
     - Facetime can't talk to hangouts
+  - SDP is important to know
+  - SIP uses RTP underneath the hood
+    - RTP is an unreliable, sequenced protocol
+      - Use of codecs and content encoding for specific types of media transfers
   -  
 
 - Email and Spam:
