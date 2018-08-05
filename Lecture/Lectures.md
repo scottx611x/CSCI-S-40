@@ -1603,6 +1603,7 @@ Key Topics:
       - Many devices at many different locations 
     - Trapezoid!
       - Top 3 sides of the trapezoid are SIP while the bottom (media exchange) is done with RTP
+      - <img width="1044" alt="screen shot 2018-08-05 at 8 48 05 am" src="https://user-images.githubusercontent.com/5629547/43685997-5ef0480e-988c-11e8-908b-b47e356c22a1.png">
       - 
 
 - Email and Spam:
