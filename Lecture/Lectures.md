@@ -1574,4 +1574,6 @@ Key Topics:
     - 5-tuple, 7-tuple, N-tuple, timesequence diagrams, and other simple tools
     - Data plane vs the control plane
       - signalling vs data transport
-    - 
+
+## Section 6:
+
