@@ -1606,6 +1606,8 @@ Key Topics:
       - <img width="1044" alt="screen shot 2018-08-05 at 8 48 05 am" src="https://user-images.githubusercontent.com/5629547/43685997-5ef0480e-988c-11e8-908b-b47e356c22a1.png">
     - Uses SRV DNS records (_sip._udp.*) to determine where a connection should be established __
     - Uses the SDP protocol
+    - Why is TCP a poor choice for audio and video real time transmission?
+    - 
 
 - Email and Spam:
   -  
