@@ -1545,4 +1545,6 @@ Key Topics:
     - <img width="529" alt="screen shot 2018-08-04 at 8 27 39 pm" src="https://user-images.githubusercontent.com/5629547/43681562-d7dd224a-9824-11e8-820f-c9f1c02f3622.png">
     - IETF 6LoWPAN and IEEE 802.15.4
     - <img width="700" alt="screen shot 2018-08-04 at 8 30 47 pm" src="https://user-images.githubusercontent.com/5629547/43681582-48d78c1a-9825-11e8-8dbc-6a1ba2594d32.png">
-    -   
+    - Important to appreciate the adaption layer provided to these networks to allow for use of IPv6:
+      - Small packet size of 127 bytes didn't meet the need of the original IPv6 spec (1280 byte minimum)
+      - 
