@@ -1590,6 +1590,8 @@ Key Topics:
 
 - VoIP/SIP
   - Is a big suite/collection of protocols
+  - Companies aren't implementing SIP as we see in class, but are using smaller pieces of it
+    - Facetime can't talk to hangouts
   -  
 
 - Email and Spam:
