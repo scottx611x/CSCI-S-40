@@ -1644,5 +1644,6 @@ Key Topics:
 
 - IOT 
   - "Everything that could be conected, should be connected"
-  - 
+  - 6LoWPAN:
+    - 
 
