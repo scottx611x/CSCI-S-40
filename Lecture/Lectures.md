@@ -1614,8 +1614,14 @@ Key Topics:
       - Timestamp for sync across streams
     - NAT traversal makes SIP tough
 
-
 - Email and Spam:
+  - DNSBLs
+  - Greylisting
+  - Rules-based systems
+  - CAN-SPAM and opt outs
+  - Spam is unsolicited and bulk
+  - 
+
 - QoS:
 
 
