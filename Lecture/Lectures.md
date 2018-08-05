@@ -1645,5 +1645,8 @@ Key Topics:
 - IOT 
   - "Everything that could be conected, should be connected"
   - 6LoWPAN:
-    - 
+    - IPv6 implementation for IoT devices
+    - Low bandwith low power
+    - Mesh networking
+  
 
