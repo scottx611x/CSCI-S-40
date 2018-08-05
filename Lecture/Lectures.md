@@ -1623,9 +1623,9 @@ Key Topics:
   - Anti spam techniques:
     - ACLs
     - DNSBLs
-    - Greylisting
+    - Greylisting ("Spammers almost never retry")
     - Rules based filters
-    
+
 
 - QoS:
 
