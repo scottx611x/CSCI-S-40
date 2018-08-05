@@ -1598,6 +1598,7 @@ Key Topics:
       - Use of codecs and content encoding for specific types of media transfers
       - G series is audio, H series is video
     - RTCP is a status protocol. "How your transmission is doing", Jitter metrics
+    - SIP Proxies use DNS lookups to find the SRV record
     - Trapezoid!
       - 
 
