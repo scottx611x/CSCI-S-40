@@ -1599,7 +1599,10 @@ Key Topics:
       - G series is audio, H series is video
     - RTCP is a status protocol. "How your transmission is doing", Jitter metrics
     - SIP Proxies use DNS lookups to find the SRV record
+    - A given proxy needs to know where a registered user is at a given time
+      - Many devices at many different locations 
     - Trapezoid!
+      - Top 3 sides of the trapezoid are SIP while the bottom (media exchange) is done with RTP
       - 
 
 - Email and Spam:
