@@ -6,20 +6,39 @@
   - [5](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-5)
   - [6](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-6)
   - [Section 2](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-2)
+  
+  ---
+
   - [7](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-7)
   - [8](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-8)
   - [Section 3](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-3)
+  
+  ---
+
   - [Midterm Exam Review](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#midterm-exam-review)
+  
+  ---
+
   - [9](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-9)
   - [10](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-10)
   - [11](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-11)
   - [Section 4](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-4)
+  
+  ---
+
   - [12](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-12)
   - [13](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-13)
   - [Spam and Email Filtering](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#spam-and-email-filtering)
+  
+  ---
+
   - [Section 5](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-5)
   - [14](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#lecture-14)
   - [Section 6](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#section-6)
+  
+  ---
+
+  - [Final Exam Review](https://github.com/scottx611x/CSCI-S-40/blob/master/Lecture/Lectures.md#final-exam-review)
 
 ---
 
@@ -1648,5 +1667,8 @@ Key Topics:
     - IPv6 implementation for IoT devices
     - Low bandwith low power
     - Mesh networking
-  
+
+
+## Final Exam Review:
+
 
