@@ -26,7 +26,7 @@
 ## Lecture 1
 
 - Key Topics:
-  - Bandwith
+  - Bandwidth
   - Multiplexing
   - Switching
   - 5-Layer Model
@@ -42,14 +42,14 @@
     - Radio
     - Optical
   - Multiplexing:
-  	- "Sharing a communication channel in a specific manner"
-  	- Three Forms:
-  		- Time division (Slotted & Statistical)
-  		- Frequency divsion
-  		- Optical division
+    - "Sharing a communication channel in a specific manner"
+    - Three Forms:
+      - Time division (Slotted & Statistical)
+      - Frequency division
+      - Optical division
   - Switching:
-  	- Circuit Switching (think old school patch panel operator)
-  	- Packet Switching (Relies on Multiplexing to operate)
+    - Circuit Switching (think old school patch panel operator)
+    - Packet Switching (Relies on Multiplexing to operate)
   - Interfaces & Protocols
   - Network Management
   - Network Applications
@@ -70,7 +70,7 @@
     - <img width="444" alt="screen shot 2018-07-15 at 4 10 31 pm" src="https://user-images.githubusercontent.com/5629547/42737951-a4e25f76-8849-11e8-8eb8-479a02afa6c9.png">
 
 - Reliability:
-	- **Error Detection vs error correction (big diff Prof made note!)**
+  - **Error Detection vs error correction (big diff Prof made note!)**
 
 ## Lecture 2
 
@@ -83,7 +83,7 @@
   - Error Control:
     - Error Detection vs. Error Correction
 
-- "Good news theres lots of standards, bda news theres lots of standards"
+- "Good news there’s lots of standards, bad news there’s lots of standards"
 - Mesh Network:
   - Separating the host from the network
   - Each device in a network needs an address and its likely that they'll need more than one address
@@ -107,7 +107,7 @@
 - Key Topics:
   - Ethernet
   - CSMA/CD:
-    - The development and improvement of Ethernet to maximize the effective bandwith of Ethernet in the "hubbed" era when there were many collisions
+    - The development and improvement of Ethernet to maximize the effective bandwidth of Ethernet in the "hubbed" era when there were many collisions
   - Hubs vs. Switches
   - Duplex
   - Switching
@@ -119,8 +119,8 @@
 - LAN: A network that takes up some limited geography
 - A LAN is not a topology
 - LAN vs WAN
-- LAN: low delay, high bandwith, broadcast
-- WAN: pay for bandwith by the month, relatively low bandwith
+- LAN: low delay, high bandwidth, broadcast
+- WAN: pay for bandwidth by the month, relatively low bandwidth
 - Ethernet has many different forms
 - ALOHA Protocol from the 70's in Hawaii
   - "How do multiple users share a single resource?"
@@ -128,9 +128,9 @@
 - CSMACD
 - Ethernet is an unreliable protocol
   - Error detection and not error correction
-- Ethertype Field to aid the recieving system in what to do with the bundle of bits
+- Ethertype Field to aid the receiving system in what to do with the bundle of bits
 - Ethernet vs 802.3
-- **Expected to be able to draw an ethernet frame!** 48:00 into lecture
+- **Expected to be able to draw an Ethernet frame!** 48:00 into lecture
 - Multicast: A subset of devices on the network should be targeted (Target all printers)
 - Vendor address at the Ethernet level (Ethernet address, MAC address) helps within the LAN for one device to find another quickly. No two devices should have the same address, but it has no routing information associated. ("Flat address")
 - Layer 2 is also the Ethernet layer/MAC layer 
@@ -138,8 +138,8 @@
 - Ethernet switch has a frame forwarding table just built off of layer 2 information
 - POE utilizes the unused (4 middle) wires in the RJ45
  - Inbound (left 2 wires) outbound (right 2 wires)
- - Full Duplex: send and recieve information at the same time over inbound and outbound wires
- - Half Duplex: Send OR Recieve (only one at a time) over these wires
+ - Full Duplex: send and receive information at the same time over inbound and outbound wires
+ - Half Duplex: Send OR Receive (only one at a time) over these wires
  - Duplexing software misconfigurations still happen today!!!
 - MLAB: a network diagnostic tool
 - 802.11
@@ -148,10 +148,10 @@
   - AdHoc Network: Just amongst the devices
 - QUIZ QUESTIONS:
  - False: Wireless networks have better error performance than wired networks
-- Different frame format: Includes management and control protocols (which 802.3 doesn;t include)
+- Different frame format: Includes management and control protocols (which 802.3 doesn’t include)
 - CSMACA: different protocol for wireless
 - Each new iteration of wireless (g -> n -> a/c) has better speed and error performance
-- They get better performance by using different modulation techniques or by using more bandwith (i.e. a wider radio frequncy)
+- They get better performance by using different modulation techniques or by using more bandwidth (i.e. a wider radio frequency)
 - Higher freq. means shorter transmission distance
 
 ## Lecture 4:
@@ -170,20 +170,20 @@
   - ICMP
     - **Go back to lecture and review this!**
 
-- ARP takes advantage of the broadcasting nature of ethernet
-- Some home networking all in ones devices encapsulate a router, switch, modem and firewall
+- ARP takes advantage of the broadcasting nature of Ethernet
+- Some home networking all in one’s devices encapsulate a router, switch, modem and firewall
 - 20-30% Network utilization is good, once it creeps around 60% you may want to think about a redesign  
-- The bigger ethernet network is a broadcast domain
+- The bigger Ethernet network is a broadcast domain
 - A cable uplink to a switch is a collision domain, and a switch port is a separate collision domain
 - Ethernet futures:
  - Most successful network
- - Certain characteristics for ethernet based off of industry
+ - Certain characteristics for Ethernet based off of industry
   - for ISPs, Datacenters, Schools etc.
   - If you are in a particular industry you will see specific Ethernet implementations than the norm (what we've learned so far)  
-   - Ethernet for automotive environments is a good example of this (better connectors, less wires in cable etc)
+   - Ethernet for automotive environments is a good example of this (better connectors, less wires in cable etc.)
 - IP:
  - IP vs. Internet which came first? IP did! It was the building block that made the internet possible!
- - Provides: addressing, routing, fragmentation, multiplexing (based on protocol type field in header, and QOS marking  (lecture 4 1:09)
+ - Provides: addressing, routing, fragmentation, multiplexing (based on protocol type field in header, and QOS marking (lecture 4 1:09)
 - CATENET: was the original name for the Internet topology
 - QUIZ QUESTION: The Internet is a network of networks true or false? -> TRUE
 - IP provides a limited number of common services but they are the same for every computer that connects to the internet
@@ -206,9 +206,9 @@
 - IP packet header is of variable length so the IP packet has a header length field
 - Every protocol that we study has a field in the header that identifies what the payload contains
  - For IP this could be TCP, UDP, UCMP (This is an example of logical multiplexing)
-- MTU 1518 bytes for the maximum size of an ethernet packet
+- MTU 1518 bytes for the maximum size of an Ethernet packet
 - IPv4 headers are 20 bytes long at a minimum, IPv6 is longer due to longer addresses
-- Some specialized networks can support larger or smaller ethernet packet sizes
+- Some specialized networks can support larger or smaller Ethernet packet sizes
 - IP handles fragmentation and reassembly
  - fragmentation splits packets into smaller frames and reassembly puts them back together
 - There are advantages to using a MAC addres to delviering a packet to a host vs IP address
@@ -245,7 +245,7 @@
 - A router forwards packets based on some information about the "next best hop"
 - All routers in a network talk to eachother and share routing table information
 - **Two network routing behavior** (lecture 5 33:00)
-	- <img width="402" alt="screen shot 2018-07-15 at 8 49 07 pm" src="https://user-images.githubusercontent.com/5629547/42740113-8a924006-8870-11e8-9832-597b88a99ce1.png">
+  - <img width="402" alt="screen shot 2018-07-15 at 8 49 07 pm" src="https://user-images.githubusercontent.com/5629547/42740113-8a924006-8870-11e8-9832-597b88a99ce1.png">
 - How does the "Hop Count" work?
 - After a packet enters a router, it exits with a new Ethernet header. Destination MAC and Source MAC will change (Source now being the MAC of the router) among some other fields.
 - Router forwarding tables are really important
@@ -266,8 +266,8 @@
 - 802.1p Ethernet Priority Protocol
  - 3 bits
  - Not widely used
-- In networking there are only a handful of really good ideas: Muxing, VLANs. 
-- VXLAN really extendes VLAN and provides DataCenter scale support (12 bits wasn't enough)
+- In networking, there are only a handful of really good ideas: Muxing, VLANs. 
+- VXLAN really extends VLAN and provides Datacenter scale support (12 bits weren’t enough)
 - Some last questions about VLANS
  - A VLAN can span multiple sites (buildings on a campus)
  - There is no best way to assign users, but there are multiple ways (MAC, Router port, etc)
@@ -301,7 +301,7 @@
  - Better routing tables
 - Private IP addresses
 - Autonomous Systems, ASNs, and routing
-- 4 billion ip addresses out there currently and 800,000 (IPv4) network prefixes being used
+- 4 billion IP addresses out there currently and 800,000 (IPv4) network prefixes being used
 - **Know how to fill in RIPv2 table**
 - ASN (Autonomous System Number):
  - Allows for grouping of networks
@@ -322,7 +322,7 @@
 - Be able to explain IGP & EGP usage of an Edge Router
 - RIPE NCC is another good site for tools around AS
 - BOGON: Mis-advertised (non-allocated) AS prefixes 
-- IPV6: (because we ran out of IPv4 assingable blocks):
+- IPV6: (because we ran out of IPv4 assignable blocks):
  - IPv5 existed (research only)
  - Not our first IP transition: NCP -> IPv4 in 1982
  - 128 bit address vs 32 bit in ipv4
@@ -367,7 +367,7 @@
  - Ethernet: Single broadcast domain, many collision domains
  - VLANS:
    - In a VLAN-ed network the "top" router acts as a switch, and you logically assign the lower switch ports to VLANs (VLAN Tags/Numbers)
-   - "Lower" switches assign VLAN tag to Ethernet frames, and normal forwarding ensues, but only withing the VLAN Tag/color/number
+   - "Lower" switches assign VLAN tag to Ethernet frames, and normal forwarding ensues, but only within the VLAN Tag/color/number
  - IP:
    - TTL in IP packet stop IP Loops
    - "Make all networks equal"
@@ -381,7 +381,7 @@
      - Led to the "Goldilocks Problem":
       - If you had a need for 500 IP addresses, you're forced to use class B, but its very wasteful.
       - Variable Netmasks: Solved this problem, but you can no longer calculate subnets based on IP alone (this leads to CIDR notation)
-      - With the granularinry of variable netmasks the internet was saved! And Ip block could be allocated much less wastefully!
+      - With the granularity of variable netmasks the internet was saved! And IP block could be allocated much less wastefully!
     - Subnet/IP math (Section 2 43:13)
      - <img width="284" alt="screen shot 2018-07-14 at 9 08 33 am" src="https://user-images.githubusercontent.com/5629547/42724719-860c56ec-8745-11e8-9b90-0f64b687006d.png">
      - **QUIZ Question: "Are these two IP addresses on the same subnet?"**
@@ -389,12 +389,12 @@
  - ARP: Map Ethernet(MAC) addresses to IPv4 addresses
    - Samuel Clemens vs. Mark Twain
    - The magic of ARP is that it's asking a very important question: "Who has?"
-   - Layer 2 ethernet broadcast address: "Who has IP: xxx?"
+   - Layer 2 Ethernet broadcast address: "Who has IP: xxx?"
  - Fragmentation:
    - IP is trying to make all networks equal
    - Different networks had different MTUs (Maximum transmission units)
    - IP needed to handle this case.
-   - An IP packet is able to divide itsself into smaller chunks using the fragmentation fields in the packet (Id/Fragment offset/More Fragments)
+   - An IP packet is able to divide itself into smaller chunks using the fragmentation fields in the packet (Id/Fragment offset/More Fragments)
    - Reassembly and then pass it up to layer 4
    - Fragmentation creates more opportunities for failure (Section 2 1:09)
    - In IPv6 only the originating host can fragment
@@ -408,7 +408,7 @@
    - Routing table (Forwarding Table): "How do I talk to the rest of the world?"
    - **Grand Unified Network Theory: Layer 3 & 2 working across networks:** (section 2 1:30)
      - Every Router port has a MAC address
-   - `traceroute` is LIT -> Lets you see the hops (generally) to your sepcified destionation
+   - `traceroute` is LIT -> Lets you see the hops (generally) to your specified destination
    - `ping` is like Sonar, `traceroute` is like google maps driving directions
    - Routing (forwarding) tables are built with:
     - Interior: RIP & OSPF
@@ -436,74 +436,74 @@
   - Connection Table
 
 - Most if not all modern devices are running IPv6. But when you talk to something on the larger net, it will most likely be IPv4 due to lack of support from intermediary networks.
-- Is IPv6 gonna happen? Yes! 10% of traffic is currently!
+- Is IPv6 going to happen? Yes! 10% of traffic is currently!
 - Cellular networks had the foresight to be IPv6
 - IPv6:
-	- Expanded addressing capabilities. 128 bits, improved auto configuration, anycast addresses etc.
-	- Simplified header format
-	- Better support for options and extensions
-	- Capability for Flow Labelling is added
-	- Added auth and privacy capabilitites
-	- Link local: (replaces private IP with the FE80)
-	- How is multicast handled?
+  - Expanded addressing capabilities. 128 bits, improved auto configuration, anycast addresses etc.
+  - Simplified header format
+  - Better support for options and extensions
+  - Capability for Flow Labelling is added
+  - Added auth and privacy capabilities
+  - Link local: (replaces private IP with the FE80)
+  - How is multicast handled?
 - **QUIZ**
     - Know what the IPv4/IPv6/Ethernet headers look like
 - IPv4 `ping` vs IPv6 `ping`:
-	- How does a "dual stack" devices know whether or not to handle an incoming frame with IPv4/IPv6? -> The EtherType (Protocol Type) field in the Ethernet header!
+  - How does a "dual stack" devices know whether or not to handle an incoming frame with IPv4/IPv6? -> The EtherType (Protocol Type) field in the Ethernet header!
 - Address Allocation:
-	- <img width="407" alt="screen shot 2018-07-15 at 10 17 02 am" src="https://user-images.githubusercontent.com/5629547/42734827-4af2c66c-8818-11e8-8cb9-1951269eacd0.png">
+  - <img width="407" alt="screen shot 2018-07-15 at 10 17 02 am" src="https://user-images.githubusercontent.com/5629547/42734827-4af2c66c-8818-11e8-8cb9-1951269eacd0.png">
 - Autonomous Systems, ASN, & Routing:
-	- Routing Protocol Families:
-		- Interior/Exterior
-		- (OSPF/RIP)/BGP
-	- Harvard has many Autonomous systems (since its been in the business for so long)
-	- AS advertise network prefixes
-	- BOGON: Somebody ha smisconfigured their routing table and are announcing a prefix they don't own
-	- BGP Hijacking: Advertising the wrong prefix could allow for someone else's traffic to be ruted to you. Said traffic would get dropped, because theres no internal network, but the hijack could happen to snoop on the traffic and then re-route it back to its proper place.
+  - Routing Protocol Families:
+    - Interior/Exterior
+    - (OSPF/RIP)/BGP
+  - Harvard has many Autonomous systems (since its been in the business for so long)
+  - AS advertise network prefixes
+  - BOGON: Somebody ha misconfigured their routing table and are announcing a prefix they don't own
+  - BGP Hijacking: Advertising the wrong prefix could allow for someone else's traffic to be routed to you. Said traffic would get dropped, because there’s no internal network, but the hijack could happen to snoop on the traffic and then re-route it back to its proper place.
 - **Transport Layer:**
-	- SP3 Protocol framework
-		- Service
-		- Purpose
-		- Packets
-		- Procedures
-	- **UDP**:
-		- <img width="408" alt="screen shot 2018-07-15 at 10 40 02 am" src="https://user-images.githubusercontent.com/5629547/42735022-77087ab4-881b-11e8-99e0-06ff6f659acf.png">
-		- Completely unreliable
-		- Multiplexing
-		- Error detection but not error correction
-		- Datagram delivery service (no error correction)
-		- Different types of layer 5 protocols in its payload (Port # in the UDP header)
-		- The IP header has a Protocol Type in its header (Lecture 7 40:50)
-		- Checksums:
-			- Ethernet was at the end of the frame
-			- IP is in the header
-			- UDP is a bit different. It can prevent the misdelivery (Lecture 7 46:00) of packets by creating a pseudo-header that is prefixed to the UDP header. As part of the checksum computation, it pulls in the originator's source and destination address, IP protocol field and the UDP length.
-	- **TCP**:
-		- <img width="407" alt="screen shot 2018-07-15 at 10 52 41 am" src="https://user-images.githubusercontent.com/5629547/42735154-3ad6f0c8-881d-11e8-9e89-d2b0adc5f343.png">
-		- Reliable, connection-oriented, sequenced delivery of packets/payloads
-		- TCP is quite complicated and implementation-specific
-		- Window size is directly related to Flow Control
-		- Was designed to be incredibly efficient (HELLO vs single bit):
-			- <img width="406" alt="screen shot 2018-07-15 at 11 04 09 am" src="https://user-images.githubusercontent.com/5629547/42735260-d381612c-881e-11e8-8ff4-a0f245ffb302.png">
-		- <img width="406" alt="screen shot 2018-07-15 at 11 04 52 am" src="https://user-images.githubusercontent.com/5629547/42735263-f0684d0a-881e-11e8-80e8-ff8d1ab06578.png">
-		- Sequence numbers are very important and they keep track of bytes not packets
-		- Sequence numbers start with a pseudo-random value for security purposes (if everyone started at 0 it would be easier to spoof)
-		- **Full duplex**
-		- Three way handshake:
-			- <img width="282" alt="screen shot 2018-07-15 at 11 08 16 am" src="https://user-images.githubusercontent.com/5629547/42735298-6fe12192-881f-11e8-8320-57a461e91c0b.png">
-		- The amount of data that can be sent between two devices is determined by the reciever
-		- Byte Stream functionality
-		- TCP sends data in segments (MSS max segment size) is negotiated during connection setup
-		- MSS is dependant on the size of the MTU
-		- **TCP segments can arrive out of order!**
-			- The recieving application sees the segments in the proper order. It never knows if they're out of order. There is a buffer at reciever's TCP layer that segments are held in until order is ensured.
-		- TCP Congestion Control (Flow control):
-			- "Slow start" (this is a misnomer) (Lecture 7 1:26:51)
-			- <img width="404" alt="screen shot 2018-07-15 at 11 24 37 am" src="https://user-images.githubusercontent.com/5629547/42735433-b99e795e-8821-11e8-861e-e28b42ce39fc.png">
-			- <img width="405" alt="screen shot 2018-07-15 at 11 25 56 am" src="https://user-images.githubusercontent.com/5629547/42735441-e118f374-8821-11e8-828c-947c51d89829.png">
-			- Additive increase: At a certain point one of the many constraints (Flow Control window size, Host says: "Maybe I'm sending too much") will be encroached upon so the exponential increase stops and growth of rate of segments being sent becomes linear.
-			- If there is a loss, then the # of segments being sent drops and this growth starts again.
-			- <img width="408" alt="screen shot 2018-07-15 at 11 34 20 am" src="https://user-images.githubusercontent.com/5629547/42735487-1156c8b2-8823-11e8-914a-50f7155c4fcc.png">
+  - SP3 Protocol framework
+    - Service
+    - Purpose
+    - Packets
+    - Procedures
+  - **UDP**:
+    - <img width="408" alt="screen shot 2018-07-15 at 10 40 02 am" src="https://user-images.githubusercontent.com/5629547/42735022-77087ab4-881b-11e8-99e0-06ff6f659acf.png">
+    - Completely unreliable
+    - Multiplexing
+    - Error detection but not error correction
+    - Datagram delivery service (no error correction)
+    - Different types of layer 5 protocols in its payload (Port # in the UDP header)
+    - The IP header has a Protocol Type in its header (Lecture 7 40:50)
+    - Checksums:
+      - Ethernet was at the end of the frame
+      - IP is in the header
+      - UDP is a bit different. It can prevent the misdelivery (Lecture 7 46:00) of packets by creating a pseudo-header that is prefixed to the UDP header. As part of the checksum computation, it pulls in the originator's source and destination address, IP protocol field and the UDP length.
+  - **TCP**:
+    - <img width="407" alt="screen shot 2018-07-15 at 10 52 41 am" src="https://user-images.githubusercontent.com/5629547/42735154-3ad6f0c8-881d-11e8-9e89-d2b0adc5f343.png">
+    - Reliable, connection-oriented, sequenced delivery of packets/payloads
+    - TCP is quite complicated and implementation-specific
+    - Window size is directly related to Flow Control
+    - Was designed to be incredibly efficient (HELLO vs single bit):
+      - <img width="406" alt="screen shot 2018-07-15 at 11 04 09 am" src="https://user-images.githubusercontent.com/5629547/42735260-d381612c-881e-11e8-8ff4-a0f245ffb302.png">
+    - <img width="406" alt="screen shot 2018-07-15 at 11 04 52 am" src="https://user-images.githubusercontent.com/5629547/42735263-f0684d0a-881e-11e8-80e8-ff8d1ab06578.png">
+    - Sequence numbers are very important and they keep track of bytes not packets
+    - Sequence numbers start with a pseudo-random value for security purposes (if everyone started at 0 it would be easier to spoof)
+    - **Full duplex**
+    - Three way handshake:
+      - <img width="282" alt="screen shot 2018-07-15 at 11 08 16 am" src="https://user-images.githubusercontent.com/5629547/42735298-6fe12192-881f-11e8-8320-57a461e91c0b.png">
+    - The amount of data that can be sent between two devices is determined by the receiver
+    - Byte Stream functionality
+    - TCP sends data in segments (MSS max segment size) is negotiated during connection setup
+    - MSS is dependent on the size of the MTU
+    - **TCP segments can arrive out of order!**
+      - The receiving application sees the segments in the proper order. It never knows if they're out of order. There is a buffer at receiver’s TCP layer that segments are held in until order is ensured.
+    - TCP Congestion Control (Flow control):
+      - "Slow start" (this is a misnomer) (Lecture 7 1:26:51)
+      - <img width="404" alt="screen shot 2018-07-15 at 11 24 37 am" src="https://user-images.githubusercontent.com/5629547/42735433-b99e795e-8821-11e8-861e-e28b42ce39fc.png">
+      - <img width="405" alt="screen shot 2018-07-15 at 11 25 56 am" src="https://user-images.githubusercontent.com/5629547/42735441-e118f374-8821-11e8-828c-947c51d89829.png">
+      - Additive increase: At a certain point one of the many constraints (Flow Control window size, Host says: "Maybe I'm sending too much") will be encroached upon so the exponential increase stops and growth of rate of segments being sent becomes linear.
+      - If there is a loss, then the # of segments being sent drops and this growth starts again.
+      - <img width="408" alt="screen shot 2018-07-15 at 11 34 20 am" src="https://user-images.githubusercontent.com/5629547/42735487-1156c8b2-8823-11e8-914a-50f7155c4fcc.png">
 
 ## Lecture 8:
 - Key Topics:
@@ -513,54 +513,54 @@
     - 7-Tuple
 
 - Connection Management & NAT (Network Address Translation)
-- IXP (internat exchange points) a bunch of specialized locations where many ISPs get together and pass traffic around
+- IXP (internet exchange points) a bunch of specialized locations where many ISPs get together and pass traffic around
 - UDP Pseudo header (What its there for, why its there, and how it works and prevents mis-delivery)
 - TCP: **Difference between Flow Control and Congestion control**
-	- Flow Control: 
-		- End to End: A receiving computer isn't able to sustain the input from a sending host
-	- Congestion Control:
-		- Network issue: The network itself is not able to handle the traffic and the network is telling the host to slow transmission
-		- **"Slow Start"** Slow only relative to not doing anything at all
-		- Doubles segments sent every time it receives the full set of ACKs until packet loss, then increase in segments is additive
+  - Flow Control: 
+    - End to End: A receiving computer isn't able to sustain the input from a sending host
+  - Congestion Control:
+    - Network issue: The network itself is not able to handle the traffic and the network is telling the host to slow transmission
+    - **"Slow Start"** Slow only relative to not doing anything at all
+    - Doubles segments sent every time it receives the full set of ACKs until packet loss, then increase in segments is additive
 
 - **Connection Management:**
-	- How does a device uniquely identify its connections to remote machines? (all application layer connections through TCP)
-	- **IP delgates to TCP or UDP based on "Protocol Type" in IP packet header field**
-	- TCP knows which Application layer (Layer 5) application to send to by the destination port
-	- <img width="321" alt="screen shot 2018-07-15 at 12 32 22 pm" src="https://user-images.githubusercontent.com/5629547/42735956-27737d5e-882b-11e8-96d1-eb39c80d6db4.png">
-	- <img width="341" alt="screen shot 2018-07-15 at 12 33 27 pm" src="https://user-images.githubusercontent.com/5629547/42735965-4b8c486a-882b-11e8-9e72-2ced9dd75866.png">
-	- <img width="621" alt="screen shot 2018-07-15 at 1 06 20 pm" src="https://user-images.githubusercontent.com/5629547/42736197-e69fe876-882f-11e8-997b-026d29848f4d.png">
-	- The receiving system has no control over what the source port (from the client) will be, and its perfectly valid for many clients to have the same source port
-	- All 5 pieces (local/remote IP, local/remote Port, Protocol) are used to uniquely identify a connection **This is the 5-tuple mentioned earlier!**
-	- Prior connection management tables are local to the client machines!
-	- This whole table is just so the machine can determine which applications are using which port(s)
-	- `netstat -an | more`
-	- `whois <ip address>`
-	- Operating system processes will use inter-process communication over TCP (through the local network interface
+  - How does a device uniquely identify its connections to remote machines? (all application layer connections through TCP)
+  - **IP delegates to TCP or UDP based on "Protocol Type" in IP packet header field**
+  - TCP knows which Application layer (Layer 5) application to send to by the destination port
+  - <img width="321" alt="screen shot 2018-07-15 at 12 32 22 pm" src="https://user-images.githubusercontent.com/5629547/42735956-27737d5e-882b-11e8-96d1-eb39c80d6db4.png">
+  - <img width="341" alt="screen shot 2018-07-15 at 12 33 27 pm" src="https://user-images.githubusercontent.com/5629547/42735965-4b8c486a-882b-11e8-9e72-2ced9dd75866.png">
+  - <img width="621" alt="screen shot 2018-07-15 at 1 06 20 pm" src="https://user-images.githubusercontent.com/5629547/42736197-e69fe876-882f-11e8-997b-026d29848f4d.png">
+  - The receiving system has no control over what the source port (from the client) will be, and its perfectly valid for many clients to have the same source port
+  - All 5 pieces (local/remote IP, local/remote Port, Protocol) are used to uniquely identify a connection **This is the 5-tuple mentioned earlier!**
+  - Prior connection management tables are local to the client machines!
+  - This whole table is just so the machine can determine which applications are using which port(s)
+  - `netstat -an | more`
+  - `whois <ip address>`
+  - Operating system processes will use inter-process communication over TCP (through the local network interface
 - **NAT:**
-	- <img width="611" alt="screen shot 2018-07-15 at 1 36 31 pm" src="https://user-images.githubusercontent.com/5629547/42736393-29522ca2-8834-11e8-96a0-5bd09fdcf745.png">
-	- Different types of NAT:
-		- 1-to-1 address mapping
-		- N-to-N address mapping
-		- Network address and port mapping (NAPT or PAT)
-	- **Remember that Ethernet headers are built on each side of a router!** (Lecture 8 1:05:07)
+  - <img width="611" alt="screen shot 2018-07-15 at 1 36 31 pm" src="https://user-images.githubusercontent.com/5629547/42736393-29522ca2-8834-11e8-96a0-5bd09fdcf745.png">
+  - Different types of NAT:
+    - 1-to-1 address mapping
+    - N-to-N address mapping
+    - Network address and port mapping (NAPT or PAT)
+  - **Remember that Ethernet headers are built on each side of a router!** (Lecture 8 1:05:07)
     - <img width="408" alt="screen shot 2018-07-15 at 8 50 29 pm" src="https://user-images.githubusercontent.com/5629547/42740131-bae165b6-8870-11e8-9698-1ce656c10df7.png">
-	- <img width="621" alt="screen shot 2018-07-15 at 1 42 37 pm" src="https://user-images.githubusercontent.com/5629547/42736437-f685ab90-8834-11e8-845f-e51fc0feb704.png">
-	- <img width="621" alt="screen shot 2018-07-15 at 1 52 19 pm" src="https://user-images.githubusercontent.com/5629547/42736500-5a5f800e-8836-11e8-98ad-323fd7302dc4.png">
-	- The edge device doing the NAT logic assigns public/mapped ports to be able to route traffic to its private ips on the other side
-	- <img width="528" alt="screen shot 2018-07-15 at 1 54 50 pm" src="https://user-images.githubusercontent.com/5629547/42736630-d66f564c-8836-11e8-80ab-1d42090b7823.png">
+  - <img width="621" alt="screen shot 2018-07-15 at 1 42 37 pm" src="https://user-images.githubusercontent.com/5629547/42736437-f685ab90-8834-11e8-845f-e51fc0feb704.png">
+  - <img width="621" alt="screen shot 2018-07-15 at 1 52 19 pm" src="https://user-images.githubusercontent.com/5629547/42736500-5a5f800e-8836-11e8-98ad-323fd7302dc4.png">
+  - The edge device doing the NAT logic assigns public/mapped ports to be able to route traffic to its private ips on the other side
+  - <img width="528" alt="screen shot 2018-07-15 at 1 54 50 pm" src="https://user-images.githubusercontent.com/5629547/42736630-d66f564c-8836-11e8-80ab-1d42090b7823.png">
 
-	- NAT handles incoming connections by the use of port forwarding
-	- **NAT is not a security solution** it only obscures internal private addresses 
-	- It makes network management and debugging much more difficult
-	- Its being used as part of the transitiion to IPv6
-	- **QUIZ: Does a clinet know that its operating through a NAT box?** NO!
-	- Multiple NAT-ing devices can be configured on the same network
+  - NAT handles incoming connections by the use of port forwarding
+  - **NAT is not a security solution** it only obscures internal private addresses 
+  - It makes network management and debugging much more difficult
+  - Its being used as part of the transition to IPv6
+  - **QUIZ: Does a client know that its operating through a NAT box?** NO!
+  - Multiple NAT-ing devices can be configured on the same network
 - **STUN & ICE:**
-	- **STUN: OS protocol to tell wheter or not NAT is present**
-	- Some applications on the net need to know if NAT is being used or not.
-	- VOIP for example needs to know if NAT is being used
-	- ICE: a way to if NAT devices are present and what/how they are operating
+  - **STUN: OS protocol to tell whether or not NAT is present**
+  - Some applications on the net need to know if NAT is being used or not.
+  - VOIP for example needs to know if NAT is being used
+  - ICE: a way to if NAT devices are present and what/how they are operating
 
 ## Section 3:
 
@@ -580,7 +580,7 @@
     - 2000::/3 Global unicast
     - FE80::/10 Link Local Unicast
     - DNS A vs AAAA records for ipv6 (4 times larger that an ipv4 address, also a sick joke! :) )
-    - "Next Header" for encapsulation concept vs russian doll nesting
+    - "Next Header" for encapsulation concept vs Russian doll nesting
     - IPv6 is expensive to implement!
     - `dig -T AAAA facebook.com` -> `2a03:2880:f112:83:face:b00c::25de` :D
 
@@ -599,18 +599,18 @@
     - TCP/UDP Pseudo-header:
       - Brings in information from IP header: (source/destination address, Protocol, UDP length)
       - Specifically designed so that layer 4 software can tell if a UDP Datagram has been misdelivered
-      - Theres no other mechanism in UDP to detect misdelivery (TCP has the three way handshake as well)
-      - Calculating the entirety of the UDP Datagram plus the above mentioned fields
+      - There’s no other mechanism in UDP to detect misdelivery (TCP has the three-way handshake as well)
+      - Calculating the entirety of the UDP Datagram plus the above-mentioned fields
       - Is a very basic checksum
 
     - TCP: 3-Way Handshake
-      - Agree on inital sequence numbers and window sizes
-      - Confirms that the sender and reciever are "real"
+      - Agree on initial sequence numbers and window sizes
+      - Confirms that the sender and receiver are "real"
       - SYN -> SYN/ACK -> ACK
 
     - Send data with TCP segments after connection is established:
       - Size constrained by the MTU
-      - Keep getting ACKS back from reciever
+      - Keep getting ACKS back from receiver
       - Can be received out of order
       - Selective repeat, won't resend entire payload
     
@@ -622,13 +622,13 @@
       - The network can be saturated even if the endpoints are not!
       - TCP slow start to the rescue!
       - Name is a misnomer (slow is relative to sender)
-      - Make the window size exponentially larger until loss  or full transmission happens the chop back down to some threshold and do additive increase afterwards
+      - Make the window size exponentially larger until loss or full transmission happens the chop back down to some threshold and do additive increase afterwards
       - Window size can constantly be negotiated by both ends of the connection
-      - How is this like the development of ethernet?
+      - How is this like the development of Ethernet?
       - UDP has no congestion control (Section 3 1:05:00)! 
         - Just keeps blasting!
         - <img width="455" alt="screen shot 2018-07-16 at 7 50 17 pm" src="https://user-images.githubusercontent.com/5629547/42789121-7d87eb7e-8931-11e8-8c3c-f87dbbae86ab.png">
-        - TCP goes through a back off and oscilation phase
+        - TCP goes through a back off and oscillation phase
     
     - Connection Table:
       - 5-tuple used by each host to uniquely identify connections
@@ -660,7 +660,7 @@
 
 ## Midterm Exam Review:
 
-- Know detailed layout of ethernet header
+- Know detailed layout of Ethernet header
 - Basic Theories, Technologies and Definitions:
   - Protocol Layering
   - Encapsulation
@@ -697,146 +697,146 @@
 
 - Types of problems on the midterm:
   - Math Problems:
-    - Bandwith Calculation from HW1
+    - Bandwidth Calculation from HW1
     - Basic IP Subnetting and Binary Arithmetic
     - Example Questions:
-    	- How many hosts in a `/24`, `/25`, `/23`?
-		- 32 total bits - the host bits ( in the case of 24 -> 32 - 24 (network bits) = 8 (host bits))
-		  - 2^8 = 256
-		  - 256 - 2 (Network address (.0) & Broadcast address (.255)) = **254!**
-		- `/23` has 510 potential host for comparison
+      - How many hosts in a `/24`, `/25`, `/23`?
+    - 32 total bits - the host bits ( in the case of 24 -> 32 - 24 (network bits) = 8 (host bits))
+      - 2^8 = 256
+      - 256 - 2 (Network address (.0) & Broadcast address (.255)) = **254!**
+    - `/23` has 510 potential host for comparison
 
-		- Are `200.5.67.55/24` and `200.5.68.65` in the same network?
-		- YES! <img width="334" alt="screen shot 2018-07-18 at 8 23 00 pm" src="https://user-images.githubusercontent.com/5629547/42914449-6f56de0a-8ac8-11e8-8a16-9b1d7ef2d2d0.png">
-		- Same question, but `/23`?
-		- "Break" is in the third octet 
-		- <img width="308" alt="screen shot 2018-07-18 at 8 25 02 pm" src="https://user-images.githubusercontent.com/5629547/42914513-bad260a2-8ac8-11e8-9a8c-8337ab4b4161.png">
-		- Nope! Green boxes don't match! (7 boxed from that octet because 16 (first two octets) + 7 = 23) 
-		- <img width="350" alt="screen shot 2018-07-18 at 8 28 47 pm" src="https://user-images.githubusercontent.com/5629547/42914630-5803159c-8ac9-11e8-8c32-3b7c71caa648.png">
+    - Are `200.5.67.55/24` and `200.5.68.65` in the same network?
+    - YES! <img width="334" alt="screen shot 2018-07-18 at 8 23 00 pm" src="https://user-images.githubusercontent.com/5629547/42914449-6f56de0a-8ac8-11e8-8a16-9b1d7ef2d2d0.png">
+    - Same question, but `/23`?
+    - "Break" is in the third octet 
+    - <img width="308" alt="screen shot 2018-07-18 at 8 25 02 pm" src="https://user-images.githubusercontent.com/5629547/42914513-bad260a2-8ac8-11e8-9a8c-8337ab4b4161.png">
+    - Nope! Green boxes don't match! (7 boxed from that octet because 16 (first two octets) + 7 = 23) 
+    - <img width="350" alt="screen shot 2018-07-18 at 8 28 47 pm" src="https://user-images.githubusercontent.com/5629547/42914630-5803159c-8ac9-11e8-8c32-3b7c71caa648.png">
 
-		- Lots o' tables:
-			- How is each populated?
-			- What protocols are used by each?
-			- Switch Table
-				- Listens to the Ethernet frames that are going over the wire, and lloking at the source address fields of each frame.
-				- "Do I know that this source address comes from this port? No? Cool, I'll add those to my table."
-			- ARP Table
-				- Used by IP
-				- Map IP to Ethernet (MAC) addresses
-				- Populated by sending an ARP message (broadcast) 
-				- Will then get an ARP Reply with the destination IP's Ethernet (MAC) address
-			- Can "zero" these ^^^ two tables at any time and the software will rebuild them. Kind of Transient
-			- Routing/Forwarding Table:
-				- Table on a router
-				- Populated by: RIP, OSPF, or BGP
-			- Connection Table
-				- Describes the data that is passing over a machine
-				- Each host has one
-			- NAT Table
-				- Describes the data that is passing over a machine
-				- Only the NAT device can know all 7 fields
+    - Lots o' tables:
+      - How is each populated?
+      - What protocols are used by each?
+      - Switch Table
+        - Listens to the Ethernet frames that are going over the wire, and looking at the source address fields of each frame.
+        - "Do I know that this source address comes from this port? No? Cool, I'll add those to my table."
+      - ARP Table
+        - Used by IP
+        - Map IP to Ethernet (MAC) addresses
+        - Populated by sending an ARP message (broadcast) 
+        - Will then get an ARP Reply with the destination IP's Ethernet (MAC) address
+      - Can "zero" these ^^^ two tables at any time and the software will rebuild them. Kind of Transient
+      - Routing/Forwarding Table:
+        - Table on a router
+        - Populated by: RIP, OSPF, or BGP
+      - Connection Table
+        - Describes the data that is passing over a machine
+        - Each host has one
+      - NAT Table
+        - Describes the data that is passing over a machine
+        - Only the NAT device can know all 7 fields
 
-		- You run a webserver (ports 80 and 443) and recieve connections from hosts A, B and C. A is connecting twice. Draw one possible connection table to describe this.
-			- <img width="875" alt="screen shot 2018-07-15 at 8 41 40 pm" src="https://user-images.githubusercontent.com/5629547/42740043-82b2c2d0-886f-11e8-9309-fd83ac626d56.png">
+    - You run a webserver (ports 80 and 443) and recieve connections from hosts A, B and C. A is connecting twice. Draw one possible connection table to describe this.
+      - <img width="875" alt="screen shot 2018-07-15 at 8 41 40 pm" src="https://user-images.githubusercontent.com/5629547/42740043-82b2c2d0-886f-11e8-9309-fd83ac626d56.png">
 
-		- Explain how a link level protocol that uses a window size of 127 could be more efficient than a protocol that uses a window size of 7. Include in your answer how the link's end-to-end delay and the link's bandwith affect the link's performance.
-			- The larger the window size, the more effective bandwith you can consume because thereis more data thet can be on the wire.
-			- The 127 one is more efficient because up to 127 "blocks"/frames could be sent before an acknowledgement (ACK) has to be sent.
-			- A link with a long delay (high latency) will perform very badly with a small window size.
-			- A large(r) window size could effectively take up the entire link's bandwith
+    - Explain how a link level protocol that uses a window size of 127 could be more efficient than a protocol that uses a window size of 7. Include in your answer how the link's end-to-end delay and the link's bandwidth affect the link's performance.
+      - The larger the window size, the more effective bandwidth you can consume because there is more data that can be on the wire.
+      - The 127 one is more efficient because up to 127 "blocks"/frames could be sent before an acknowledgement (ACK) has to be sent.
+      - A link with a long delay (high latency) will perform very badly with a small window size.
+      - A large(r) window size could effectively take up the entire link's bandwidth
 
-		- Is it correct to say that one Ethernet frame on the wire (1500 bytes in length) can carry only one encapsulated IP datagram? HOw about the reverse?
-			- The former is TRUE! The Ethernet protocol only allows for the encapsulation of a single IP datagram.
-			- The Reverse: You can divide a single IP datagram across multiple Ethernet frames through the use of fragmentation.
+    - Is it correct to say that one Ethernet frame on the wire (1500 bytes in length) can carry only one encapsulated IP datagram? How about the reverse?
+      - The former is TRUE! The Ethernet protocol only allows for the encapsulation of a single IP datagram.
+      - The Reverse: You can divide a single IP datagram across multiple Ethernet frames through the use of fragmentation.
 
-		- Know Your Core Protocols:
-			- Ethernet -> Layer 2
-				- <img width="764" alt="screen shot 2018-07-18 at 9 19 16 pm" src="https://user-images.githubusercontent.com/5629547/42915853-457c1462-8ad0-11e8-8cc9-fa324942bb62.png">
-				- Frame Check Sequence (Basic Checksum) at the end!!!
-				- Preamble doesn't matter the much
-			- IPv4 -> Layer 3
-				- <img width="483" alt="screen shot 2018-07-18 at 9 22 16 pm" src="https://user-images.githubusercontent.com/5629547/42915945-ae166a72-8ad0-11e8-8348-2cea4e82d3de.png">
-			- TCP -> Layer 4
-				- <img width="778" alt="screen shot 2018-07-18 at 9 22 51 pm" src="https://user-images.githubusercontent.com/5629547/42915960-c140b18e-8ad0-11e8-8989-c65e23da047d.png">
-				- SYN & ACK flags really matter!
-			- UDP -> Layer 4
-				- 
-		- You Have a computer at IP address `10.5.0.10/24` with a default route of 10.5.0.1. Describe what happens when you send a UDP message to `10.6.0.20`. What tables are used on the host?
-			- The host's (`10.5.0.10/24`) routing table will at least have entries fro local delivery (10.5.0.0/24) and the default route mentioned (10.5.0.1)
-			- We create an UDP Datagram (layer-4) encapsulated within an IP Datagram (layer-3):
-				- <img width="531" alt="screen shot 2018-07-18 at 9 32 01 pm" src="https://user-images.githubusercontent.com/5629547/42916209-07b23b32-8ad2-11e8-822a-d67adf43b090.png">
-			- Before anything goes down at layer two, we first consult the afforementioned routing table
-				- "Is `10.6.0.20` in my subnet?" -> No! So lets use the default route
-			- Host now consults its ARP table... and doesn't see anything there
-				- Host sends out an ARP message: "Who has 10.5.0.1?" 
-				- Router responds with ARP Reply containing MAC address of its network interface.
-			- With this new information we can now move on to layer 2 and construct an Ethernet Frame!
-				-  <img width="269" alt="screen shot 2018-07-18 at 9 37 29 pm" src="https://user-images.githubusercontent.com/5629547/42916356-cdbe2f2a-8ad2-11e8-8e6a-bf59d0c0dbff.png">
-			- Include the connection table of the host as well!
+    - Know Your Core Protocols:
+      - Ethernet -> Layer 2
+        - <img width="764" alt="screen shot 2018-07-18 at 9 19 16 pm" src="https://user-images.githubusercontent.com/5629547/42915853-457c1462-8ad0-11e8-8cc9-fa324942bb62.png">
+        - Frame Check Sequence (Basic Checksum) at the end!!!
+        - Preamble doesn't matter the much
+      - IPv4 -> Layer 3
+        - <img width="483" alt="screen shot 2018-07-18 at 9 22 16 pm" src="https://user-images.githubusercontent.com/5629547/42915945-ae166a72-8ad0-11e8-8348-2cea4e82d3de.png">
+      - TCP -> Layer 4
+        - <img width="778" alt="screen shot 2018-07-18 at 9 22 51 pm" src="https://user-images.githubusercontent.com/5629547/42915960-c140b18e-8ad0-11e8-8989-c65e23da047d.png">
+        - SYN & ACK flags really matter!
+      - UDP -> Layer 4
+        - 
+    - You Have a computer at IP address `10.5.0.10/24` with a default route of 10.5.0.1. Describe what happens when you send a UDP message to `10.6.0.20`. What tables are used on the host?
+      - The host's (`10.5.0.10/24`) routing table will at least have entries fro local delivery (10.5.0.0/24) and the default route mentioned (10.5.0.1)
+      - We create an UDP Datagram (layer-4) encapsulated within an IP Datagram (layer-3):
+        - <img width="531" alt="screen shot 2018-07-18 at 9 32 01 pm" src="https://user-images.githubusercontent.com/5629547/42916209-07b23b32-8ad2-11e8-822a-d67adf43b090.png">
+      - Before anything goes down at layer two, we first consult the aforementioned routing table
+        - "Is `10.6.0.20` in my subnet?" -> No! So let’s use the default route
+      - Host now consults its ARP table... and doesn't see anything there
+        - Host sends out an ARP message: "Who has 10.5.0.1?" 
+        - Router responds with ARP Reply containing MAC address of its network interface.
+      - With this new information, we can now move on to layer 2 and construct an Ethernet Frame!
+        -  <img width="269" alt="screen shot 2018-07-18 at 9 37 29 pm" src="https://user-images.githubusercontent.com/5629547/42916356-cdbe2f2a-8ad2-11e8-8e6a-bf59d0c0dbff.png">
+      - Include the connection table of the host as well!
 
-		- Describe two differences between an IPv4 and an IPv6 header:
-			- Source/destination address sizes
-			- TTL -> Hop limit
-			- <img width="380" alt="screen shot 2018-07-18 at 9 47 09 pm" src="https://user-images.githubusercontent.com/5629547/42916677-7844870e-8ad4-11e8-9e8e-9e16675e65d9.png">
+    - Describe two differences between an IPv4 and an IPv6 header:
+      - Source/destination address sizes
+      - TTL -> Hop limit
+      - <img width="380" alt="screen shot 2018-07-18 at 9 47 09 pm" src="https://user-images.githubusercontent.com/5629547/42916677-7844870e-8ad4-11e8-9e8e-9e16675e65d9.png">
 
-		- Describe the mechanism that TCP uses that makes transmitting layer 3 Datagrams "feel" like a connection.
-			- It is taking a block of data, and dividing said block into individual segments
-			- It is numbering those segments (starting with a pseudo-random # to avoid leaking knowledge of cryptographical importance)
-			- It send these segments on the wire
-			- It will "feel" like a connection because TCP is adding in reliability
-				- Ensures that if any segments arrive out of order they get reordered
-				- If any segments are lost in transmission they're sent again
-			- The combination of these facets allows for TCP: a sequenced unreliable protocol to operate over networks that are unsequenced and unreliable
+    - Describe the mechanism that TCP uses that makes transmitting layer 3 Datagrams "feel" like a connection.
+      - It is taking a block of data, and dividing said block into individual segments
+      - It is numbering those segments (starting with a pseudo-random # to avoid leaking knowledge of cryptographical importance)
+      - It sends these segments on the wire
+      - It will "feel" like a connection because TCP is adding in reliability
+        - Ensures that if any segments arrive out of order they get reordered
+        - If any segments are lost in transmission they're sent again
+      - The combination of these facets allows for TCP: a sequenced unreliable protocol to operate over networks that are unsequenced and unreliable
 
-		- Describe what Ethernet, IP, and TCP do when they identify corrupted data
-			- They all have header checksums of one variety or another
-			- Ethernet has the Frame Check Sequence that is stored at the end
-			- IP has an IP header checksum
-			- TCP has a header checksum based on a pseudo header
-			- They will all assert that the given checksum matches what is expected
-			- Ethernet and IP will discard the data if error is detected
-			- Ethernet and TCP will notice an error anywhere in the frame/segment since their checksums on on the frame/segment in its entirety
-			- TCP will also discard the data, but it will also enable its error correction techniques to ensure that said data is retransmitted
+    - Describe what Ethernet, IP, and TCP do when they identify corrupted data
+      - They all have header checksums of one variety or another
+      - Ethernet has the Frame Check Sequence that is stored at the end
+      - IP has an IP header checksum
+      - TCP has a header checksum based on a pseudo header
+      - They will all assert that the given checksum matches what is expected
+      - Ethernet and IP will discard the data if error is detected
+      - Ethernet and TCP will notice an error anywhere in the frame/segment since their checksums on the frame/segment in its entirety
+      - TCP will also discard the data, but it will also enable its error correction techniques to ensure that said data is retransmitted
 
-		- Token ring networks (an older form of LAN) and Ethernet networks have different maximum frame sizes (approximately 1,500 vs. 4,500 bytes). Given that Ethernet switches can be used to interconnect these two different types of networks, should these switches implement fragmentation and reassembly? Why or why not?
-			- No way! You should not be implementing fragmentation and reassembly because its supported as part of the IP protocol at layer 3
+    - Token ring networks (an older form of LAN) and Ethernet networks have different maximum frame sizes (approximately 1,500 vs. 4,500 bytes). Given that Ethernet switches can be used to interconnect these two different types of networks, should these switches implement fragmentation and reassembly? Why or why not?
+      - No way! You should not be implementing fragmentation and reassembly because its supported as part of the IP protocol at layer 3
 
-		- Describe what happens to an ethernet frame when it traverses a wiring hub, an ethernet switch and a router. In each case, describe what protocol fields (if any) change at both layer 2 and layer 3.
-			- Hub:
-				- When a frame traverses a hub it gets "sucked in" and "spit out"
-				- Does not speak Ethernet or check Ethernet Frame Check Sequences
-				- Very simple piece of hardware
-				- No protocol fields change
-			- Switch:
-				- Still gets "sucked in" and "spit out"
-				- A switch will check the Ethernet Frame check sequence and do error detection by discarding frames
-				- It could consult its stich table and say "I'm gonna send this frame out port X"
-				- Or "I'm gonna push this out every port except for the port it came in on"
-				- No protocol fields change
-			- Router:
-				- When an Ethernet frame hits a layer 3 router, depending on your point of view either the whole frame gets discarded (pulling off the frame on the left side and completely rebuilding it on the right side) 
-				- On the "right side" the Ethernet frame will have different source/destination addresses, different Frame Check Sequence (would recalculate it)
-				- The IP Datagram in the Ethernet frame have a decrement happen to it's TTL field
-				- Because the TTL changes we have to recalculate the IP header checksum as well
-		
-		- Define time-division multiplexing and frequency division multiplexing. What techniques are used by a cable or DSL connection?
-			- Time Division:
-				- Taking a single piece of media and saying: "at one moment we use this flow, and at another moment we use another flow"
-			- Frequency Division:
-				- Dividing a piece of media using the Electro-Magnetic Spectrum into multiple channels
-				- Think 2.4Ghz & 5Ghz or Radio stations
-			- Cable and DSL connections use both!
-				- A cable modem divides your coax into multiple channels: (acutal TV cable, incoming bandwith, outgoing bandwith)
-				- A DSL connection divides your RJ-11 into multiple channels: (analog phone system, range for sending, range for receiving)
-				- If you looked at these wires at any given moment a different IP Datagram could be passing over it (Time Division)
-		
-		- Describe your current internet connection briefly. Are you behind a NAT? Do you have a public or private IP address? Describe how you came to these conclusions.
-	- Questions from the class:
-		- "I know that routers have ARP tables. Do hosts and switches have ARP tables or must a packet with an IP destination be sent to the router?"
-			- Every device on a wired IP network using Ethernet has an ARP table.
-			- Two machines on the same wired network do not have to talk to the router to communicate because they are on the same subnet. (Machines like this will be in eachothers ARP tables (after they've spoken))
-			- Wireless ethernet has no guarantee since the ranges may not overlap, so all communication has to go through the wireless router
-			- Switches don't have ARP tables
+    - Describe what happens to an Ethernet frame when it traverses a wiring hub, an Ethernet switch and a router. In each case, describe what protocol fields (if any) change at both layer 2 and layer 3.
+      - Hub:
+        - When a frame traverses a hub, it gets "sucked in" and "spit out"
+        - Does not speak Ethernet or check Ethernet Frame Check Sequences
+        - Very simple piece of hardware
+        - No protocol fields change
+      - Switch:
+        - Still gets "sucked in" and "spit out"
+        - A switch will check the Ethernet Frame check sequence and do error detection by discarding frames
+        - It could consult its stich table and say "I'm going to send this frame out port X"
+        - Or "I'm going to push this out every port except for the port it came in on"
+        - No protocol fields change
+      - Router:
+        - When an Ethernet frame hits a layer 3 router, depending on your point of view either the whole frame gets discarded (pulling off the frame on the left side and completely rebuilding it on the right side) 
+        - On the "right side" the Ethernet frame will have different source/destination addresses, different Frame Check Sequence (would recalculate it)
+        - The IP Datagram in the Ethernet frame have a decrement happen to it's TTL field
+        - Because the TTL changes we have to recalculate the IP header checksum as well
+    
+    - Define time-division multiplexing and frequency division multiplexing. What techniques are used by a cable or DSL connection?
+      - Time Division:
+        - Taking a single piece of media and saying: "at one moment we use this flow, and at another moment we use another flow"
+      - Frequency Division:
+        - Dividing a piece of media using the Electro-Magnetic Spectrum into multiple channels
+        - Think 2.4Ghz & 5Ghz or Radio stations
+      - Cable and DSL connections use both!
+        - A cable modem divides your coax into multiple channels: (actual TV cable, incoming bandwidth, outgoing bandwidth)
+        - A DSL connection divides your RJ-11 into multiple channels: (analog phone system, range for sending, range for receiving)
+        - If you looked at these wires at any given moment a different IP Datagram could be passing over it (Time Division)
+    
+    - Describe your current internet connection briefly. Are you behind a NAT? Do you have a public or private IP address? Describe how you came to these conclusions.
+  - Questions from the class:
+    - "I know that routers have ARP tables. Do hosts and switches have ARP tables or must a packet with an IP destination be sent to the router?"
+      - Every device on a wired IP network using Ethernet has an ARP table.
+      - Two machines on the same wired network do not have to talk to the router to communicate because they are on the same subnet. (Machines like this will be in each other’s ARP tables (after they've spoken))
+      - Wireless Ethernet has no guarantee since the ranges may not overlap, so all communication has to go through the wireless router
+      - Switches don't have ARP tables
 
 ## Lecture 9:
 
@@ -856,28 +856,28 @@
     - The Muxing is done on the source port number
       -<img width="744" alt="screen shot 2018-07-25 at 9 17 35 pm" src="https://user-images.githubusercontent.com/5629547/43235905-2f2e5d2a-9050-11e8-9b00-946e28075682.png">
     - If a NAT box dies all connections will be broken
-    - If a router crashes, its not gonna reset any state information
+    - If a router crashes, it’s not going to reset any state information
 
 - STUN/TURN/ICE:
   - Know what these do (Lecture 9 7:05)
 
 - DNS:
   - Application Layer Protocol
-  - Rudimentry form initially (Emails and IPs mailed out in book)
+  - Rudimentary form initially (Emails and IPs mailed out in book)
   - Hierarchical name space to preserve naming uniqueness
   - Decentralized Distributed Database to hold all records
   - <img width="690" alt="screen shot 2018-07-25 at 9 34 32 pm" src="https://user-images.githubusercontent.com/5629547/43236335-93452936-9052-11e8-9e49-c738f8816096.png">
   - <img width="697" alt="screen shot 2018-07-25 at 9 35 18 pm" src="https://user-images.githubusercontent.com/5629547/43236347-a8c8fb48-9052-11e8-9a92-c62674ce02e3.png">
   - TLD (Top-Level Domain)
-  - Each branch in the above diagram is a "zone" a.k.a A unique portion of the namespace
+  - Each branch in the above diagram is a "zone" a.k.a.  A unique portion of the namespace
   - 1500 TLDs now
   - DNS Servers map between domain names and IP addresses
   - DNSSEC is an update on DNS that provides security and authentication
-  - `dig` will tell you what your local DNS knwos about a given domain
-  - AAAA record is for an IPv6 Address (4 times larger thta IPv4, a sick joke hahaha)
+  - `dig` will tell you what your local DNS knows about a given domain
+  - AAAA record is for an IPv6 Address (4 times larger than IPv4, a sick joke hahaha)
   - DNS resource records:
     - <img width="610" alt="screen shot 2018-07-25 at 9 57 33 pm" src="https://user-images.githubusercontent.com/5629547/43236998-c27a6df8-9055-11e8-9cea-c9b9ca18d14b.png">
-  - DNS helps with loadsharing
+  - DNS helps with load sharing
   - There are certain times where we don't want to have to know the "name" of the machine we want to talk to
     - MX records! We want the Mail Server for Harvard.edu we can get back a name that maps to an ip without knowing the full "name" of that machine
     - `dig yale.edu mx` Yale has silly tea names for subdomains of their mail servers
@@ -892,7 +892,7 @@
       - `dig +norec www.csail.mit.edu +trace`
     - Root servers only know about TLD IPs
     - TLDs only know about the next level down in their namespace
-    - An organiztaion's DNS servers must know of at least one root-level domain to begin using DNS
+    - An organization’s DNS servers must know of at least one root-level domain to begin using DNS
     - www.root-servers.org
     - 13 named root servers but hundreds of machines
     - Root Zone File
@@ -940,7 +940,7 @@
   - Email is anything but reliable
   - Message Disposition Header Field:
     - Used for Email delivery notification
-    - Handled by the recieving mail client
+    - Handled by the receiving mail client
   - MIME (Multipurpose internet mail extensions):
     - Defines additional message headers in email (and now utilized in the web)
     - Content-Type
@@ -955,7 +955,7 @@
   - Security has to be considered everywhere in the network!
   - Some Obvious types of threats:
     - <img width="692" alt="screen shot 2018-07-26 at 9 06 12 pm" src="https://user-images.githubusercontent.com/5629547/43296179-c6418e9a-9117-11e8-80f4-1ebb8a8bc928.png">
-  - A very common approach to securtiy is known as the infosec triangle
+  - A very common approach to security is known as the InfoSec triangle
     - Confidentiality
     - Integrity
       - The data hasn't been altered
@@ -969,7 +969,7 @@
     - Processes
     - People Educated on what security means and how to do it
   - Five important elements of structured security:
-    - Privacy and confidentiallity
+    - Privacy and confidentiality
     - Authentication
       - Are you who you say you are?
     - Authorization
@@ -1005,8 +1005,8 @@
   - The algorithm is not the secret! The key is!
 - <img width="656" alt="screen shot 2018-07-26 at 11 33 40 pm" src="https://user-images.githubusercontent.com/5629547/43300295-594c34e2-912c-11e8-81b3-571dd36e1552.png">
 - Session keys Save a ton of time units!!!
-  - Encrypt with whoevers public key that you're trying to talk today
-  - Reciever can then decrypt the session key and then decrypt the larger message with the session key
+  - Encrypt with whoever’s public key that you're trying to talk today
+  - Receiver can then decrypt the session key and then decrypt the larger message with the session key
 - This approach is because asymmetric approach is slow! 
 - <img width="688" alt="screen shot 2018-07-26 at 11 42 18 pm" src="https://user-images.githubusercontent.com/5629547/43300482-8dc93106-912d-11e8-89e9-893aaf9bb4cf.png">
 - Public key encryption does not provide authentication by default!
@@ -1017,7 +1017,7 @@
   - a one way mathematical function
   - MD5 etc.
   - Produce a "message digest" much smaller than the original data
-  - Provide integrity check, but does not provide confidentiallity
+  - Provide integrity check, but does not provide confidentiality
     - Lecture 11 42:00
   - Reverse hashing
   - Rainbow tables
@@ -1035,7 +1035,7 @@
 - Security provided by routers and firewalls
   - ACL (based on the 5-tuple)
   - Router filters and forwards packets
-  - Could simply state in config that you don't want a specific type of traffic (web, email, etc)
+  - Could simply state in config that you don't want a specific type of traffic (web, email, etc.)
   - Firewalls look at a packet and make a decision to let through based on many metrics
     - 5 tuple
     - MIME types
@@ -1052,7 +1052,7 @@
   - "Protect the edge of my network"
   - SNORT Open Source Firewall software
   - <img width="773" alt="screen shot 2018-07-27 at 12 46 12 am" src="https://user-images.githubusercontent.com/5629547/43302086-83192f96-9136-11e8-9bfb-e83f1568e41e.png">
-  - Recommended to have 2 firewalls: an inner and an outer and that they come from diferent vendors
+  - Recommended to have 2 firewalls: an inner and an outer and that they come from different vendors
   - The hope id that any security holes on one vendor would be addressed before the 2nd one is breached
   - Firewall with ALG (application layer gateway):
     - <img width="770" alt="screen shot 2018-07-27 at 12 48 47 am" src="https://user-images.githubusercontent.com/5629547/43302149-e5a5a72a-9136-11e8-8b8d-70104ad8bef4.png">
@@ -1068,7 +1068,7 @@
 - Default Host Config
 - Routing Issues & Problems
 - IP Functionality - Fragmentation
-- End-to-end vs. Millde Boxes (NAT, Firewall)
+- End-to-end vs. Middlde Boxes (NAT, Firewall)
 - Encapsulation
 
 - Host/Client/Server used to be used distinctly
@@ -1083,7 +1083,7 @@
 - NAT64: NAPT for IPv6 devices
   - Mobile phones etc. 
   - Appreciate the impact that could happen if one of these went down!
-- IPv6 allows for autoconfiguration due to the fact that the address space is massive and the chance of a collision is minimal
+- IPv6 allows for auto configuration due to the fact that the address space is massive and the chance of a collision is minimal
 - IPv6 only has "slash" notation no netmask like IPv4 
 - DHCP:
   - Client sends a broadcast out: "Hey someone give me an IP!"
@@ -1094,14 +1094,14 @@
 - Fragmentation
   - In a perfect world, frames would be of infinite size, but this is not the case
   - This is not the case
-  - Its unrealistic for a desinger to assume that all applications will know what the MTU (Max transmit units) will be for different networks
+  - Its unrealistic for a designer to assume that all applications will know what the MTU (Max transmit units) will be for different networks
   - Fragmentation will rarely happen at the host (section 4 53:00)
   - Large Frame Network vs Small Frame Network
   - IPv6 sends out PROBE packets that are smart enough to check the intervening paths of the network and not create any packets that couldn't be handled
-    - This is the responsibility of the Recieving Host
+    - This is the responsibility of the Receiving Host
 - TCP Congestion Control
-  - Flow Control: The recieving system controls the sending rate (Think TCP connection window size) Is end-to-end
-  - Two Hosts overwhelming the available bandwith of the inner network:
+  - Flow Control: The receiving system controls the sending rate (Think TCP connection window size) Is end-to-end
+  - Two Hosts overwhelming the available bandwidth of the inner network:
     - <img width="1169" alt="screen shot 2018-07-29 at 5 42 15 pm" src="https://user-images.githubusercontent.com/5629547/43370979-c4e3c82e-9356-11e8-84ce-acbaeede2b8c.png">
   - "Slow Start"
 
@@ -1124,7 +1124,7 @@
   - Authentication
   - Authorization
   - Integrity
-  - Nonrepudiantion
+  - Nonrepudiation
 
 - Firewalls
   - Homework question about ACLs (the underpinning for the Firewall GUIs from lecture)
@@ -1150,7 +1150,7 @@
   - Avoiding a MITM attack:
     - Using a CA (Certificate authority)
     - Bob and Alice both trust the CA and have its public key loaded on their computers
-    - Bob creates a keypair and sends his public key to the CA in a secure manner
+    - Bob creates a key pair and sends his public key to the CA in a secure manner
     - The CA confirms that the public key is coming from Bob and then digitally signs a Certificate that includes Bob's public key and some extra info
     - The CA sends this certificate back to Bob
     - Alice wants to send a secret message to Bob now
@@ -1177,15 +1177,15 @@
     - <img width="932" alt="screen shot 2018-07-30 at 6 05 13 pm" src="https://user-images.githubusercontent.com/5629547/43426261-22f31d62-9423-11e8-8bb3-069379dfbc3d.png">
     - When you hear RTP (Real-Time Protocol) think: two-way interactive communication
     - This is different than video streaming!
-      - Video streams (and separate Voice streams) are generally sent over tcp
-    - The recieving system know how to distinguish between vidoe and voice packets at the transport layer by the port number
+      - Video streams (and separate Voice streams) are generally sent over TCP
+    - The receiving system know how to distinguish between video and voice packets at the transport layer by the port number
     - These port numbers are assigned during the capabilities exchange
 
 - SIP:
   - Establishes a session
   - A session is generally a "call" but could be Instant messaging or something else similar
   - **Remember again the three main concepts provided by SIP**:
-    - Signalling (Call Setup)
+    - Signaling (Call Setup)
     - Capabilities
     - Media Exchange
   - Appreciate the SIP Protocol architecture allowing for UDP and TCP transport:
@@ -1194,7 +1194,7 @@
   - SIP Port numbers: 5060 or 5061 
     - IANA assigns these!
   - Think of SIP as the suite or family name Because there are a multitude of protocols underneath it to get it where it is today
-    - Things got so confusing that RFC 5411 was written ("A hitchhikers guide to the session initiation protocol")
+    - Things got so confusing that RFC 5411 was written ("A hitchhiker’s guide to the session initiation protocol")
     - 25 pages of mentions of RFCs that are necessary to implement SIP properly
   - SIP building blocks
     -  <img width="764" alt="screen shot 2018-07-30 at 6 24 49 pm" src="https://user-images.githubusercontent.com/5629547/43427029-e0b27f6c-9425-11e8-87fc-c23757aa7442.png">
@@ -1208,11 +1208,11 @@
     - Asterisk is a popular open source solution
     - SIP call through a single proxy 
       - RFC 3261
-      - Again appreciate the three phases!
+      - Again, appreciate the three phases!
       - <img width="676" alt="screen shot 2018-07-30 at 6 33 23 pm" src="https://user-images.githubusercontent.com/5629547/43427341-2080319c-9427-11e8-93f3-1337a73ecfe6.png">
       - Appreciate the similarities to EMAIL (HELO -> 250 vs. INVITE -> 180)
-      - Regarding the above diagram, its not immediately apparent where the capabilities exhange is happening. 
-        - Be aware that this could simply piggy back on the the call setup portion (Within the same packet)
+      - Regarding the above diagram, its not immediately apparent where the capabilities exchange is happening. 
+        - Be aware that this could simply piggy back on the call setup portion (Within the same packet)
     - <img width="652" alt="screen shot 2018-07-30 at 6 39 52 pm" src="https://user-images.githubusercontent.com/5629547/43427541-f977712c-9427-11e8-969d-b6178b6c87d7.png">
     - Learning from the past: What prevents loops in IP routing networks?
       - TTL!
@@ -1228,16 +1228,16 @@
     - SIP Trapezoid:
       - When multiple SIP Proxies are involved:
       - <img width="720" alt="screen shot 2018-07-30 at 6 51 21 pm" src="https://user-images.githubusercontent.com/5629547/43427878-944230b0-9429-11e8-96d7-4a1baa83ee4c.png">
-      - Again this is super similar to MTA forwarding!!!
+      - Again, this is super similar to MTA forwarding!!!
     - **How is SIP similar to EMAIL?**
     - Note that a **HUGE** difference in this scenario is that the media exchange is done end-to-end and not through the SIP proxies! 
       - Real time applications are performance wary and shouldn't go through these extra hops
       - This is a big **DIFFERENCE** from EMAIL/MTA forwarding
-    - Important to keep track of the path that the INVITE messages takes through the network
+    - Important to keep track of the path that the INVITE messages take through the network
       - Via fields: just breadcrumbs to show how packets flow from one place to the other
     - DNS & SIP how do they fit together?
       - Think about EMAIL again! 
-      - An MX record is to Email as aN SRV or NAPTR (Name authority pointer) is to SIP!
+      - An MX record is to Email as an SRV or NAPTR (Name authority pointer) is to SIP!
     - `dig sip.mit.edu SRV`
 
   - How you tell an inbound SIP call from an inbound Email from an inbound Web?
@@ -1246,7 +1246,7 @@
   - SDP (Session Description Protocol):
     - A mechanism to allow for direction of media stream to different places
     - Specifying the types of media streams
-    - Imagine a scenario where ou want to send audio to the nice speakers in the back (one IP) and the video to the machine with the nice screen (another IP)
+    - Imagine a scenario where you want to send audio to the nice speakers in the back (one IP) and the video to the machine with the nice screen (another IP)
     - Gives you the ability to specify the types of Codecs, the IP addresses to send specific media streams to, and the port numbers to which the streams should be delivered
     - We could spend days on SDP but this is the most important thing to appreciate
 
@@ -1262,7 +1262,7 @@
     - WebRTC is W3C work, RTCWeb is IETF work
     - The idea is that: "Lets allow the web to directly use VoIP"
     - No need to install 3rd party plugins or software
-    - functionality for signalling (call setup), capabilities exchange, and media transfer is done within the browser
+    - functionality for signaling (call setup), capabilities exchange, and media transfer is done within the browser
       - HTML5 Code to start a call "one click"
     - But then there were Firewalls, and different codecs etc.
     - This complexity continued...
@@ -1278,10 +1278,10 @@
     - <img width="752" alt="screen shot 2018-07-30 at 8 12 25 pm" src="https://user-images.githubusercontent.com/5629547/43430034-e5341bf4-9434-11e8-814a-22573cf9edc2.png">
     - This idea is really nice because "above the line" in the control plane the problem is really tuned for a software based solution and "below" the line in the data plane its really a speed and hardware solution, but there still needs to be an interface (software) for the two to communicate
     - <img width="633" alt="screen shot 2018-07-30 at 8 17 52 pm" src="https://user-images.githubusercontent.com/5629547/43430190-a98c5bb0-9435-11e8-85dd-5002b75d4558.png">
-    - Homework question on Openflow:
+    - Homework question on OpenFlow:
       - <img width="687" alt="screen shot 2018-07-30 at 8 19 01 pm" src="https://user-images.githubusercontent.com/5629547/43430228-d8a2fa08-9435-11e8-844d-734e6e462c65.png">
-    - See Lecture 13 1:36:00 for more details on Openflow
-    - Openflow can "look at everything together" where everything is all of the information in a usual frame (ethernet, IP, TCP/UDP info)
+    - See Lecture 13 1:36:00 for more details on OpenFlow
+    - OpenFlow can "look at everything together" where everything is all of the information in a usual frame (Ethernet, IP, TCP/UDP info)
 
   - NFV (Network Function Virtualization)
     - In the old days one had to buy specialized hardware to move packets around
@@ -1295,7 +1295,7 @@
 ## Spam and Email Filtering:
 - Spam is the single greatest challenge to email providers and users
 - Without constant anti-spam efforts Email would be useless
-- At one point 98% of email was spam, and the infrastrucure to support anti-spam efforts cost more than the infra. to support the email itself
+- At one point 98% of email was spam, and the infrastructure to support anti-spam efforts cost more than the infra. to support the email itself
 - Spam has decreased significantly in recent years
 - 60% of email is currently spam
 - Tragedy of the commons
@@ -1313,7 +1313,7 @@
 - Botnets are the big evil
 - Should ISPs block outbound port 25? what about the internet's end to end principle?
 - Costs of Spam:
-  - Network Bandwith
+  - Network Bandwidth
   - Disk Space
   - CPU Cycles
   - Lost Time
@@ -1325,18 +1325,18 @@
 - Where should you block spam?
   - Everywhere!
   - At the sender
-  - At the network (block known spammers from communicationg at all)
+  - At the network (block known spammers from communicating at all)
     - ACLs
       - Traditional Block lists
     - Real-time block lists (DNSBLs)
-      - Blocklists distributed through the DNS protocol
+      - Block lists distributed through the DNS protocol
       - Cooperative approach
       - List adapts in real time based on who is sending spam "now"
       - <img width="321" alt="screen shot 2018-08-01 at 7 14 33 pm" src="https://user-images.githubusercontent.com/5629547/43553871-2b110e30-95bf-11e8-9d09-8d9ca6c8a11b.png">
       - Honey pots: Place a never used email address on a webpage. Any email that arrives would most likely be spam
       - Blocking things before you ever see the mail so it could be risky
     - Greylisting
-      - Not a black or a white list but something inbetween
+      - Not a black or a white list but something in-between
       - Send back SMTP 450 (try again later)
       - "Spammers do not queue" it would be very unlikely for a spammer to resend their messages
       - SPF (Sender Policy Framework) (38:00)
@@ -1361,7 +1361,7 @@ Key Topics:
   - Record Types
   - Reverse Lookups
   - TLDs
-  - Authoritative Nameservers vs. Caching
+  - Authoritative Name servers vs. Caching
   - Recursive Lookups
   - Root Servers
 - Email Basics
@@ -1392,40 +1392,40 @@ Key Topics:
   - One domain name can have many record types:
     - A, AAAA, MX, NS, etc.
   - CNAME is like a symlink
-  - Multiple A records can be used for loadsharing
+  - Multiple A records can be used for load sharing
   - TLDs:
     - gTLDS & ccTLD
       - .com & .us
-      - New tlds today: .ninja etc.
-  - Nameservers are queried from root to bottom
-    - Caching Nameserver is queried initially  with a recursive DNS query from local machine (this is the NS configured for your local machine to use)
+      - New TLDs today: .ninja etc.
+  - Name servers are queried from root to bottom
+    - Caching Name server is queried initially  with a recursive DNS query from local machine (this is the NS configured for your local machine to use)
     - Caching NS then makes non-recursive queries to resolve
       - asks root: do you know about www.harvard.edu? root says: "no but I know another NS you can query about .edu domains"
       - asks .edu NS and rinse & repeat
-    - Caching nameservers know nothing initially but are willing to lookup anything
-    - Authoritative Nameservers know about their specific friens
+    - Caching name servers know nothing initially but are willing to lookup anything
+    - Authoritative Name servers know about their specific friends
     - Reverse DNS:
       - <img width="552" alt="screen shot 2018-08-04 at 2 20 08 pm" src="https://user-images.githubusercontent.com/5629547/43679327-83550efa-97f1-11e8-9572-5a1e9b74c94f.png">
 
 - TELNET
   - Older machine administration protocol
-  - Connect to a port and give human readable commands to interrogte a machine
+  - Connect to a port and give human readable commands to interrogate a machine
 
 - SMTP:
-  - Think of it as a sute of mail based protocols
+  - Think of it as a suite of mail based protocols
   - MTAs are responsible for sending mail to its intended destination (very possible to send along to another MTA)
   - SMTP port 25 between MTAs
   - Appreciate that the connection to the MTA can vary: HTTPS, SMTP etc.
-  - Email is not reliable (ould be caught by spam filter, no proof of delivery, improper recipient) even though all of the protocols it uses are (TCP, IP, SMTP, HTTPS)
+  - Email is not reliable (could be caught by spam filter, no proof of delivery, improper recipient) even though all of the protocols it uses are (TCP, IP, SMTP, HTTPS)
   - Parts of Email:
     - Envelope: Used by MTAs
     - Headers: Used by User agents (To: FROM: etc.)
-    - Body: (Acutal message)
-  - MIME: Defines a content encoding and filetype
+    - Body: (Actual message)
+  - MIME: Defines a content encoding and file type
     - text/plain, text/html, image/jpeg
 
 - Structured way to think about security
-  - Privacy and confidentiallity
+  - Privacy and confidentiality
   - Authentication
   - Authorization
   - Integrity
@@ -1434,7 +1434,7 @@ Key Topics:
   - Humans are always the weakest link
 
 - Cryptography:
-  - Caeser Cyphers (substitution cypher)
+  - Caesar Cyphers (substitution cypher)
   - Symmetric
     - One key can go "back and forth" between encrypted version and original text
   - Asymmetric
@@ -1451,7 +1451,7 @@ Key Topics:
     - Olden days we used to lease a physical line between two places, but that became expensive
     - Nowadays we use VPN routers at two locations
     - Encrypted point to point connection
-    - Uses IPSEC or something similar to beable to send data over the internet to the next VPN and have it remain encrypted
+    - Uses IPSEC or something similar to be able to send data over the internet to the next VPN and have it remain encrypted
     - Host machine does not know its on a VPN
   - TRANSPORT: 
     - host to routers
@@ -1478,7 +1478,7 @@ Key Topics:
       - This is now done in a more general way through the use of software
   - Network Virtualization and NFV are not the same!!!
     - Think VLANs & VPNs 
-  - Openflow
+  - OpenFlow
 
 - Voice and Video over IP:
   - Taking analog voice or video and packetizing it
@@ -1489,65 +1489,65 @@ Key Topics:
       - <img width="575" alt="screen shot 2018-08-04 at 5 59 07 pm" src="https://user-images.githubusercontent.com/5629547/43680788-30b274de-9810-11e8-8770-224a5b7328e6.png">
     - Because we don't want the delays that come with a reliable protocol, we use UDP.
     - This is troublesome because UDP doesn't provide sequence # for ordered delivery
-    - RTP's functionality (SP3) provides sequence #'s so that the recieving application can reassemble that data in the proper order
+    - RTP's functionality (SP3) provides sequence #'s so that the receiving application can reassemble that data in the proper order
     - RTP Header Format:
       - <img width="601" alt="screen shot 2018-08-04 at 6 15 28 pm" src="https://user-images.githubusercontent.com/5629547/43680873-688227b8-9812-11e8-91db-3e1a54df20c3.png">
-    - Voice and vidoe packets will have spearate sequence numbers
-    - Port number tells the reciever wheter its voice or video and port number is set during the capabilities phase
+    - Voice and video packets will have separate sequence numbers
+    - Port number tells the receiver whether its voice or video and port number is set during the capabilities phase
     - Another issue arises here (think the "DUBBING"/"LipSync" problem)
     - RTP Header has a notion of a timestamp in the header for both audio and video packets
-    - The reciever can then say that: "this audio and video go together, I'll play them at the same time"
+    - The receiver can then say that: "this audio and video go together, I'll play them at the same time"
     - Codecs could change during the duration of a stream, but it would take a very sophisticated system to do this
     - In the case of more complex applications (VR, multi-channel audio) each media stream will have its own port number and RTP sequence numbers
     - Jitter: Variability in delay
       - There should be less than 40ms of Jitter for good quality streams
     - There should also be less than 0.1% Error Rate (meaning that packets just aren't showing up)
-    - The afforementioned metrics are QoS (Quality of Service) parameters
+    - The aforementioned metrics are QoS (Quality of Service) parameters
   
   - QoS (Quality of Service):
     - The requirements focus on:
-      - Bandwith
+      - Bandwidth
       - Error Rate
       - Jitter
       - Delay
     - QoS is not a new issue
-    - If you have a lot of bandwith available you don't have to worry about QoS (as much)
-    - Thinking back to IP which included QoS as a part of its header format, we can imagine specifc types of traffic being given a higher priority than others
+    - If you have a lot of bandwidth available you don't have to worry about QoS (as much)
+    - Thinking back to IP which included QoS as a part of its header format, we can imagine specific types of traffic being given a higher priority than others
     - <img width="746" alt="screen shot 2018-08-04 at 7 08 58 pm" src="https://user-images.githubusercontent.com/5629547/43681143-de09f342-9819-11e8-9e00-3b56528af20a.png">
-    - When a router is reciving packets and implementing a smarter approch to sending them out the other side:
+    - When a router is receiving packets and implementing a smarter approach to sending them out the other side:
       - The Sender identifies the type of packet (what type of service?)
         - Think about sending USPS mail (Priority vs. regular)
       - All devices in the network treat high QoS packets first
     - Network delay in the real world means that the QoS metric is extremely important
       - The most significant delay component nowadays is the queueing of a packet in a given networking device while it is waiting to reach the front of a queue
       - Only one packet can be sent at a time and all other packets must wait for their time to be sent
-      - Delay becomes cumulative over the course of hops taken throught a network
-    - Policing of QoS traffic can be done with a Firewall or something similar so that a bad actor doesn't exploit the QoS functionaly to their advantage
+      - Delay becomes cumulative over the course of hops taken throughout a network
+    - Policing of QoS traffic can be done with a Firewall or something similar so that a bad actor doesn't exploit the QoS functionally to their advantage
       - QoS bits in IP packets could be set to 0 upon crossing the firewall boundary
-    - If any devices in the network don't implement QoS, then they will probably use a general means of choosing packets which come into the queue and QoS benefeits are lost at those hops
-    - Approches to managing QoS:
-      - Have a ton of available bandwith
-      - Allocate bandwith to particular users or conversations and manage that bandwith allocation as they change (this is a very outdated and unsed apprach today)
+    - If any devices in the network don't implement QoS, then they will probably use a general means of choosing packets which come into the queue and QoS benefits are lost at those hops
+    - Approaches to managing QoS:
+      - Have a ton of available bandwidth
+      - Allocate bandwidth to particular users or conversations and manage that bandwidth allocation as they change (this is a very outdated and unused approach today)
       - DiffServ (Differentiated Services) Marking of packets in a specific manner so they get treated differently over a network
     - DiffServ "packet marking" ended up being implemented within some bits that were available in the IP header
-      -  Specifically in the TOS (Type of Service) portion of the IP Header (6 bits)
+      -  Specifically, in the TOS (Type of Service) portion of the IP Header (6 bits)
     - <img width="717" alt="screen shot 2018-08-04 at 7 34 08 pm" src="https://user-images.githubusercontent.com/5629547/43681297-5d889fda-981d-11e8-8220-0233245c98ab.png">
     - Typical assignment for DiffServ:
       - <img width="658" alt="screen shot 2018-08-04 at 7 38 30 pm" src="https://user-images.githubusercontent.com/5629547/43681329-06568f1e-981e-11e8-8d7e-bd227b07541b.png">
-    - All of the network service carriers have different pricepoints for traffic that should be treated better than other traffic
+    - All of the network service carriers have different price points for traffic that should be treated better than other traffic
     - The general internet does not implement QoS
     - DSCP to UP mapping example for 802.11 (recent example 2017)
     - QoS really works well when implemented properly
 
   - IoT:
-    - "If you can come up with a device that shouldn't be connected to the internet you havent been creative enough"
-    - Approx 20 billion IoT devices by 2020
+    - "If you can come up with a device that shouldn't be connected to the internet you haven’t been creative enough"
+    - Approx. 20 billion IoT devices by 2020
     - If 20 billion, then its really time to use IPv6
     - <img width="529" alt="screen shot 2018-08-04 at 8 27 39 pm" src="https://user-images.githubusercontent.com/5629547/43681562-d7dd224a-9824-11e8-820f-c9f1c02f3622.png">
     - IETF 6LoWPAN and IEEE 802.15.4
     - <img width="700" alt="screen shot 2018-08-04 at 8 30 47 pm" src="https://user-images.githubusercontent.com/5629547/43681582-48d78c1a-9825-11e8-8dbc-6a1ba2594d32.png">
     - Important to appreciate the adaption layer provided to these networks to allow for use of IPv6:
-      - Small packet size of 127 bytes didn't meet the need of the original IPv6 spec (1280 byte minimum)
+      - Small packet size of 127 bytes didn't meet the need of the original IPv6 spec (1280-byte minimum)
       - <img width="417" alt="screen shot 2018-08-04 at 8 40 48 pm" src="https://user-images.githubusercontent.com/5629547/43681614-b0a3ddca-9826-11e8-8685-f42959dbdf5e.png">
     - Concern around IoT devices not being able to be updated with security fixes
       - DDoS Botnets against DNS servers
@@ -1555,7 +1555,7 @@ Key Topics:
 - Important things from this lecture:
   - 6LoWPAN and the adaptations around it to be able to work with IPv6
     - Low power, low cost devices with small MTU networks
-  - QoS and the configurables
+  - QoS and the configurable
     - what parameters need to be managed with QoS
 
 - Course Summary:
@@ -1570,11 +1570,11 @@ Key Topics:
       - Local significance vs. global significance
     - Circuit vs. packet switching
       - Smart vs. dumb networks
-    - Understanding the end-to-end approach vs. "middleboxes"
+    - Understanding the end-to-end approach vs. "middle boxes"
     - Applying the SP3 framework to learn and understand protocols
-    - 5-tuple, 7-tuple, N-tuple, timesequence diagrams, and other simple tools
+    - 5-tuple, 7-tuple, N-tuple, time sequence diagrams, and other simple tools
     - Data plane vs the control plane
-      - signalling vs data transport
+      - signaling vs data transport
 
 ## Section 6:
 
@@ -1611,4 +1611,5 @@ Key Topics:
   - 
 
 - QoS:
+
 
