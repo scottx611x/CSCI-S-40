@@ -1620,7 +1620,12 @@ Key Topics:
   - Rules-based systems
   - CAN-SPAM and opt outs
   - Spam is unsolicited and bulk
-  - 
+  - Anti spam techniques:
+    - ACLs
+    - DNSBLs
+    - Greylisting
+    - Rules based filters
+    
 
 - QoS:
 
