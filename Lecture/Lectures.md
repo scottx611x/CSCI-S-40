@@ -1543,4 +1543,6 @@ Key Topics:
     - Approx 20 billion IoT devices by 2020
     - If 20 billion, then its really time to use IPv6
     - <img width="529" alt="screen shot 2018-08-04 at 8 27 39 pm" src="https://user-images.githubusercontent.com/5629547/43681562-d7dd224a-9824-11e8-820f-c9f1c02f3622.png">
+    - IETF 6LoWPAN and IEEE 802.15.4
+    - <img width="700" alt="screen shot 2018-08-04 at 8 30 47 pm" src="https://user-images.githubusercontent.com/5629547/43681582-48d78c1a-9825-11e8-8dbc-6a1ba2594d32.png">
     -   
