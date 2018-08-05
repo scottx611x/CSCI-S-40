@@ -1561,4 +1561,13 @@ Key Topics:
   - Go back to midterm review
   - IP and Ethernet Headers
   - Important info in TCP/UDP headers
-  - 
+  - What are some of the great ideas in networking?
+    - Network and protocol layering/encapsulation
+    - Multiplexing
+      - Physical vs. Logical multiplexing
+    - Addressing:
+      - Local significance vs. global significance
+    - Circuit vs. packet switching
+      - Smart vs. dumb networks
+    - Understanding the end-to-end approach vs. "middleboxes"
+    - 
