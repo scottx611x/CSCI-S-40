@@ -1550,4 +1550,10 @@ Key Topics:
       - <img width="417" alt="screen shot 2018-08-04 at 8 40 48 pm" src="https://user-images.githubusercontent.com/5629547/43681614-b0a3ddca-9826-11e8-8685-f42959dbdf5e.png">
     - Concern around IoT devices not being able to be updated with security fixes
       - DDoS Botnets against DNS servers
-    - 
+
+- Important things from this lecture:
+  - 6LoWPAN and the adaptations around it to be able to work with IPv6
+  - QoS and the configurables
+
+- Course Summary:
+  - Go back to midterm review
