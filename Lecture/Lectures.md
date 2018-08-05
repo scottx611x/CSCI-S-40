@@ -1628,4 +1628,7 @@ Key Topics:
 
 - QoS:
   - IP type of service field in header inspected and prioritizes traffic based on that
-  
+  - Generally only useful within the scope of a specifi domain or organization
+
+- SDNs (Software Defined Networks):
+  - 
