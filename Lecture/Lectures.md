@@ -1607,12 +1607,15 @@ Key Topics:
     - Uses SRV DNS records (_sip._udp.*) to determine where a connection should be established __
     - Uses the SDP protocol
     - Why is TCP a poor choice for audio and video real time transmission?
-    - 
+    - RTCP: Tells you how your RTP is doing (report on jitter and delay and packet loss)
+    - RTP Header:
+      - Sequence number is important
+      - Voice or video data over UDP
+      - Timestamp for sync across streams
+    - NAT traversal makes SIP tough
+
 
 - Email and Spam:
-  -  
-  - 
-
 - QoS:
 
 
