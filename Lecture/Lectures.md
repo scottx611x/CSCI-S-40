@@ -1539,5 +1539,6 @@ Key Topics:
     - QoS really works well when implemented properly
 
   - IoT:
+    - "If you can come up with a device that shouldn't be connected to the internet you havent been creative enough"
     - 
     -   
