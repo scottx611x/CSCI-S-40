@@ -1553,7 +1553,12 @@ Key Topics:
 
 - Important things from this lecture:
   - 6LoWPAN and the adaptations around it to be able to work with IPv6
+    - Low power, low cost devices with small MTU networks
   - QoS and the configurables
+    - what parameters need to be managed with QoS
 
 - Course Summary:
   - Go back to midterm review
+  - IP and Ethernet Headers
+  - Important info in TCP/UDP headers
+  - 
