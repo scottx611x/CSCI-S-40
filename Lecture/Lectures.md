@@ -1540,5 +1540,6 @@ Key Topics:
 
   - IoT:
     - "If you can come up with a device that shouldn't be connected to the internet you havent been creative enough"
-    - 
+    - Approx 20 billion IoT devices by 2020
+    - If 20 billion, then its really time to use IPv6
     -   
