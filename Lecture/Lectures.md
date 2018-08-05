@@ -1641,5 +1641,8 @@ Key Topics:
     - Control Plane
     - Data Plane
     - <img width="442" alt="screen shot 2018-08-05 at 3 26 12 pm" src="https://user-images.githubusercontent.com/5629547/43689157-e289dd60-98c3-11e8-836a-10cf98129bf8.png">
-  -
+
+- IOT 
+  - "Everything that could be conected, should be connected"
+  - 
 
