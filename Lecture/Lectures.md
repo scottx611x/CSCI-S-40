@@ -1680,4 +1680,9 @@ Key Topics:
 
 - DNS:
   - Understand the hierarchy:
-    - Root
+  - Different kinds of records and what they do (A, AAAA, CNAME, MX, SRV, PTR)
+  - Reverse DNS
+  - TLDs
+  - Authoritive vs caching
+  - Recursive lookups
+  - Root Servers
