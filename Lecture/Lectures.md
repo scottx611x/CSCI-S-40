@@ -1808,4 +1808,5 @@ Key Topics:
   - Math problems:
     - Bandwidth calculation from HW1
     - IP Subnetting and binary arithmetic
-    
+      - How many hosts in a /24, /23, /25?
+      
