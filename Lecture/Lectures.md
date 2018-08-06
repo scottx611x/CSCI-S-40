@@ -1787,8 +1787,15 @@ Key Topics:
     - We now know that packets are more "Telnet-able" (able to be constructed by a human on the commandline)
   - Time Sequence Diagrams:
     - SIP Trapezoid!!!!!
+    - TCP handshake & retransmission
   - Flow Control
   - Error Control
     - RTP does error detction but not error correction
-  - State transition Diagrams:
-    
+  - State transition Diagram for TCP **Lookup in reading!**
+  - Core Protocols:
+    - Ethernet
+    - IPv4
+    - TCP/UDP/RTP
+    - DNS
+    - 
+
