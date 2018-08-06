@@ -1803,4 +1803,9 @@ Key Topics:
 - Example Questions:
   - Describe how DNS usesrecursive and non-recursive lookups to efficiently serve Internet Domain Names
   - HTTP over TLS is sometimes referred to as Layer-6, why is this naming convention accurate or inaccurate?
-    - 
+    - In the layering model we have used in this class, there is no layer 6 and since HTTP and TLS are realy working in unison they both belong at layer-5. 
+    - The application layer uses TLS for secure connection establishment, and sends an HTTP payload over said connection
+  - Math problems:
+    - Bandwidth calculation from HW1
+    - IP Subnetting and binary arithmetic
+    
