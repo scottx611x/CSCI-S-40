@@ -1809,4 +1809,12 @@ Key Topics:
     - Bandwidth calculation from HW1
     - IP Subnetting and binary arithmetic
       - How many hosts in a /24, /23, /25?
-      
+      - Network Mask
+      - Brodcast addresses
+  - Memorization of what the headers do in:
+    - Ethernet
+    - IPv4
+    - TCP
+    - UDP
+  - Lots of tables:
+    -
