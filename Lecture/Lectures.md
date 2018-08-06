@@ -1695,4 +1695,11 @@ Key Topics:
   - MIME:
     - Taking the concept of old-school text only mail and extending it to work with specific types of media
   - Telnet:
-    - An administration protocol 
+    - A text-based administration protocol 
+    - Fundemental basis for these other text mode protocols used today:
+      - Can send mostly human readable text based commands
+      - SMTP
+      - FTP
+      - HTTP
+      - SIP
+    - UDP/TCP/IP do not fall into this category (Humans can't really)
