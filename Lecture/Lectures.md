@@ -1824,8 +1824,9 @@ Key Topics:
     - NAT Table
     - How is each table populated?
     - What protocols are used by each?
-  - Application Tables:
+  - Application "Tables":
     - DNS records
     - Email Addresses
     - SIP addresses
-    
+  - Both Email and SIP addresses look and work similarly. Describe how they are formatted and how the application knows how to communicate with the appropriate host.
+    - 
