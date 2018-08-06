@@ -1780,4 +1780,7 @@ Key Topics:
   - 5-Layer Model
     - Roughly defines everything we do, but its good to understand that there are a ton of gaps in this model
   - Encapsulation
-    - 
+    - MIME allows for encapsualtion of data at layer 5
+  - Packets:
+    - Are not what they used to be
+    - We initially learned about packets as 32 or 16 bit wide things
