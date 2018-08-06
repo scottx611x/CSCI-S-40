@@ -1736,5 +1736,13 @@ Key Topics:
 - RTCP reports on performance metrics of an RTP media transfer
 - SIP:
   - SIP Trapezoid:
+    - Connection establishment system that is used for SIP
   - Be able to speak about the underlying protocols
+    - Audio 7 Video codecs
+    - SDP
+    - DNS
+  - Similarities with SMTP
+
+- QoS:
+  - Jitter
   - 
