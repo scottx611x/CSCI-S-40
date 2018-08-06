@@ -1774,6 +1774,8 @@ Key Topics:
   - Bandwidth
     - Touched upon as a QoS metric
   - Multiplexing
+    - RTP allows you to multiplex audio and video streams together at layer 5 in order to share the common SIP infrastructure
+    - 
   - Switching
   - 5-Layer Model
   - Encapsulation
