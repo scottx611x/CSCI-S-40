@@ -1797,5 +1797,9 @@ Key Topics:
     - IPv4
     - TCP/UDP/RTP
     - DNS
-    - 
+    - Email & VoIP
+    - What layers are each of these protocols?
 
+- Example Questions:
+  - Describe how DNS usesrecursive and non-recursive lookups to efficiently serve Internet Domain Names
+    - 
