@@ -1832,5 +1832,7 @@ Key Topics:
     - Both utilize DNS to query for their respective record types MX & SRV. MTA will do lookup for email and SIP proxy will for SIP
     - <img width="344" alt="screen shot 2018-08-05 at 9 21 41 pm" src="https://user-images.githubusercontent.com/5629547/43692393-8fab6c08-98f5-11e8-8019-9176dd146eae.png">
   - Compare and contrast the FCS used in ethernet, the header checksum used in IPv4, and hash functions
-    - The FCS in Ethernet is a simple sequence included at the end of an ethernet frame that does a complete checksum
+    - The FCS in Ethernet is a simple sequence included at the end of an ethernet frame that does a complete checksum against the entire ethernet frame to be able to tell if any bits were modified on the wire
+    - The header checksum in IPv4 is similar, though it only does a checksum for the IP header not the entire IP Datagram contents
+    - Hash functions are similar, but use much more sophisticated and cryptograichally secure math (no twos compliment)
 
