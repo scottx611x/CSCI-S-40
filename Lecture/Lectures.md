@@ -1817,4 +1817,15 @@ Key Topics:
     - TCP
     - UDP
   - Lots of tables:
-    -
+    - Switch Table
+    - ARP Table
+    - Routing Forwarding Table
+    - Connection Table
+    - NAT Table
+    - How is each table populated?
+    - What protocols are used by each?
+  - Application Tables:
+    - DNS records
+    - Email Addresses
+    - SIP addresses
+    
