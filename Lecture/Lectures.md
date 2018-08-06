@@ -1745,13 +1745,21 @@ Key Topics:
 
 - QoS:
   - Jitter
-    - Due to other traffic on the network
-    - Can go
   - Bandwidth
+    - Is the easiest to deal with (just buy better/more resources) 
+    - Can just throw money at it
   - Error Rate
     - Wall between you and wireless router yields a higher error rate
     - Not a big deal nowadays
   - Delay
     - limited by the speed of light and the # of routers between you and your destination
-  - Bandwidth is the easiest to deal with (just buy better/more resources) 
-    - Can just throw money at it
+
+- IoT:
+  - 6LoWPAN
+
+- SDN:
+  - Application Plane
+  - Control Plane
+  - Data Planes
+  - What do these planes do?
+  - How do they work in a system such as OpenFlow?
