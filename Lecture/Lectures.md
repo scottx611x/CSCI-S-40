@@ -1714,4 +1714,13 @@ Key Topics:
 - Symmetric vs Asymmetric Cryptography:
   - Symmetric cryptography is a simple single shared key (fast encryption of data)
   - Asymmetric cryptography is a shared public/private key pair system
-  -
+    - Keys work in tandem
+    - one can't derive one key from the other
+
+- Hashing:
+  - One way mathematical equation
+  - Yields a fingerprint
+  - A tiny change in message yeilds more than 50% change in fingerprint (message digest)
+
+- Digital Signatures:
+  - combination of hasing and 
