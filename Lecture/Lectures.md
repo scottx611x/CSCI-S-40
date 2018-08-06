@@ -1724,4 +1724,11 @@ Key Topics:
 
 - Digital Signatures:
   - Combination of hashing and symmetric cryptography
-  - 
+  - Usually utilizes a "Chain of trust" (Think trusted CAs)
+
+- VPNs:
+  - Tunnel vs. Transport
+  - Tunnel mode is essentially router to router and end users don't know its happening
+  - Transport mode is a client that is sitting on your laptop and the connection is initiated to the VPN Router
+
+- 
