@@ -1802,4 +1802,5 @@ Key Topics:
 
 - Example Questions:
   - Describe how DNS usesrecursive and non-recursive lookups to efficiently serve Internet Domain Names
+  - HTTP over TLS is sometimes referred to as Layer-6, why is this naming convention accurate or inaccurate?
     - 
