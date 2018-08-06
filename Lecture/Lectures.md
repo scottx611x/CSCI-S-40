@@ -1838,5 +1838,6 @@ Key Topics:
   - How might IPv6 change spam prevention?
     - It becomes a lot harder due to the huge address space. Its very easy for spammers to change IP addresses. The DNSBLs are going to have to use full subnets in IPv6, but that comes with many downsides
   - Internet Protocols are secure by default. Is this statement accurate or innaccurate?
-    - Innaccurate! 
+    - Innaccurate! New protocols are required by the IETF to have a security component, but the protocols of old are definitely not secure by default. Security wasn;t a huge concern back in the day.
+  - True or False? Jitter is an important aspect of QoS
 
