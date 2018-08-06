@@ -1711,4 +1711,7 @@ Key Topics:
   - Integrity
   - Nonrepudiation 
 
-- 
+- Symmetric vs Asymmetric Cryptography:
+  - Symmetric cryptography is a simple single shared key (fast encryption of data)
+  - Asymmetric cryptography is a shared public/private key pair system
+  -
