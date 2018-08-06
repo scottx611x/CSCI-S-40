@@ -1672,4 +1672,5 @@ Key Topics:
 ## Final Exam Review:
 
 - Harvard Hall Room 102 6:30PM Aug 7th
+- Review the midterm review!
 - 
