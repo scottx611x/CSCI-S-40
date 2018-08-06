@@ -1673,4 +1673,11 @@ Key Topics:
 
 - Harvard Hall Room 102 6:30PM Aug 7th
 - Review the midterm review!
-- 
+- Drawing of:
+  - Network packets
+  - Time sequence diagrams
+  - Switch configuration
+
+- DNS:
+  - Understand the hierarchy:
+    - Root
