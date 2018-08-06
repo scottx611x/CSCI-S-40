@@ -1702,4 +1702,13 @@ Key Topics:
       - FTP
       - HTTP
       - SIP
-    - UDP/TCP/IP do not fall into this category (Humans can't really)
+    - UDP/TCP/IP do not fall into this category (Humans can't really type out the 32 bit packet information by hand)
+
+- Types of Security:
+  - Privacy & confidentiality
+  - Authentication
+  - Authorization
+  - Integrity
+  - Nonrepudiation 
+
+- 
