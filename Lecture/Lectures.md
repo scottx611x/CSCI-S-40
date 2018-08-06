@@ -1784,3 +1784,11 @@ Key Topics:
   - Packets:
     - Are not what they used to be
     - We initially learned about packets as 32 or 16 bit wide things
+    - We now know that packets are more "Telnet-able" (able to be constructed by a human on the commandline)
+  - Time Sequence Diagrams:
+    - SIP Trapezoid!!!!!
+  - Flow Control
+  - Error Control
+    - RTP does error detction but not error correction
+  - State transition Diagrams:
+    
