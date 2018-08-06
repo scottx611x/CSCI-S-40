@@ -1684,5 +1684,12 @@ Key Topics:
   - Reverse DNS
   - TLDs
   - Authoritive vs caching
-  - Recursive lookups
+  - Recursive lookups:
+    - This is done to your local name server and the NS makes non-recursive lookups down the hierarchy
   - Root Servers
+
+- SMTP: 
+  - Think of it as a suite of protocols
+    - POP, IMAP, HTTP, HTTPS
+  - Envelope vs. Mail Headers vs. Body
+  - MIME
