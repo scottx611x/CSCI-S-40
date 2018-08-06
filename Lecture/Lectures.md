@@ -1731,4 +1731,10 @@ Key Topics:
   - Tunnel mode is essentially router to router and end users don't know its happening
   - Transport mode is a client that is sitting on your laptop and the connection is initiated to the VPN Router
 
-- 
+- VoIP:
+- RTP the sequenced, unreliable protocol used to send the audio and video data
+- RTCP reports on performance metrics of an RTP media transfer
+- SIP:
+  - SIP Trapezoid:
+  - Be able to speak about the underlying protocols
+  - 
