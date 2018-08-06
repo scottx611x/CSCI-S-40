@@ -1836,5 +1836,7 @@ Key Topics:
     - The header checksum in IPv4 is similar, though it only does a checksum for the IP header not the entire IP Datagram contents
     - Hash functions are similar, but use much more sophisticated and cryptograichally secure math (no twos compliment)
   - How might IPv6 change spam prevention?
-    - It becomes a lot harder due to 
+    - It becomes a lot harder due to the huge address space. Its very easy for spammers to change IP addresses. The DNSBLs are going to have to use full subnets in IPv6, but that comes with many downsides
+  - Internet Protocols are secure by default. Is this statement accurate or innaccurate?
+    - Innaccurate! 
 
