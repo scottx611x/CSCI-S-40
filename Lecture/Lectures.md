@@ -1692,4 +1692,7 @@ Key Topics:
   - Think of it as a suite of protocols
     - POP, IMAP, HTTP, HTTPS
   - Envelope vs. Mail Headers vs. Body
-  - MIME
+  - MIME:
+    - Taking the concept of old-school text only mail and extending it to work with specific types of media
+  - Telnet:
+    - An administration protocol 
