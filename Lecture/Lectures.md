@@ -1835,4 +1835,6 @@ Key Topics:
     - The FCS in Ethernet is a simple sequence included at the end of an ethernet frame that does a complete checksum against the entire ethernet frame to be able to tell if any bits were modified on the wire
     - The header checksum in IPv4 is similar, though it only does a checksum for the IP header not the entire IP Datagram contents
     - Hash functions are similar, but use much more sophisticated and cryptograichally secure math (no twos compliment)
+  - How might IPv6 change spam prevention?
+    - It becomes a lot harder due to 
 
