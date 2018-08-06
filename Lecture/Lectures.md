@@ -1763,3 +1763,17 @@ Key Topics:
   - Data Planes
   - What do these planes do?
   - How do they work in a system such as OpenFlow?
+
+- Spam:
+  - DNSBLs
+  - Greylisting
+  - Rules-based systems
+  - CAN-SPAM
+
+- Back to Basics:
+  - Bandwidth
+    - Touched upon as a QoS metric
+  - Multiplexing
+  - Switching
+  - 5-Layer Model
+  - Encapsulation
